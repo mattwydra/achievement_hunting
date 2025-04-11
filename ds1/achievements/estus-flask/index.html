@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkindle</title>
+    <style>
+        :root {
+            --background: #121212;
+            --surface: #1e1e1e;
+            --primary: #e2c292;
+            --text: #e0e0e0;
+            --secondary-text: #aaaaaa;
+            --accent: #f39040;
+            --completed: #4caf50;
+        }
+
+        body {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+            color: var(--text);
+            z-index: 1;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../../bg_img.jpg");
+            background-size: contain;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: var(--primary);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Trajan Pro', 'Times New Roman', serif;
+            letter-spacing: 1px;
+        }
+
+        header a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 1rem;
+            color: var(--secondary-text);
+        }
+
+        .breadcrumbs a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .achievement-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border: 1px solid #333;
+        }
+
+        .achievement-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .achievement-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .achievement-title {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+        }
+
+        .achievement-description {
+            font-style: italic;
+            color: var(--secondary-text);
+            margin: 0;
+        }
+
+        .difficulty-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: #3ce759;
+            color: white;
+        }
+
+        .guide-section {
+            margin-bottom: 30px;
+        }
+
+        .guide-section h3 {
+            color: var(--primary);
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .weapon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .weapon-card {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            border: 1px solid #333;
+        }
+
+        .weapon-card h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .weapon-card .location {
+            color: var(--secondary-text);
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-text);
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            .weapon-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dark Souls Achievements</h1>
+    </header>
+
+    <div class="breadcrumbs">
+        <a href="../../index.html">Home</a> >
+        <a href="../index.html">Dark Souls</a> >
+        Knight's Honor
+    </div>
+
+    <div class="achievement-container">
+        <div class="achievement-header">
+            <div class="achievement-info">
+                <h2 class="achievement-title">Knight's Honor</h2>
+                <p class="achievement-description">Acquire all rare weapons</p>
+            </div>
+            <span class="difficulty-tag">Easy</span>
+        </div>
+
+        <div class="guide-section">
+            <h3>Overview</h3>
+            <p>The Knight's Honor achievement requires you to collect all rare weapons in Dark Souls. This is one of the
+                most challenging achievements to obtain as it requires multiple playthroughs and careful planning.</p>
+            <p>You'll need to reach at least NG++ (third playthrough) to acquire all the boss soul weapons, as you need
+                three souls from Sif to craft all the weapons that require the Soul of Sif.</p>
+        </div>
+
+        <div class="guide-section">
+            <h3>Required Weapons</h3>
+            <p>You need to collect the following weapon categories:</p>
+            <ul>
+                <li>All boss soul weapons</li>
+                <li>All tail-cut weapons</li>
+                <li>All unique weapons from enemies and locations</li>
+                <li>All covenant reward weapons</li>
+            </ul>
+        </div>
+
+        <div class="guide-section">
+            <h3>Boss Soul Weapons</h3>
+            <div class="weapon-list">
+                <div class="weapon-card">
+                    <h4>Moonlight Butterfly Horn</h4>
+                    <div class="location">Soul of the Moonlight Butterfly + Spear/Thrusting Sword +10</div>
+                    <p>Ascend at Giant Blacksmith in Anor Londo</p>
+                </div>
+
+                <div class="weapon-card">
+                    <h4>Crystal Ring Shield</h4>
+                    <div class="location">Soul of the Moonlight Butterfly + Shield +10</div>
+                    <p>Ascend at Giant Blacksmith in Anor Londo</p>
+                </div>
+
+                <div class="weapon-card">
+                    <h4>Quelaag's Furysword</h4>
+                    <div class="location">Soul of Quelaag + Curved Sword +10</div>
+                    <p>Ascend at Giant Blacksmith in Anor Londo</p>
+                </div>
+
+                <div class="weapon-card">
+                    <h4>Chaos Blade</h4>
+                    <div class="location">Soul of Quelaag + Katana +10</div>
+                    <p>Ascend at Giant Blacksmith in Anor Londo</p>
+                </div>
+            </div>
+            <p><em>Note: This is only a sample of the complete list. There are many more boss soul weapons
+                    required.</em></p>
+        </div>
+
+        <div class="guide-section">
+            <h3>Tail Cut Weapons</h3>
+            <div class="weapon-list">
+                <div class="weapon-card">
+                    <h4>Drake Sword</h4>
+                    <div class="location">Hellkite Dragon's tail</div>
+                    <p>Shoot the tail with arrows from beneath the bridge in Undead Burg</p>
+                </div>
+
+                <div class="weapon-card">
+                    <h4>Dragon King Greataxe</h4>
+                    <div class="location">Dragon King's tail</div>
+                    <p>Cut off Gaping Dragon's tail in the Depths</p>
+                </div>
+
+                <div class="weapon-card">
+                    <h4>Moonlight Greatsword</h4>
+                    <div class="location">Seath the Scaleless' tail</div>
+                    <p>Cut off Seath's tail in the Crystal Cave</p>
+                </div>
+
+                <div class="weapon-card">
+                    <h4>Priscilla's Dagger</h4>
+                    <div class="location">Crossbreed Priscilla's tail</div>
+                    <p>Cut off Priscilla's tail in the Painted World of Ariamis</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="guide-section">
+            <h3>Strategy</h3>
+            <p>To efficiently obtain this achievement:</p>
+            <ol>
+                <li>Plan your covenant progress across playthroughs</li>
+                <li>Never consume boss souls - save them for crafting</li>
+                <li>Keep a checklist to track which weapons you've already obtained</li>
+                <li>Focus on tail cuts during your first encounter with each dragon/boss</li>
+                <li>Save Sif's soul for NG++ when you can craft all three weapons</li>
+            </ol>
+        </div>
+
+        <div class="guide-section">
+            <h3>NG++ Requirements</h3>
+            <p>You will need to reach at least NG++ (third playthrough) to get this achievement because:</p>
+            <ul>
+                <li>You need three souls of Sif to craft all three weapons: Greatsword of Artorias, Greatsword of
+                    Artorias (Cursed), and Great Shield of Artorias</li>
+                <li>You need two souls of Gwyn for the Greatshield of Artorias and the Greatsword of Artorias</li>
+            </ul>
+        </div>
+
+        <a href="../index.html" class="back-button">Back to All Achievements</a>
+    </div>
+
+    <footer>
+        <p>Dark Souls Achievement Guide - Praise the Sun!</p>
+    </footer>
+</body>
+
+</html>
