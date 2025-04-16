@@ -1,7 +1,9 @@
 # Guides
 
 ## Completed:
+- Enkindle
+- Estus Flask
 - Knight's Honor
 
-## Incomplete:
+## Only Template:
 - Reach Lordran
