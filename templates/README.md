@@ -1,0 +1,1 @@
+This folder houses templates for READMEs, guide pages, etc.
