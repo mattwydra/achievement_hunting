@@ -7,6 +7,13 @@
 
 ## Only template:
 - Reach Lordran
+- Ring The Bell (Undead Church)
+- Covenant: Way of White
+- Ring The Bell (Quelaag's Domain)
+- Reach Anor Londo
+- Lordvessel
+- Rite of Kindling
+- Covenant: Chaos Servant
 
 ## Needs template:
 - Art of Abysswalking
