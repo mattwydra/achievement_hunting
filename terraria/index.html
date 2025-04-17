@@ -363,18 +363,40 @@
         let searchQuery = '';
 
         // Parse achievement data from text
-        function parseAchievements() {
-            const lines = 'all.txt'.split('\n').filter(line => line.trim() !== '');
-            return lines.map(line => {
-                try {
-                    // Replace single quotes with double quotes for valid JSON, but preserve quoted strings
-                    const jsonLine = line.replace(/(\w+):/g, '"$1":')
-                        .replace(/:\s*'([^']*)'/g, ': "$1"')
-                        .replace(/:\s*"([^"]*)"/g, ': "$1"');
+        function parseAchievements(text) {
+            // First, join all lines into a single string
+            const fullText = text.trim();
 
-                    return JSON.parse(jsonLine);
+            // Split by the pattern that marks the start of a new achievement object
+            // Look for a pattern like "},\n{" or the start/end of the file
+            const achievementBlocks = fullText.split(/},\s*\n*\s*{/).map((block, index) => {
+                // Add back the brackets that were removed by the split
+                if (index === 0) {
+                    if (!block.startsWith('{')) block = '{' + block;
+                } else {
+                    block = '{' + block;
+                }
+
+                if (index < fullText.split(/},\s*\n*\s*{/).length - 1) {
+                    if (!block.endsWith('}')) block = block + '}';
+                } else {
+                    if (!block.endsWith('}')) block = block + '}';
+                }
+
+                return block;
+            });
+
+            return achievementBlocks.map(block => {
+                try {
+                    // Clean up the block and convert to valid JSON
+                    const jsonBlock = block
+                        .replace(/(\w+):/g, '"$1":')         // Add quotes to property names
+                        .replace(/:\s*'([^']*)'/g, ': "$1"') // Replace single quotes with double quotes
+                        .replace(/,\s*}/g, '}');             // Remove trailing commas
+
+                    return JSON.parse(jsonBlock);
                 } catch (e) {
-                    console.error("Error parsing line:", line, e);
+                    console.error("Error parsing block:", block, e);
                     return null;
                 }
             }).filter(item => item !== null);
