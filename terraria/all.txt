@@ -118,6 +118,13 @@
     notes: "Fledgling Wings count towards this achievement. Fledgeling Wings (or possibly Angel Wings) are also the same ones depicted in the Achievement's image. Reference to the idiom of the same name, describing someone who is too distracted by their own imagination to notice things around them."
 },
 {
+    name: "Smashing, Poppet!",
+    quote: "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
+    description: "Smash your first Shadow Orb or Crimson Heart.",
+    type: "Explorer",
+    notes: "Reference to The Wild Thornberrys, an American animated television series that originally aired on Nickelodeon from 1998 to 2004. The catchphrase of the protagonist girl's father is 'Smashing' and he usually calls his daughter 'Poppet'."
+},
+{
     name: "It's Getting Hot in Here",
     quote: "Spelunk deep enough to reach the molten underworld.",
     description: "Reach The Underworld for the first time.",
@@ -125,11 +132,102 @@
     notes: "Reference to the song Hot In Herre. The file name for the achievement misspells it as 'Its Hetting Hot in Here' (This was corrected in 1.4.0.1)."
 },
 {
-    name: "Smashing, Poppet!",
-    quote: "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
-    description: "Smash your first Shadow Orb or Crimson Heart.",
+    name: "Pretty in Pink",
+    quote: "Kill pinky.",
+    description: "Defeat Pinky for the first time.",
+    type: "Slayer",
+    notes: "Probably a reference to the 1986 American romantic comedy movie by the same name, Pretty in Pink."
+},
+{
+    name: "Fashion Statement",
+    quote: "Equip armor or vanity clothing in all three social slots.",
+    description: "Equip armor or vanity clothing in all three social slots.",
+    type: "Collector",
+    notes: "Also known as Vanity Armor slots."
+},
+{
+    name: "Jeepers Creepers",
+    quote: "Stumble into a spider cavern in the underground.",
+    description: "Enter your first underground Spider Cave.",
     type: "Explorer",
-    notes: "Reference to The Wild Thornberrys, an American animated television series that originally aired on Nickelodeon from 1998 to 2004. The catchphrase of the protagonist girl's father is 'Smashing' and he usually calls his daughter 'Poppet'."
+    notes: "'Jeepers Creepers' is an expression of surprise or annoyance."
+},
+{
+    name: "Vehicular Manslaughter",
+    quote: "Defeat an enemy by running it over with a minecart.",
+    description: "Kill an enemy by running over it with a Minecart.",
+    type: "Slayer",
+    notes: "Killing an enemy with the Mechanical Cart's lasers will not work."
+},
+{
+    name: "Throwing Lines",
+    quote: "Throw a yoyo.",
+    description: "Throw a Yoyo for the first time.",
+    type: "Challenger",
+    notes: ""
+},
+{
+    name: "Goblin Punter",
+    quote: "Triumph over a goblin invasion, a ragtag regiment of crude, barbaric, pointy-eared warriors and their shadowflame sorcerers.",
+    description: "Defeat a Goblin Army for the first time.",
+    type: "Slayer",
+    notes: "Possible reference to a quote in The Hobbit."
+},
+{
+    name: "Marathon Medalist",
+    quote: "Travel a total of 26.2 miles on foot.",
+    description: "Travel a total of 26.2 miles (69,168 tiles) on foot.",
+    type: "Challenger",
+    notes: "26.2 miles is equivalent to 69,168 tiles. This is a reference to how marathons typically require contenders to run 26.2 miles."
+},
+{
+    name: "Boned",
+    quote: "Defeat Skeletron, the cursed guardian of the dungeon.",
+    description: "Defeat Skeletron for the first time.",
+    type: "Slayer",
+    notes: "Reference to the word 'Owned', usually used when a person defeats an opponent in a game. May also be playing off the term 'boner.'"
+},
+{
+    name: "Slippery Shinobi",
+    quote: "Defeat King Slime, the lord of all things slimy.",
+    description: "Defeat King Slime for the first time.",
+    type: "Slayer",
+    notes: "Shinobi is another word for Ninja, clearly referencing the ninja inside the King Slime."
+},
+{
+    name: "Hey! Listen!",
+    quote: "Encounter a fairy.",
+    description: "Encounter a Fairy.",
+    type: "Explorer",
+    notes: "A reference to Navi, a character from The Legend of Zelda: Ocarina of Time."
+},
+{
+    name: "Into Orbit",
+    quote: "You can only go down from here!",
+    description: "Reach Space.",
+    type: "Explorer",
+    notes: "Reach the top of Space. Despite the achievement name, the player does not actually enter the orbit of the planet."
+},
+{
+    name: "Lucky Break",
+    quote: "Survive a long fall with just a sliver of health remaining.",
+    description: "Survive a fall with not much health left.",
+    type: "Challenger",
+    notes: "With 500 health, a defense of 0 and no items to negate fall damage, the player must fall exactly 74 blocks. (70 HP)"
+},
+{
+    name: "The Cavalry",
+    quote: "Equip a mount.",
+    description: "Equip your first Mount.",
+    type: "Collector",
+    notes: "Calvary in battle are the soldiers who ride on mounts (or commonly in modern day society, vehicles), as opposed to infantry."
+},
+{
+    name: "Where's My Honey?",
+    quote: "Discover a large bee's hive deep in the jungle.",
+    description: "Discover your first Bee Hive.",
+    type: "Explorer",
+    notes: "Natural hive walls must be behind the player. Note that if you destroy a Larva, you will summon the Queen Bee. A reference to the video game Where's My Water?."
 },
 {
     name: "Worm Fodder",
@@ -146,25 +244,11 @@
     notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
 },
 {
-    name: "Where's My Honey?",
-    quote: "Discover a large bee's hive deep in the jungle.",
-    description: "Discover your first Bee Hive.",
-    type: "Explorer",
-    notes: "Natural hive walls must be behind the player. Note that if you destroy a Larva, you will summon the Queen Bee. A reference to the video game Where's My Water?."
-},
-{
     name: "Sting Operation",
     quote: "Defeat the Queen Bee, the matriarch of the jungle hives.",
     description: "Defeat the Queen Bee for the first time.",
     type: "Slayer",
     notes: "References Sting operations, a law enforcement tactic used to catch criminals via deception."
-},
-{
-    name: "Boned",
-    quote: "Defeat Skeletron, the cursed guardian of the dungeon.",
-    description: "Defeat Skeletron for the first time.",
-    type: "Slayer",
-    notes: "Reference to the word 'Owned', usually used when a person defeats an opponent in a game. May also be playing off the term 'boner.'"
 },
 {
     name: "Dungeon Heist",
@@ -300,20 +384,6 @@
     notes: "Had a different image before the release of 1.3.0.1, as not to spoil the surprise of what the final boss would look like before 1.3 was released. It was a silhouette of the Moon Lord, only showing the eye at the top of his head and his shape."
 },
 {
-    name: "Slippery Shinobi",
-    quote: "Defeat King Slime, the lord of all things slimy.",
-    description: "Defeat King Slime for the first time.",
-    type: "Slayer",
-    notes: "Shinobi is another word for Ninja, clearly referencing the ninja inside the King Slime."
-},
-{
-    name: "Goblin Punter",
-    quote: "Triumph over a goblin invasion, a ragtag regiment of crude, barbaric, pointy-eared warriors and their shadowflame sorcerers.",
-    description: "Defeat a Goblin Army for the first time.",
-    type: "Slayer",
-    notes: "Possible reference to a quote in The Hobbit."
-},
-{
     name: "Walk the Plank",
     quote: "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!",
     description: "Defeat the Pirate Invasion for the first time.",
@@ -377,25 +447,11 @@
     notes: "Do not confuse Bee armor with the Bee set. Reference to Nicholas Cage in the 2006 mystery horror film The Wicker Man."
 },
 {
-    name: "Jeepers Creepers",
-    quote: "Stumble into a spider cavern in the underground.",
-    description: "Enter your first underground Spider Cave.",
-    type: "Explorer",
-    notes: "'Jeepers Creepers' is an expression of surprise or annoyance."
-},
-{
     name: "Funkytown",
     quote: "Build or encounter a glowing mushroom field above the surface.",
     description: "Encounter an above-ground Glowing Mushroom biome.",
     type: "Explorer",
     notes: "Requires 100 Glowing Mushroom biome blocks. Shares the name with the 1980 Lipps, Inc. single Funkytown. Can sometimes be obtained by using a Magic Mirror, Ice Mirror or Cell Phone while in an Underground Glowing Mushroom biome. This is likely caused by lag."
-},
-{
-    name: "Into Orbit",
-    quote: "You can only go down from here!",
-    description: "Reach Space.",
-    type: "Explorer",
-    notes: "Reach the top of Space. Despite the achievement name, the player does not actually enter the orbit of the planet."
 },
 {
     name: "Rock Bottom",
@@ -417,20 +473,6 @@
     description: "Defeat at least one of every type of slime.",
     type: "Challenger",
     notes: "The types that are counted for this achievement are Baby, Black, Blue, Corrupt, Dungeon, Green, Ice, Illuminant, Jungle, King, Lava, Mother, Purple, Rainbow, Red, Slimeling, Slimer, Spiked Ice, Spiked Jungle, Umbrella, Yellow, Toxic Sludge, Crimslime, and Pinky. Seven are Hardmode, three are Corruption-exclusive, and one is Crimson-exclusive."
-},
-{
-    name: "Fashion Statement",
-    quote: "Equip armor or vanity clothing in all three social slots.",
-    description: "Equip armor or vanity clothing in all three social slots.",
-    type: "Collector",
-    notes: "Also known as Vanity Armor slots."
-},
-{
-    name: "Vehicular Manslaughter",
-    quote: "Defeat an enemy by running it over with a minecart.",
-    description: "Kill an enemy by running over it with a Minecart.",
-    type: "Slayer",
-    notes: "Killing an enemy with the Mechanical Cart's lasers will not work."
 },
 {
     name: "Bulldozer",
@@ -461,20 +503,6 @@
     notes: "The swords of 'light' and 'dark' are a reference to the Night's Edge and True Excalibur, two items used to craft it."
 },
 {
-    name: "Lucky Break",
-    quote: "Survive a long fall with just a sliver of health remaining.",
-    description: "Survive a fall with not much health left.",
-    type: "Challenger",
-    notes: "With 500 health, a defense of 0 and no items to negate fall damage, the player must fall exactly 74 blocks. (70 HP)"
-},
-{
-    name: "Throwing Lines",
-    quote: "Throw a yoyo.",
-    description: "Throw a Yoyo for the first time.",
-    type: "Challenger",
-    notes: ""
-},
-{
     name: "Dye Hard",
     quote: "Equip a dye in every possible dye slot.",
     description: "Equip dyes in all dye slots.",
@@ -496,13 +524,6 @@
     notes: "It does not have to be all at once. You can get healed by the nurse every so often and it adds up."
 },
 {
-    name: "The Cavalry",
-    quote: "Equip a mount.",
-    description: "Equip your first Mount.",
-    type: "Collector",
-    notes: "Calvary in battle are the soldiers who ride on mounts (or commonly in modern day society, vehicles), as opposed to infantry."
-},
-{
     name: "Completely Awesome",
     quote: "Obtain a minishark.",
     description: "Obtain the Minishark.",
@@ -522,13 +543,6 @@
     description: "Defeat Doctor Bones for the first time.",
     type: "Slayer",
     notes: "Doctor Bones is a parody of Indiana Jones, also known as Doctor Jones."
-},
-{
-    name: "Pretty in Pink",
-    quote: "Kill pinky.",
-    description: "Defeat Pinky for the first time.",
-    type: "Slayer",
-    notes: "Probably a reference to the 1986 American romantic comedy movie by the same name, Pretty in Pink."
 },
 {
     name: "Rainbows and Unicorns",
@@ -557,13 +571,6 @@
     description: "Have a Truffle move into a house created in the Glowing Mushroom biome.",
     type: "Explorer",
     notes: "It must be above the surface for the Truffle to move in."
-},
-{
-    name: "Marathon Medalist",
-    quote: "Travel a total of 26.2 miles on foot.",
-    description: "Travel a total of 26.2 miles (69,168 tiles) on foot.",
-    type: "Challenger",
-    notes: "26.2 miles is equivalent to 69,168 tiles. This is a reference to how marathons typically require contenders to run 26.2 miles."
 },
 {
     name: "Glorious Golden Pole",
@@ -704,13 +711,6 @@
     description: "Pet a Town pet.",
     type: "Challenger",
     notes: ""
-},
-{
-    name: "Hey! Listen!",
-    quote: "Encounter a fairy.",
-    description: "Encounter a Fairy.",
-    type: "Explorer",
-    notes: "A reference to Navi, a character from The Legend of Zelda: Ocarina of Time."
 },
 {
     name: "Jolly Jamboree",
