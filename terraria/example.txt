@@ -1,0 +1,14 @@
+{
+    name: "Timber!!",
+    quote: "Chop down your first tree.",
+    description: "Chop down a tree.",
+    type: "Collector",
+    notes: "Can also be earned by picking up wood from other sources. May be a reference to woodsmen saying Timber!! after cutting down a tree."
+},
+{
+    name: "No Hobo",
+    quote: "Build a house suitable enough for your first town NPC, such as the guide, to move into.",
+    description: "Successfully get an NPC to move into your first House.",
+    type: "Explorer",
+    notes: "A reference to the phrase 'no homo'."
+}
