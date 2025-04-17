@@ -272,25 +272,11 @@
     notes: "The icon is possibly a reference to the movie Ghostbusters II."
 },
 {
-    name: "Worm Fodder",
-    quote: "Defeat the Eater of Worlds, a massive worm who dwells in the corruption.",
-    description: "Defeat the Eater of Worlds for the first time.",
-    type: "Slayer",
-    notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it."
-},
-{
-    name: "Mastermind",
-    quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
-    description: "Defeat the Brain of Cthulhu for the first time.",
-    type: "Slayer",
-    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
-},
-{
-    name: "Miner for Fire",
-    quote: "Craft a molten pickaxe using the hottest of materials.",
-    description: "Craft a Molten Pickaxe.",
-    type: "Collector",
-    notes: "A play on the phrase '[job position] for hire.'"
+    name: "Sticky Situation",
+    quote: "Survive the slime rain, where gelatinous organisms fall from the sky in droves.",
+    description: "Survive the Slime Rain.",
+    type: "Explorer",
+    notes: "A sticky situation is a problem that is delicate or hard to solve/get out of."
 },
 {
     name: "Begone, Evil!",
@@ -300,6 +286,13 @@
     notes: "Any hammer with a hammer power of 80% or any method to break Altars will do, as long as the Altar is destroyed (can only be done in Hardmode)."
 },
 {
+    name: "Til Death...",
+    quote: "Kill the groom.",
+    description: "Defeat The Groom for the first time.",
+    type: "Slayer",
+    notes: "Likely reference to traditional marriage vows found in the Book of Common Prayer and the Alternative Service Book which include the phrase 'til death do us part'."
+},
+{
     name: "Extra Shiny!",
     quote: "Mine a powerful ore that has been newly blessed upon your world.",
     description: "Mine your first Hardmode ore.",
@@ -307,11 +300,95 @@
     notes: "You can place down any Hardmode ore and mine it to get the achievement. Cobalt, Mythril, Adamantite, Palladium, Orichalcum, and Titanium are the only ores which count towards this achievement. The drill in the picture is a Cobalt Drill mining Mythril Ore."
 },
 {
+    name: "Mastermind",
+    quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
+    description: "Defeat the Brain of Cthulhu for the first time.",
+    type: "Slayer",
+    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
+},
+{
+    name: "Worm Fodder",
+    quote: "Defeat the Eater of Worlds, a massive worm who dwells in the corruption.",
+    description: "Defeat the Eater of Worlds for the first time.",
+    type: "Slayer",
+    notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it."
+},
+{
+    name: "Deceiver of Fools",
+    quote: "Kill a nymph.",
+    description: "Defeat a Nymph for the first time.",
+    type: "Slayer",
+    notes: "Needs to be killed in Nymph form. Killing a Lost Girl before it transforms into a Nymph will not count."
+},
+{
+    name: "There are Some Who Call Him...",
+    quote: "Kill Tim.",
+    description: "Defeat Tim for the first time.",
+    type: "Slayer",
+    notes: "Reference to Tim the Enchanter from Monty Python and the Holy Grail, and his quote 'There are some who call me... Tim.'"
+},
+{
+    name: "Get a Life",
+    quote: "Consume a life fruit, which grows in the thick of subterranean jungle grass.",
+    description: "Consume a Life Fruit.",
+    type: "Explorer",
+    notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt 'Get a life'."
+},
+{
+    name: "Walk the Plank",
+    quote: "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!",
+    description: "Defeat the Pirate Invasion for the first time.",
+    type: "Slayer",
+    notes: "'Walking the Plank' is a term used for when pre-modern pirates would coerce captives off of their ships and into the sea via a plank."
+},
+{
+    name: "Completely Awesome",
+    quote: "Obtain a minishark.",
+    description: "Obtain the Minishark.",
+    type: "Collector",
+    notes: "A nod to the minishark's tooltip, Half shark, half gun, completely awesome."
+},
+{
+    name: "Robbing the Grave",
+    quote: "Obtain a rare treasure from a difficult monster in the dungeon.",
+    description: "Obtain a rare item from an enemy in the post-Plantera Dungeon.",
+    type: "Explorer",
+    notes: "Pick up a weapon dropped by any post-Plantera enemy in the Dungeon. A reference to the term 'Grave robbery'"
+},
+{
     name: "Buckets of Bolts",
     quote: "Defeat the three nocturnal mechanical menaces: the Twins, the Destroyer, and Skeletron Prime.",
     description: "Defeat all three Mechanical Bosses.",
     type: "Slayer",
     notes: "In popular culture, this is often a term characters use to disparagingly refer to robots."
+},
+{
+    name: "Kill the Sun",
+    quote: "Survive a solar eclipse, a day darker than night filled with creatures of horror.",
+    description: "Survive a Solar Eclipse.",
+    type: "Explorer",
+    notes: "Possibly a reference to the German band Xandia's debut album of the same name."
+},
+{
+    name: "The Great Southern Plantkill",
+    quote: "Defeat Plantera, the overgrown monstrosity of the jungle's depths.",
+    description: "Defeat Plantera for the first time.",
+    type: "Slayer",
+    notes: "Can only be summoned once the three Mechanical Bosses have been defeated. A reference to the heavy metal band Pantera's eighth album, The Great Southern Trendkill."
+},
+{
+    name: "Feeling Petty",
+    quote: "Deliver headpats to the town pet.",
+    description: "Pet a Town pet.",
+    type: "Challenger",
+    notes: ""
+},
+{
+    name: "Miner for Fire",
+    quote: "Craft a molten pickaxe using the hottest of materials.",
+    description: "Craft a Molten Pickaxe.",
+    type: "Collector",
+    notes: "A play on the phrase '[job position] for hire.'"
 },
 {
     name: "Drax Attax",
@@ -328,20 +405,6 @@
     notes: "Placing Chlorophyte Ore down and then mining it also grants the achievement. A reference to Chlorophyte's resemblance to chlorophyll, green pigments in plants essential for photosynthesis."
 },
 {
-    name: "Get a Life",
-    quote: "Consume a life fruit, which grows in the thick of subterranean jungle grass.",
-    description: "Consume a Life Fruit.",
-    type: "Explorer",
-    notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt 'Get a life'."
-},
-{
-    name: "The Great Southern Plantkill",
-    quote: "Defeat Plantera, the overgrown monstrosity of the jungle's depths.",
-    description: "Defeat Plantera for the first time.",
-    type: "Slayer",
-    notes: "Can only be summoned once the three Mechanical Bosses have been defeated. A reference to the heavy metal band Pantera's eighth album, The Great Southern Trendkill."
-},
-{
     name: "Temple Raider",
     quote: "Breach the impenetrable walls of the jungle temple.",
     description: "Unlock the Jungle Temple's Lihzahrd Door.",
@@ -354,13 +417,6 @@
     description: "Defeat Golem for the first time.",
     type: "Slayer",
     notes: "Post-Plantera. A reference to the singing competition television series American Idol."
-},
-{
-    name: "Robbing the Grave",
-    quote: "Obtain a rare treasure from a difficult monster in the dungeon.",
-    description: "Obtain a rare item from an enemy in the post-Plantera Dungeon.",
-    type: "Explorer",
-    notes: "Pick up a weapon dropped by any post-Plantera enemy in the Dungeon. A reference to the term 'Grave robbery'"
 },
 {
     name: "Big Booty",
@@ -398,20 +454,6 @@
     notes: "Had a different image before the release of 1.3.0.1, as not to spoil the surprise of what the final boss would look like before 1.3 was released. It was a silhouette of the Moon Lord, only showing the eye at the top of his head and his shape."
 },
 {
-    name: "Walk the Plank",
-    quote: "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!",
-    description: "Defeat the Pirate Invasion for the first time.",
-    type: "Slayer",
-    notes: "'Walking the Plank' is a term used for when pre-modern pirates would coerce captives off of their ships and into the sea via a plank."
-},
-{
-    name: "Kill the Sun",
-    quote: "Survive a solar eclipse, a day darker than night filled with creatures of horror.",
-    description: "Survive a Solar Eclipse.",
-    type: "Explorer",
-    notes: "Possibly a reference to the German band Xandia's debut album of the same name."
-},
-{
     name: "Do You Want to Slay a Snowman?",
     quote: "Triumph over the frost legion, a festive family of maniacal snowman mobsters.",
     description: "Defeat the Frost Legion for the first time.",
@@ -438,13 +480,6 @@
     description: "Reach the 15th wave of a Frost Moon.",
     type: "Slayer",
     notes: "A reference to the popular children's song, 'I scream, you scream, we all scream for ice cream!'."
-},
-{
-    name: "Sticky Situation",
-    quote: "Survive the slime rain, where gelatinous organisms fall from the sky in droves.",
-    description: "Survive the Slime Rain.",
-    type: "Explorer",
-    notes: "A sticky situation is a problem that is delicate or hard to solve/get out of."
 },
 {
     name: "Real Estate Agent",
@@ -489,20 +524,6 @@
     notes: "The types that are counted for this achievement are Baby, Black, Blue, Corrupt, Dungeon, Green, Ice, Illuminant, Jungle, King, Lava, Mother, Purple, Rainbow, Red, Slimeling, Slimer, Spiked Ice, Spiked Jungle, Umbrella, Yellow, Toxic Sludge, Crimslime, and Pinky. Seven are Hardmode, three are Corruption-exclusive, and one is Crimson-exclusive."
 },
 {
-    name: "There are Some Who Call Him...",
-    quote: "Kill Tim.",
-    description: "Defeat Tim for the first time.",
-    type: "Slayer",
-    notes: "Reference to Tim the Enchanter from Monty Python and the Holy Grail, and his quote 'There are some who call me... Tim.'"
-},
-{
-    name: "Deceiver of Fools",
-    quote: "Kill a nymph.",
-    description: "Defeat a Nymph for the first time.",
-    type: "Slayer",
-    notes: "Needs to be killed in Nymph form. Killing a Lost Girl before it transforms into a Nymph will not count."
-},
-{
     name: "Sword of the Hero",
     quote: "Obtain a Terra Blade, forged from the finest blades of light and darkness.",
     description: "Obtain a Terra Blade.",
@@ -529,20 +550,6 @@
     description: "Spend over 1 gold total being treated by the Nurse.",
     type: "Challenger",
     notes: "It does not have to be all at once. You can get healed by the nurse every so often and it adds up."
-},
-{
-    name: "Completely Awesome",
-    quote: "Obtain a minishark.",
-    description: "Obtain the Minishark.",
-    type: "Collector",
-    notes: "A nod to the minishark's tooltip, Half shark, half gun, completely awesome."
-},
-{
-    name: "Til Death...",
-    quote: "Kill the groom.",
-    description: "Defeat The Groom for the first time.",
-    type: "Slayer",
-    notes: "Likely reference to traditional marriage vows found in the Book of Common Prayer and the Alternative Service Book which include the phrase 'til death do us part'."
 },
 {
     name: "Archaeologist",
@@ -704,13 +711,6 @@
     description: "Talk to any town NPC while its happiness is at its maximum.",
     type: "Challenger",
     notes: "Can be easily achieved by housing the Party Girl, Wizard, and Zoologist in the Hallow biome and then speaking with the Party Girl, or housing the Arms Dealer and the nurse in the desert and talking to the Arms Dealer."
-},
-{
-    name: "Feeling Petty",
-    quote: "Deliver headpats to the town pet.",
-    description: "Pet a Town pet.",
-    type: "Challenger",
-    notes: ""
 },
 {
     name: "Jolly Jamboree",
