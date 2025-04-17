@@ -30,19 +30,46 @@
             background-blend-mode: overlay;
         }
 
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
+        /* :root {
+                --background: #0b1d2b;
+                --surface: #2e5f4d;
+                --primary: #7ed957;
+                --text: #f0f8ff;
+                --secondary-text: #c1dfff;
+                --accent: #2b6783;
+                --completed: #ffd700;
+            } */
+
+        .bg-stack {
+            position: absolute;
             left: 0;
             right: 0;
-            bottom: 0;
-            background-image: url("bg_underground.jpg");
-            background-size: cover;
+            height: 100vh;
+            background-size: contain;
             background-position: center;
-            filter: blur(10px);
-            opacity: 0.3;
-            z-index: -1;
+            background-repeat: no-repeat;
+            z-index: -2;
+            filter: blur(8px);
+        }
+
+        .surface {
+            top: 0;
+            background-image: url('bg_surface.png');
+        }
+
+        .underground {
+            top: 100vh;
+            background-image: url('bg_underground.png');
+        }
+
+        .cavern {
+            top: 200vh;
+            background-image: url('bg_cavern.png');
+        }
+
+        .hell {
+            top: 300vh;
+            background-image: url('bg_hell.png');
         }
 
         header {
