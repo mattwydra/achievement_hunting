@@ -452,7 +452,12 @@
         // Render achievements
         function renderAchievements() {
             const achievementsGrid = document.getElementById('achievements-grid');
-            document.getElementById('loading-text').style.display = 'none';
+
+            const loadingText = document.getElementById('loading-text');
+            if (loadingText) {
+                loadingText.style.display = 'none';
+            }
+
             achievementsGrid.innerHTML = '';
 
             const filteredAchievements = achievements.filter(achievement => {
