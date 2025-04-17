@@ -554,10 +554,10 @@
         // Initialize the page
         document.addEventListener('DOMContentLoaded', function () {
             // Direct file loading
-            fetch('example.txt')
+            fetch('all.txt')
                 .then(response => {
                     if (!response.ok) {
-                        throw new Error('Failed to load example.txt');
+                        throw new Error('Failed to load all.txt');
                     }
                     return response.text();
                 })
@@ -566,7 +566,7 @@
                 })
                 .catch(error => {
                     console.error('Error loading achievements:', error);
-                    document.getElementById('loading-text').textContent = 'Error loading example.txt. Make sure the file exists in the same directory.';
+                    document.getElementById('loading-text').textContent = 'Error loading all.txt. Make sure the file exists in the same directory.';
                 });
 
             // Search input handler
