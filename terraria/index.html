@@ -396,42 +396,37 @@
 
         // Parse achievement data from text
         function parseAchievements(text) {
-            // First, join all lines into a single string
-            const fullText = text.trim();
+            // Regular expression to match each achievement block
+            const regex = /{([^{}]*)}/gs;
+            const achievements = [];
+            let match;
 
-            // Split by the pattern that marks the start of a new achievement object
-            // Look for a pattern like "},\n{" or the start/end of the file
-            const achievementBlocks = fullText.split(/},\s*\n*\s*{/).map((block, index) => {
-                // Add back the brackets that were removed by the split
-                if (index === 0) {
-                    if (!block.startsWith('{')) block = '{' + block;
-                } else {
-                    block = '{' + block;
-                }
-
-                if (index < fullText.split(/},\s*\n*\s*{/).length - 1) {
-                    if (!block.endsWith('}')) block = block + '}';
-                } else {
-                    if (!block.endsWith('}')) block = block + '}';
-                }
-
-                return block;
-            });
-
-            return achievementBlocks.map(block => {
+            while ((match = regex.exec(text)) !== null) {
                 try {
-                    // Clean up the block and convert to valid JSON
-                    const jsonBlock = block
-                        .replace(/(\w+):/g, '"$1":')         // Add quotes to property names
-                        .replace(/:\s*'([^']*)'/g, ': "$1"') // Replace single quotes with double quotes
-                        .replace(/,\s*}/g, '}');             // Remove trailing commas
+                    const block = match[0];
+                    // Extract the individual properties manually to avoid JSON parsing errors
+                    const nameMatch = block.match(/name:\s*"([^"]*)"/);
+                    const quoteMatch = block.match(/quote:\s*"([^"]*)"/);
+                    const descMatch = block.match(/description:\s*"([^"]*)"/);
+                    const typeMatch = block.match(/type:\s*"([^"]*)"/);
+                    const notesMatch = block.match(/notes:\s*"([^"]*)"/);
 
-                    return JSON.parse(jsonBlock);
+                    if (nameMatch) {
+                        const achievement = {
+                            name: nameMatch[1],
+                            quote: quoteMatch ? quoteMatch[1] : "",
+                            description: descMatch ? descMatch[1] : "",
+                            type: typeMatch ? typeMatch[1] : "Unknown",
+                            notes: notesMatch ? notesMatch[1] : ""
+                        };
+                        achievements.push(achievement);
+                    }
                 } catch (e) {
-                    console.error("Error parsing block:", block, e);
-                    return null;
+                    console.error("Error processing achievement block:", match[0], e);
                 }
-            }).filter(item => item !== null);
+            }
+
+            return achievements;
         }
 
         // Initialize completion status from localStorage
