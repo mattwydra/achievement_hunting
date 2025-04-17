@@ -361,7 +361,7 @@
     </div>
 
     <footer>
-        <p>Terraria Achievement Tracker - Dig, Fight, Explore, Build!</p>
+        <p>Terraria Achievement Tracker - All notes gathered from official Terraria Wiki</p>
     </footer>
 
     <script>
@@ -508,8 +508,19 @@
             completionStatus[name] = !completionStatus[name];
             localStorage.setItem('terrariaAchievements', JSON.stringify(completionStatus));
 
-            // Update UI
-            renderAchievements();
+            // Update UI without re-rendering everything
+            const button = document.querySelector(`.completion-toggle[data-name="${name}"]`);
+            const card = button.closest('.achievement-card');
+
+            if (completionStatus[name]) {
+                button.classList.add('completed');
+                card.classList.add('completed');
+            } else {
+                button.classList.remove('completed');
+                card.classList.remove('completed');
+            }
+
+            updateProgressBar();
         }
 
         // Update progress bar
@@ -518,8 +529,16 @@
             const completedAchievements = Object.values(completionStatus).filter(status => status).length;
 
             const progressPercentage = totalAchievements > 0 ? (completedAchievements / totalAchievements) * 100 : 0;
-            document.getElementById('progress-bar').style.width = `${progressPercentage}%`;
-            document.getElementById('completion-counter').textContent = `${completedAchievements}/${totalAchievements}`;
+            const progressBar = document.getElementById('progress-bar');
+            const counterElement = document.getElementById('completion-counter');
+
+            if (progressBar) {
+                progressBar.style.width = `${progressPercentage}%`;
+            }
+
+            if (counterElement) {
+                counterElement.textContent = `${completedAchievements}/${totalAchievements}`;
+            }
         }
 
         // Generate type filters

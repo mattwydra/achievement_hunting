@@ -45,14 +45,14 @@
     quote: "Discover a golden chest underground and take a peek at its contents.",
     description: "Open an underground Gold Chest.",
     type: "Explorer",
-    notes: "A reference to famous (and only) line \"I Am Groot\" from the Guardians of the Galaxy franchise."
+    notes: "A reference to famous (and only) line 'I Am Groot' from the Guardians of the Galaxy franchise."
 },
 {
     name: "Benched",
     quote: "Craft your first work bench.",
     description: "Craft your first Work Bench.",
     type: "Collector",
-    notes: "May be a reference to an identical term in sports where a player is \"benched\" from the deck play."
+    notes: "May be a reference to an identical term in sports where a player is 'benched' from the deck play."
 },
 {
     name: "Heart Breaker",
@@ -69,11 +69,39 @@
     notes: "Possibly a reference to the mechanic of the same name within the Guitar Hero series."
 },
 {
+    name: "Watch Your Step!",
+    quote: "Become a victim to a nasty underground trap.",
+    description: "Get killed by a Trap for the first time.",
+    type: "Explorer",
+    notes: "Being killed by explosives activated by a Pressure Plate also works. You must be killed by the trap; merely taking damage will not work."
+}, 
+{
     name: "Heavy Metal",
     quote: "Obtain an anvil made from iron or lead.",
     description: "Obtain your first Iron or Lead Anvil.",
     type: "Collector",
     notes: "A nod to the music genre of the same name, which is frequently referenced in-game: Plantera and its associated items, as well as the Blood Rain Bow."
+},
+{
+    name: "Eye on You",
+    quote: "Defeat the Eye of Cthulhu, an ocular menace who only appears at night.",
+    description: "Defeat the Eye of Cthulhu for the first time.",
+    type: "Slayer",
+    notes: "Reference to the saying 'I've got my eye on you'."
+},
+{
+    name: "Like a Boss",
+    quote: "Obtain a boss-summoning item.",
+    description: "Obtain any boss-summoning item.",
+    type: "Collector",
+    notes: "Truffle Worms, Celestial Sigils, Gelatin Crystals, Prismatic Lacewings and the Deer Thing do not count for this achievement. A reference to the song Like a Boss. It depicts (from left to right) the Worm Food, Suspicious Looking Eye, and Bloody Spine."
+},
+{
+    name: "Bloodbath",
+    quote: "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
+    description: "Survive your first Blood Moon.",
+    type: "Explorer",
+    notes: ""
 },
 {
     name: "Hold on Tight!",
@@ -83,18 +111,25 @@
     notes: "To get this achievement, the grappling hook needs to be in the grappling hook slot."
 },
 {
-    name: "Eye on You",
-    quote: "Defeat the Eye of Cthulhu, an ocular menace who only appears at night.",
-    description: "Defeat the Eye of Cthulhu for the first time.",
-    type: "Slayer",
-    notes: "Reference to the saying \"I've got my eye on you\"."
+    name: "Head in the Clouds",
+    quote: "Equip a pair of wings.",
+    description: "Have a pair of Wings equipped.",
+    type: "Collector",
+    notes: "Fledgling Wings count towards this achievement. Fledgeling Wings (or possibly Angel Wings) are also the same ones depicted in the Achievement's image. Reference to the idiom of the same name, describing someone who is too distracted by their own imagination to notice things around them."
+},
+{
+    name: "It's Getting Hot in Here",
+    quote: "Spelunk deep enough to reach the molten underworld.",
+    description: "Reach The Underworld for the first time.",
+    type: "Explorer",
+    notes: "Reference to the song Hot In Herre. The file name for the achievement misspells it as 'Its Hetting Hot in Here' (This was corrected in 1.4.0.1)."
 },
 {
     name: "Smashing, Poppet!",
     quote: "Using explosives or your trusty hammer, smash a Shadow Orb or Crimson Heart in the evil parts of your world.",
     description: "Smash your first Shadow Orb or Crimson Heart.",
     type: "Explorer",
-    notes: "Reference to The Wild Thornberrys, an American animated television series that originally aired on Nickelodeon from 1998 to 2004. The catchphrase of the protagonist girl's father is \"Smashing\" and he usually calls his daughter \"Poppet\"."
+    notes: "Reference to The Wild Thornberrys, an American animated television series that originally aired on Nickelodeon from 1998 to 2004. The catchphrase of the protagonist girl's father is 'Smashing' and he usually calls his daughter 'Poppet'."
 },
 {
     name: "Worm Fodder",
@@ -108,7 +143,7 @@
     quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
     description: "Defeat the Brain of Cthulhu for the first time.",
     type: "Slayer",
-    notes: "In the description of the Steam version of the achievement, \"enormous\" is misspelled as \"enourmous\". A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
+    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
 },
 {
     name: "Where's My Honey?",
@@ -129,7 +164,7 @@
     quote: "Defeat Skeletron, the cursed guardian of the dungeon.",
     description: "Defeat Skeletron for the first time.",
     type: "Slayer",
-    notes: "Reference to the word \"Owned\", usually used when a person defeats an opponent in a game. May also be playing off the term \"boner.\""
+    notes: "Reference to the word 'Owned', usually used when a person defeats an opponent in a game. May also be playing off the term 'boner.'"
 },
 {
     name: "Dungeon Heist",
@@ -139,25 +174,18 @@
     notes: "Achievement name is a reference to the 2011 heist comedy film Tower Heist."
 },
 {
-    name: "It's Getting Hot in Here",
-    quote: "Spelunk deep enough to reach the molten underworld.",
-    description: "Reach The Underworld for the first time.",
-    type: "Explorer",
-    notes: "Reference to the song Hot In Herre. The file name for the achievement misspells it as \"Its Hetting Hot in Here\" (This was corrected in 1.4.0.1)."
-},
-{
     name: "Miner for Fire",
     quote: "Craft a molten pickaxe using the hottest of materials.",
     description: "Craft a Molten Pickaxe.",
     type: "Collector",
-    notes: "A play on the phrase \"[job position] for hire.\""
+    notes: "A play on the phrase '[job position] for hire.'"
 },
 {
     name: "Still Hungry",
     quote: "Defeat the Wall of Flesh, the master and core of the world who arises after a great, burning sacrifice.",
     description: "Defeat the Wall of Flesh for the first time.",
     type: "Slayer",
-    notes: "Note that defeating the Wall of Flesh will initiate Hardmode in a pre-Hardmode world. Possibly a reference to the 1980's band \"Twisted Sister\" and an album of the same name as the achievement."
+    notes: "Note that defeating the Wall of Flesh will initiate Hardmode in a pre-Hardmode world. Possibly a reference to the 1980's band 'Twisted Sister' and an album of the same name as the achievement."
 },
 {
     name: "It's Hard!",
@@ -179,20 +207,6 @@
     description: "Mine your first Hardmode ore.",
     type: "Explorer",
     notes: "You can place down any Hardmode ore and mine it to get the achievement. Cobalt, Mythril, Adamantite, Palladium, Orichalcum, and Titanium are the only ores which count towards this achievement. The drill in the picture is a Cobalt Drill mining Mythril Ore."
-},
-{
-    name: "Head in the Clouds",
-    quote: "Equip a pair of wings.",
-    description: "Have a pair of Wings equipped.",
-    type: "Collector",
-    notes: "Fledgling Wings count towards this achievement. Fledgeling Wings (or possibly Angel Wings) are also the same ones depicted in the Achievement's image. Reference to the idiom of the same name, describing someone who is too distracted by their own imagination to notice things around them."
-},
-{
-    name: "Like a Boss",
-    quote: "Obtain a boss-summoning item.",
-    description: "Obtain any boss-summoning item.",
-    type: "Collector",
-    notes: "Truffle Worms, Celestial Sigils, Gelatin Crystals, Prismatic Lacewings and the Deer Thing do not count for this achievement. A reference to the song Like a Boss. It depicts (from left to right) the Worm Food, Suspicious Looking Eye, and Bloody Spine."
 },
 {
     name: "Buckets of Bolts",
@@ -220,7 +234,7 @@
     quote: "Consume a life fruit, which grows in the thick of subterranean jungle grass.",
     description: "Consume a Life Fruit.",
     type: "Explorer",
-    notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt \"Get a life\"."
+    notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt 'Get a life'."
 },
 {
     name: "The Great Southern Plantkill",
@@ -248,7 +262,7 @@
     quote: "Obtain a rare treasure from a difficult monster in the dungeon.",
     description: "Obtain a rare item from an enemy in the post-Plantera Dungeon.",
     type: "Explorer",
-    notes: "Pick up a weapon dropped by any post-Plantera enemy in the Dungeon. A reference to the term \"Grave robbery\""
+    notes: "Pick up a weapon dropped by any post-Plantera enemy in the Dungeon. A reference to the term 'Grave robbery'"
 },
 {
     name: "Big Booty",
@@ -262,7 +276,7 @@
     quote: "Defeat Duke Fishron, mutant terror of the sea.",
     description: "Defeat Duke Fishron for the first time.",
     type: "Slayer",
-    notes: "A reference to the expression \"fish out of water\" meaning someone who is outside their comfort zone or area of expertise."
+    notes: "A reference to the expression 'fish out of water' meaning someone who is outside their comfort zone or area of expertise."
 },
 {
     name: "Obsessive Devotion",
@@ -286,13 +300,6 @@
     notes: "Had a different image before the release of 1.3.0.1, as not to spoil the surprise of what the final boss would look like before 1.3 was released. It was a silhouette of the Moon Lord, only showing the eye at the top of his head and his shape."
 },
 {
-    name: "Bloodbath",
-    quote: "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
-    description: "Survive your first Blood Moon.",
-    type: "Explorer",
-    notes: ""
-},
-{
     name: "Slippery Shinobi",
     quote: "Defeat King Slime, the lord of all things slimy.",
     description: "Defeat King Slime for the first time.",
@@ -311,7 +318,7 @@
     quote: "Triumph over a pirate invasion, a group of pillagers from the sea out for your booty... and your life!",
     description: "Defeat the Pirate Invasion for the first time.",
     type: "Slayer",
-    notes: "\"Walking the Plank\" is a term used for when pre-modern pirates would coerce captives off of their ships and into the sea via a plank."
+    notes: "'Walking the Plank' is a term used for when pre-modern pirates would coerce captives off of their ships and into the sea via a plank."
 },
 {
     name: "Kill the Sun",
@@ -325,7 +332,7 @@
     quote: "Triumph over the frost legion, a festive family of maniacal snowman mobsters.",
     description: "Defeat the Frost Legion for the first time.",
     type: "Slayer",
-    notes: "Reference to the 2013 Disney film Frozen, which has a song called \"Do You Want to Build a Snowman?\""
+    notes: "Reference to the 2013 Disney film Frozen, which has a song called 'Do You Want to Build a Snowman?'"
 },
 {
     name: "Tin-Foil Hatter",
@@ -346,7 +353,7 @@
     quote: "Reach the 15th wave of a frost moon, where the festive season quickly degrades into madness.",
     description: "Reach the 15th wave of a Frost Moon.",
     type: "Slayer",
-    notes: "A reference to the popular children's song, \"I scream, you scream, we all scream for ice cream!\"."
+    notes: "A reference to the popular children's song, 'I scream, you scream, we all scream for ice cream!'."
 },
 {
     name: "Sticky Situation",
@@ -374,7 +381,7 @@
     quote: "Stumble into a spider cavern in the underground.",
     description: "Enter your first underground Spider Cave.",
     type: "Explorer",
-    notes: "\"Jeepers Creepers\" is an expression of surprise or annoyance."
+    notes: "'Jeepers Creepers' is an expression of surprise or annoyance."
 },
 {
     name: "Funkytown",
@@ -395,7 +402,7 @@
     quote: "The only way is up!",
     description: "Reach the very bottom of The Underworld.",
     type: "Explorer",
-    notes: "Reach the bottom of The Underworld. \"Rock Bottom\" is a common phrase used when someone as at their lowest or worst point. This is also approved by the description."
+    notes: "Reach the bottom of The Underworld. 'Rock Bottom' is a common phrase used when someone as at their lowest or worst point. This is also approved by the description."
 },
 {
     name: "Mecha Mayhem",
@@ -437,7 +444,7 @@
     quote: "Kill Tim.",
     description: "Defeat Tim for the first time.",
     type: "Slayer",
-    notes: "Reference to Tim the Enchanter from Monty Python and the Holy Grail, and his quote \"There are some who call me... Tim.\""
+    notes: "Reference to Tim the Enchanter from Monty Python and the Holy Grail, and his quote 'There are some who call me... Tim.'"
 },
 {
     name: "Deceiver of Fools",
@@ -451,7 +458,7 @@
     quote: "Obtain a Terra Blade, forged from the finest blades of light and darkness.",
     description: "Obtain a Terra Blade.",
     type: "Collector",
-    notes: "The swords of \"light\" and \"dark\" are a reference to the Night's Edge and True Excalibur, two items used to craft it."
+    notes: "The swords of 'light' and 'dark' are a reference to the Night's Edge and True Excalibur, two items used to craft it."
 },
 {
     name: "Lucky Break",
@@ -507,7 +514,7 @@
     quote: "Kill the groom.",
     description: "Defeat The Groom for the first time.",
     type: "Slayer",
-    notes: "Likely reference to traditional marriage vows found in the Book of Common Prayer and the Alternative Service Book which include the phrase \"til death do us part\"."
+    notes: "Likely reference to traditional marriage vows found in the Book of Common Prayer and the Alternative Service Book which include the phrase 'til death do us part'."
 },
 {
     name: "Archaeologist",
@@ -528,7 +535,7 @@
     quote: "Fire a rainbow gun while riding on a unicorn.",
     description: "Fire a Rainbow Gun while riding a Unicorn Mount.",
     type: "Challenger",
-    notes: "\"Rainbows and unicorns\" is a common idiom that describes a wonderful, yet unrealistic scenario."
+    notes: "'Rainbows and unicorns' is a common idiom that describes a wonderful, yet unrealistic scenario."
 },
 {
     name: "You and What Army?",
@@ -542,7 +549,7 @@
     quote: "Obtain a rainbow rod.",
     description: "Obtain the Rainbow Rod.",
     type: "Collector",
-    notes: "The word \"Prismancer\" means someone who can control prisms."
+    notes: "The word 'Prismancer' means someone who can control prisms."
 },
 {
     name: "It Can Talk?!",
@@ -551,13 +558,6 @@
     type: "Explorer",
     notes: "It must be above the surface for the Truffle to move in."
 },
-{
-    name: "Watch Your Step!",
-    quote: "Become a victim to a nasty underground trap.",
-    description: "Get killed by a Trap for the first time.",
-    type: "Explorer",
-    notes: "Being killed by explosives activated by a Pressure Plate also works. You must be killed by the trap; merely taking damage will not work."
-}, 
 {
     name: "Marathon Medalist",
     quote: "Travel a total of 26.2 miles on foot.",
@@ -633,21 +633,21 @@
     quote: "Defeat Queen Slime, giving the coup-de-grace to the sovereign of all that jiggles.",
     description: "Defeat the Queen Slime for the first time.",
     type: "Slayer",
-    notes: "A common pun on the idiom, \"just deserts\"."
+    notes: "A common pun on the idiom, 'just deserts'."
 },
 {
     name: "Don't Dread on Me",
     quote: "Defeat the Dreadnautilus, murderous mollusk lurking beneath the surface of the sanguine seas.",
     description: "Defeat the Dreadnautilus for the first time.",
     type: "Slayer",
-    notes: "A reference to the motto of the Gadsden Flag, in which the motto reads \"Don't Tread on Me\""
+    notes: "A reference to the motto of the Gadsden Flag, in which the motto reads 'Don't Tread on Me'"
 },
 {
     name: "Hero of Etheria",
     quote: "Repel the strongest forces the Old One's Army can muster.",
     description: "Defeat the last round of the Old One's Army.",
     type: "Slayer",
-    notes: "Achievement is granted after defeating Betsy, upon the status message, \"The old one's army has been defeated!\""
+    notes: "Achievement is granted after defeating Betsy, upon the status message, 'The old one's army has been defeated!'"
 },
 {
     name: "Infinity +1 Sword",
@@ -724,14 +724,14 @@
     quote: "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should.",
     description: "Die within 10 seconds after opening a Dead Man's Chest.",
     type: "Challenger",
-    notes: "\"Dead men tell no tales\" is a well-known proverb, often used as a motive for murder. The Tooltip is a reference to the character Ian Malcolm's iconic line from Jurassic Park."
+    notes: "'Dead men tell no tales' is a well-known proverb, often used as a motive for murder. The Tooltip is a reference to the character Ian Malcolm's iconic line from Jurassic Park."
 },
 {
     name: "An Eye For An Eye",
     quote: "Defeat Deerclops, the chilly one-eyed monstrosity from a foreign land.",
     description: "Defeat the Deerclops for the first time.",
     type: "Slayer",
-    notes: "\"An eye for an eye\" is a famous proverb that means people must be punished the same way they offended."
+    notes: "'An eye for an eye' is a famous proverb that means people must be punished the same way they offended."
 },
 {
     name: "Feast of Midas",
@@ -759,7 +759,7 @@
     quote: "Obtain the Ankh Shield, the finest protection from unpleasant maladies and ailments.",
     description: "Obtain the Ankh Shield.",
     type: "Collector",
-    notes: "Ankhumulation is a portmanteau of the words \"Ankh\" and \"Accumulation\"."
+    notes: "Ankhumulation is a portmanteau of the words 'Ankh' and 'Accumulation'."
 },
 {
     name: "Torch God",
@@ -773,7 +773,7 @@
     quote: "Some very special seeds can lead to unique and rewarding experiences. Can you find one?",
     description: "Enter a world using any secret world seed.",
     type: "Explorer",
-    notes: "The achievement depicts a golden seed, quite literally representing the term used for the relatively short number or text string that corresponds with Randomized Procedural World Generation in video games, called \"Seeds\"."
+    notes: "The achievement depicts a golden seed, quite literally representing the term used for the relatively short number or text string that corresponds with Randomized Procedural World Generation in video games, called 'Seeds'."
 },
 {
     name: "The Great Slime Mitosis",
@@ -801,5 +801,5 @@
     quote: "Fly a Kwad Racer into outer space.",
     description: "Fly a Kwad Racer into space.",
     type: "Challenger",
-    notes: "A reference to Buzz Lightyear's catchphrase, \"To Infinity, and Beyond!\""
+    notes: "A reference to Buzz Lightyear's catchphrase, 'To Infinity, and Beyond!'"
 }
