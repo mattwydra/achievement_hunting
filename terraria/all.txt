@@ -230,18 +230,11 @@
     notes: "Natural hive walls must be behind the player. Note that if you destroy a Larva, you will summon the Queen Bee. A reference to the video game Where's My Water?."
 },
 {
-    name: "Worm Fodder",
-    quote: "Defeat the Eater of Worlds, a massive worm who dwells in the corruption.",
-    description: "Defeat the Eater of Worlds for the first time.",
-    type: "Slayer",
-    notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it."
-},
-{
-    name: "Mastermind",
-    quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
-    description: "Defeat the Brain of Cthulhu for the first time.",
-    type: "Slayer",
-    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
+    name: "Dungeon Heist",
+    quote: "Steal a key from the dungeon's undead denizens, and unlock one of their precious golden chests.",
+    description: "Unlock your first Gold Chest within the Dungeon.",
+    type: "Explorer",
+    notes: "Achievement name is a reference to the 2011 heist comedy film Tower Heist."
 },
 {
     name: "Sting Operation",
@@ -251,18 +244,11 @@
     notes: "References Sting operations, a law enforcement tactic used to catch criminals via deception."
 },
 {
-    name: "Dungeon Heist",
-    quote: "Steal a key from the dungeon's undead denizens, and unlock one of their precious golden chests.",
-    description: "Unlock your first Gold Chest within the Dungeon.",
-    type: "Explorer",
-    notes: "Achievement name is a reference to the 2011 heist comedy film Tower Heist."
-},
-{
-    name: "Miner for Fire",
-    quote: "Craft a molten pickaxe using the hottest of materials.",
-    description: "Craft a Molten Pickaxe.",
-    type: "Collector",
-    notes: "A play on the phrase '[job position] for hire.'"
+    name: "Bulldozer",
+    quote: "Destroy a total of 10,000 tiles.",
+    description: "Mine a total of 10,000 tiles.",
+    type: "Challenger",
+    notes: ""
 },
 {
     name: "Still Hungry",
@@ -277,6 +263,34 @@
     description: "Enter Hardmode.",
     type: "Explorer",
     notes: "You must defeat the Wall of Flesh in a pre-Hardmode world. You can get this achievement without the one above if you are in a pre-Hardmode world and someone else defeats the Wall of Flesh. The achievement image appears to show the various souls obtainable in Hardmode. Clockwise, starting from the top-left, it seems to be: Sight, Night, Fright, Light, Flight, and (barely visible) Might."
+},
+{
+    name: "Quiet Neighborhood",
+    quote: "Enter a misty graveyard filled with the surly dead.",
+    description: "Enter in a Graveyard for the first time.",
+    type: "Explorer",
+    notes: "The icon is possibly a reference to the movie Ghostbusters II."
+},
+{
+    name: "Worm Fodder",
+    quote: "Defeat the Eater of Worlds, a massive worm who dwells in the corruption.",
+    description: "Defeat the Eater of Worlds for the first time.",
+    type: "Slayer",
+    notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it."
+},
+{
+    name: "Mastermind",
+    quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
+    description: "Defeat the Brain of Cthulhu for the first time.",
+    type: "Slayer",
+    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions."
+},
+{
+    name: "Miner for Fire",
+    quote: "Craft a molten pickaxe using the hottest of materials.",
+    description: "Craft a Molten Pickaxe.",
+    type: "Collector",
+    notes: "A play on the phrase '[job position] for hire.'"
 },
 {
     name: "Begone, Evil!",
@@ -475,13 +489,6 @@
     notes: "The types that are counted for this achievement are Baby, Black, Blue, Corrupt, Dungeon, Green, Ice, Illuminant, Jungle, King, Lava, Mother, Purple, Rainbow, Red, Slimeling, Slimer, Spiked Ice, Spiked Jungle, Umbrella, Yellow, Toxic Sludge, Crimslime, and Pinky. Seven are Hardmode, three are Corruption-exclusive, and one is Crimson-exclusive."
 },
 {
-    name: "Bulldozer",
-    quote: "Destroy a total of 10,000 tiles.",
-    description: "Mine a total of 10,000 tiles.",
-    type: "Challenger",
-    notes: ""
-},
-{
     name: "There are Some Who Call Him...",
     quote: "Kill Tim.",
     description: "Defeat Tim for the first time.",
@@ -676,13 +683,6 @@
     description: "Fly a kite on a Windy Day.",
     type: "Challenger",
     notes: "A reference to Winnie-the-Pooh, both a common phrase used by the characters (aptly, to refer to windy days) and a song of the same name."
-},
-{
-    name: "Quiet Neighborhood",
-    quote: "Enter a misty graveyard filled with the surly dead.",
-    description: "Enter in a Graveyard for the first time.",
-    type: "Explorer",
-    notes: "The icon is possibly a reference to the movie Ghostbusters II."
 },
 {
     name: "Hot Reels!",
