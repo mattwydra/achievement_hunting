@@ -27,25 +27,18 @@
     notes: "A reference to the phrase 'no homo'."
 },
 {
+    name: "Matching Attire",
+    quote: "Equip armor in all three armor slots: head, chest, and feet.",
+    description: "Equip armor pieces in all armor slots (pieces do not have to be from the same set).",
+    type: "Collector",
+    notes: "The armor set in the picture is Palladium armor. Does not have to be a matching set."
+},
+{
     name: "Stop! Hammer Time!",
     quote: "Obtain your first hammer via crafting or otherwise.",
     description: "Obtain a Hammer.",
     type: "Collector",
     notes: "A reference to a lyric in the MC Hammer song, U Can't Touch This."
-},
-{
-    name: "Heart Breaker",
-    quote: "Discover and smash your first heart crystal underground.",
-    description: "Find and break a Life Crystal.",
-    type: "Explorer",
-    notes: "This isn't granted if broken via Actuating the block(s) underneath the crystal. The name is a reference to the idiom of breaking someone's heart."
-},
-{
-    name: "Heavy Metal",
-    quote: "Obtain an anvil made from iron or lead.",
-    description: "Obtain your first Iron or Lead Anvil.",
-    type: "Collector",
-    notes: "A nod to the music genre of the same name, which is frequently referenced in-game: Plantera and its associated items, as well as the Blood Rain Bow."
 },
 {
     name: "I Am Loot!",
@@ -55,11 +48,32 @@
     notes: "A reference to famous (and only) line \"I Am Groot\" from the Guardians of the Galaxy franchise."
 },
 {
+    name: "Benched",
+    quote: "Craft your first work bench.",
+    description: "Craft your first Work Bench.",
+    type: "Collector",
+    notes: "May be a reference to an identical term in sports where a player is \"benched\" from the deck play."
+},
+{
+    name: "Heart Breaker",
+    quote: "Discover and smash your first heart crystal underground.",
+    description: "Find and break a Life Crystal.",
+    type: "Explorer",
+    notes: "This isn't granted if broken via Actuating the block(s) underneath the crystal. The name is a reference to the idiom of breaking someone's heart."
+},
+{
     name: "Star Power",
     quote: "Craft a mana crystal out of fallen stars, and consume it.",
     description: "Consume your first Mana Crystal.",
     type: "Collector",
     notes: "Possibly a reference to the mechanic of the same name within the Guitar Hero series."
+},
+{
+    name: "Heavy Metal",
+    quote: "Obtain an anvil made from iron or lead.",
+    description: "Obtain your first Iron or Lead Anvil.",
+    type: "Collector",
+    notes: "A nod to the music genre of the same name, which is frequently referenced in-game: Plantera and its associated items, as well as the Blood Rain Bow."
 },
 {
     name: "Hold on Tight!",
@@ -606,20 +620,6 @@
     description: "Defeat every boss in the game.",
     type: "Challenger",
     notes: "There are a total of 15 bosses to defeat: Brain of Cthulhu, The Destroyer, Duke Fishron, Eater of Worlds, Eye of Cthulhu, Golem, King Slime, the Lunatic Cultist, the Moon Lord, Plantera, Queen Bee, Skeletron, Skeletron Prime, The Twins, and the Wall of Flesh."
-},
-{
-    name: "Matching Attire",
-    quote: "Equip armor in all three armor slots: head, chest, and feet.",
-    description: "Equip armor pieces in all armor slots (pieces do not have to be from the same set).",
-    type: "Collector",
-    notes: "The armor set in the picture is Palladium armor. Does not have to be a matching set."
-},
-{
-    name: "Benched",
-    quote: "Craft your first work bench.",
-    description: "Craft your first Work Bench.",
-    type: "Collector",
-    notes: "May be a reference to an identical term in sports where a player is \"benched\" from the deck play."
 },
 {
     name: "Fae Flayer",
