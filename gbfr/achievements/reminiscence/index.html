@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBFR - Lyria's Field Notes</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --primary-text: #87CEEB;
+            /* Sky blue */
+            --secondary-text: #e0e0e0;
+            --accent-color: #4287f5;
+            --toggle-bg: #333;
+            --toggle-active: #5fb3ff;
+            --border-color: #333;
+            --hover-color: #2a2a2a;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--secondary-text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: var(--primary-text);
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-top: 0;
+        }
+
+        .toggle-container {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 28px;
+        }
+
+        .toggle-container input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--toggle-bg);
+            transition: .4s;
+            border-radius: 28px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked+.toggle-slider {
+            background-color: var(--toggle-active);
+        }
+
+        input:checked+.toggle-slider:before {
+            transform: translateX(32px);
+        }
+
+        .search-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 10px 16px;
+            font-size: 1rem;
+            border: none;
+            background-color: var(--card-bg);
+            color: var(--secondary-text);
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .search-input:focus {
+            box-shadow: 0 0 0 2px var(--accent-color);
+        }
+
+        .tabs {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: transparent;
+            color: var(--secondary-text);
+            border: none;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .tab.active {
+            color: var(--primary-text);
+            border-bottom: 2px solid var(--primary-text);
+        }
+
+        .tab:hover:not(.active) {
+            color: var(--primary-text);
+            opacity: 0.8;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .section-container {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            margin-top: 0;
+            color: var(--primary-text);
+            font-size: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .item-name {
+            flex-grow: 1;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            background-color: var(--toggle-bg);
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 20px;
+            background-color: var(--toggle-active);
+            border-radius: 8px;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-text);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Character weapons section styles */
+        .character-header {
+            cursor: pointer;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .character-header:after {
+            content: '▼';
+            position: absolute;
+            right: 80px;
+            transition: transform 0.3s ease;
+        }
+
+        .character-header.expanded:after {
+            transform: rotate(180deg);
+        }
+
+        .character-weapons-content {
+            padding-left: 0;
+        }
+
+        .weapon-item {
+            border-bottom: 1px solid var(--border-color);
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        /* Data management controls */
+        .data-btn {
+            background-color: var(--card-bg);
+            color: var(--primary-text);
+            border: 1px solid var(--primary-text);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            display: inline-block;
+        }
+
+        .data-btn:hover {
+            background-color: var(--primary-text);
+            color: var(--bg-color);
+        }
+
+        .reset-btn:hover {
+            background-color: #ff2525 !important;
+            color: white;
+            border-color: #ff2525;
+        }
+
+        .data-management {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <header>
+            <h1 class="main-title">Lyria's Field Notes</h1>
+            <p class="subtitle">Track your collection across all categories</p>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="fieldnotes-search" class="search-input" placeholder="Search field notes...">
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="openTab('characters')">Characters</button>
+            <button class="tab" onclick="openTab('foes')">Foes</button>
+            <button class="tab" onclick="openTab('weapons')">Weapons</button>
+            <button class="tab" onclick="openTab('treasure')">Treasure</button>
+            <button class="tab" onclick="openTab('wrightstones')">Wrightstones</button>
+        </div>
+
+        <div class="progress-bar-container">
+            <div id="fieldnotes-progress" class="progress-bar" style="width: 0%"></div>
+        </div>
+        <div class="progress-text">Field Notes Completion: <span id="fieldnotes-percentage">0%</span></div>
+
+        <div id="characters" class="tab-content active">
+            <div class="section-container">
+                <h2 class="section-title">Characters</h2>
+                <ul id="characters-list" class="item-list">
+                    <!-- Sample items - will be loaded from text file -->
+                    <li class="item" data-name="Gran">
+                        <span class="item-name">Gran</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="characters" data-item="Gran"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                    <li class="item" data-name="Lyria">
+                        <span class="item-name">Lyria</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="characters" data-item="Lyria"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                    <li class="item" data-name="Katalina">
+                        <span class="item-name">Katalina</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="characters" data-item="Katalina"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="foes" class="tab-content">
+            <div class="section-container">
+                <h2 class="section-title">Foes</h2>
+                <ul id="foes-list" class="item-list">
+                    <!-- Sample items - will be loaded from text file -->
+                    <li class="item" data-name="Wolf">
+                        <span class="item-name">Wolf</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="foes" data-item="Wolf" onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                    <li class="item" data-name="Goblin">
+                        <span class="item-name">Goblin</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="foes" data-item="Goblin" onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="weapons" class="tab-content">
+            <div class="section-container">
+                <h2 class="section-title">Weapons</h2>
+                <ul id="weapons-list" class="item-list">
+                    <!-- Will be populated by JavaScript -->
+                </ul>
+            </div>
+        </div>
+
+        <div id="treasure" class="tab-content">
+            <div class="section-container">
+                <h2 class="section-title">Treasure</h2>
+                <ul id="treasure-list" class="item-list">
+                    <!-- Sample items -<!-- Will be loaded from text file -->
+                    <li class="item" data-name="Crimson Stone">
+                        <span class="item-name">Crimson Stone</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="treasure" data-item="Crimson Stone"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                    <li class="item" data-name="Blue Crystal">
+                        <span class="item-name">Blue Crystal</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="treasure" data-item="Blue Crystal"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="wrightstones" class="tab-content">
+            <div class="section-container">
+                <h2 class="section-title">Wrightstones</h2>
+                <ul id="wrightstones-list" class="item-list">
+                    <!-- Will be loaded from text file -->
+                    <li class="item" data-name="Fire Wrightstone">
+                        <span class="item-name">Fire Wrightstone</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="wrightstones" data-item="Fire Wrightstone"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                    <li class="item" data-name="Water Wrightstone">
+                        <span class="item-name">Water Wrightstone</span>
+                        <label class="toggle-container">
+                            <input type="checkbox" data-category="wrightstones" data-item="Water Wrightstone"
+                                onchange="toggleItem(this)">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="data-management">
+        <button class="data-btn" onclick="exportData()">Export Progress</button>
+        <label class="data-btn" style="margin-left: 10px; cursor: pointer;">
+            Import Progress
+            <input type="file" id="import-input" accept=".json" style="display: none;" onchange="importData(event)">
+        </label>
+        <button class="data-btn reset-btn" onclick="resetProgress()"
+            style="background-color: #ff4545; margin-top: 10px;">Reset All Progress</button>
+    </div>
+    </div>
+
+    <script>
+        // Store data in local storage
+        const STORAGE_KEY = 'gbfr_completion_data';
+        let completionData = {
+            achievements: {},
+            fieldnotes: {
+                characters: {},
+                foes: {},
+                weapons: {},
+                treasure: {},
+                wrightstones: {}
+            }
+        };
+
+        // Load data from local storage on page load
+        function loadData() {
+            const savedData = localStorage.getItem(STORAGE_KEY);
+            if (savedData) {
+                completionData = JSON.parse(savedData);
+            }
+
+            // Apply saved states to UI
+            applyStoredStates();
+            updateProgress();
+        }
+
+        // Apply stored states to UI elements
+        function applyStoredStates() {
+            // Apply item toggles
+            const categories = ['characters', 'foes', 'weapons', 'treasure', 'wrightstones'];
+            categories.forEach(category => {
+                for (const item in completionData.fieldnotes[category]) {
+                    const toggles = document.querySelectorAll(`input[data-category="${category}"][data-item="${item}"]`);
+                    toggles.forEach(toggle => {
+                        toggle.checked = completionData.fieldnotes[category][item];
+                    });
+                }
+            });
+        }
+
+        // Save data to local storage
+        function saveData() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(completionData));
+        }
+
+        // Toggle item state
+        function toggleItem(checkbox) {
+            const category = checkbox.dataset.category;
+            const item = checkbox.dataset.item;
+
+            if (!completionData.fieldnotes[category]) {
+                completionData.fieldnotes[category] = {};
+            }
+
+            completionData.fieldnotes[category][item] = checkbox.checked;
+            saveData();
+            updateProgress();
+        }
+
+        // Update progress bars and percentages
+        function updateProgress() {
+            // Update field notes completion
+            let totalItems = 0;
+            let completedItems = 0;
+
+            const categories = ['characters', 'foes', 'weapons', 'treasure', 'wrightstones'];
+            categories.forEach(category => {
+                const items = document.querySelectorAll(`input[data-category="${category}"]`);
+                totalItems += items.length;
+
+                for (const item in completionData.fieldnotes[category]) {
+                    if (completionData.fieldnotes[category][item]) {
+                        completedItems++;
+                    }
+                }
+            });
+
+            const fieldnotesPercentage = totalItems > 0 ? (completedItems / totalItems) * 100 : 0;
+            document.getElementById('fieldnotes-progress').style.width = `${fieldnotesPercentage}%`;
+            document.getElementById('fieldnotes-percentage').textContent = `${Math.round(fieldnotesPercentage)}%`;
+        }
+
+        // Open tab function
+        function openTab(tabName) {
+            // Hide all tab content
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+
+            // Remove active class from all tabs
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Show selected tab content and activate tab
+            document.getElementById(tabName).classList.add('active');
+            document.querySelector(`.tab[onclick="openTab('${tabName}')"]`).classList.add('active');
+        }
+
+        // Search functionality for field notes
+        document.getElementById('fieldnotes-search').addEventListener('input', function () {
+            const searchValue = this.value.toLowerCase();
+            const items = document.querySelectorAll('.item');
+
+            items.forEach(item => {
+                const itemName = item.dataset.name.toLowerCase();
+                if (itemName.includes(searchValue)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+
+        // Function to load data from text files
+        async function loadTextFileData(category, filename) {
+            try {
+                const response = await fetch(`data/${filename}.txt`);
+                if (!response.ok) {
+                    console.error(`Failed to load ${filename}.txt`);
+                    return;
+                }
+
+                const text = await response.text();
+                const lines = text.split('\n').filter(line => line.trim() !== '');
+
+                // Clear existing items
+                const list = document.getElementById(`${category}-list`);
+                list.innerHTML = '';
+
+                // Add items from text file
+                lines.forEach(line => {
+                    const itemName = line.trim();
+                    if (!itemName) return;
+
+                    const listItem = document.createElement('li');
+                    listItem.className = 'item';
+                    listItem.dataset.name = itemName;
+
+                    const nameSpan = document.createElement('span');
+                    nameSpan.className = 'item-name';
+                    nameSpan.textContent = itemName;
+
+                    const label = document.createElement('label');
+                    label.className = 'toggle-container';
+
+                    const input = document.createElement('input');
+                    input.type = 'checkbox';
+                    input.dataset.category = category;
+                    input.dataset.item = itemName;
+                    input.onchange = function () { toggleItem(this); };
+
+                    // Set initial state from stored data
+                    if (completionData.fieldnotes[category] && completionData.fieldnotes[category][itemName]) {
+                        input.checked = true;
+                    }
+
+                    const span = document.createElement('span');
+                    span.className = 'toggle-slider';
+
+                    label.appendChild(input);
+                    label.appendChild(span);
+
+                    listItem.appendChild(nameSpan);
+                    listItem.appendChild(label);
+                    list.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error(`Error loading ${filename}.txt:`, error);
+            }
+        }
+
+        // Function to parse the weapons file and group by character
+        function parseWeaponsFile(text) {
+            const lines = text.split('\n');
+            const weaponsByCharacter = {};
+            let currentCharacter = "";
+
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+
+                // Skip empty lines
+                if (trimmedLine === "") continue;
+
+                // Check if this is a character name (not indented and doesn't contain ":")
+                if (!trimmedLine.startsWith(" ") && !trimmedLine.includes(":")) {
+                    currentCharacter = trimmedLine;
+                    if (!weaponsByCharacter[currentCharacter]) {
+                        weaponsByCharacter[currentCharacter] = [];
+                    }
+                    continue;
+                }
+
+                // Parse weapon lines
+                if (trimmedLine.includes(":") && currentCharacter) {
+                    const parts = trimmedLine.split(":");
+                    if (parts.length >= 2) {
+                        const weaponType = parts[0].trim().split(" ")[0]; // Get the first word (Starting, Ascension, etc.)
+                        const weaponName = parts[1].trim().split(" - ")[0].trim(); // Get just the weapon name
+
+                        // Format as requested: [character]'s [weapon type] weapon: [weapon name]
+                        const formattedWeapon = `${weaponType} weapon: ${weaponName}`;
+                        weaponsByCharacter[currentCharacter].push(formattedWeapon);
+                    }
+                }
+            }
+
+            return weaponsByCharacter;
+        }
+
+        // Updated function to load weapons with character dropdowns
+        async function loadWeaponsData() {
+            try {
+                const response = await fetch('data/weapons.txt');
+                if (!response.ok) {
+                    console.error('Failed to load weapons.txt');
+                    return;
+                }
+
+                const text = await response.text();
+                const weaponsByCharacter = parseWeaponsFile(text);
+
+                // Clear existing items
+                const list = document.getElementById('weapons-list');
+                list.innerHTML = '';
+
+                // Create an expandable section for each character
+                for (const character in weaponsByCharacter) {
+                    const weapons = weaponsByCharacter[character];
+
+                    // Create the character section
+                    const characterSection = document.createElement('div');
+                    characterSection.className = 'character-weapons';
+
+                    // Create header with toggle for the character
+                    const characterHeader = document.createElement('div');
+                    characterHeader.className = 'character-header item';
+
+                    // Add expand/collapse functionality
+                    characterHeader.onclick = function (e) {
+                        // Don't trigger when clicking the toggle switch
+                        if (e.target.classList.contains('toggle-slider') ||
+                            e.target.type === 'checkbox') return;
+
+                        const content = this.nextElementSibling;
+                        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+                        this.classList.toggle('expanded');
+                    };
+
+                    // Create character name
+                    const nameSpan = document.createElement('span');
+                    nameSpan.className = 'item-name';
+                    nameSpan.textContent = character;
+                    characterHeader.appendChild(nameSpan);
+
+                    // Create toggle for all character weapons
+                    const label = document.createElement('label');
+                    label.className = 'toggle-container';
+                    label.onclick = function (e) { e.stopPropagation(); }; // Prevent triggering the collapse
+
+                    const input = document.createElement('input');
+                    input.type = 'checkbox';
+                    input.dataset.character = character;
+                    input.onchange = function () {
+                        toggleCharacterWeapons(this, character, weapons);
+                    };
+
+                    // Check if all weapons for this character are completed
+                    const allComplete = weapons.every(weapon => {
+                        const itemId = `${character}'s ${weapon}`;
+                        return completionData.fieldnotes.weapons && completionData.fieldnotes.weapons[itemId];
+                    });
+
+                    input.checked = allComplete;
+
+                    const span = document.createElement('span');
+                    span.className = 'toggle-slider';
+
+                    label.appendChild(input);
+                    label.appendChild(span);
+
+                    characterHeader.appendChild(label);
+                    characterSection.appendChild(characterHeader);
+
+                    // Create collapsible content for weapons
+                    const weaponsContent = document.createElement('div');
+                    weaponsContent.className = 'character-weapons-content';
+                    weaponsContent.style.display = 'none'; // Initially collapsed
+
+                    // Add individual weapons
+                    weapons.forEach(weapon => {
+                        const weaponItem = document.createElement('li');
+                        weaponItem.className = 'item weapon-item';
+
+                        const weaponId = `${character}'s ${weapon}`;
+                        weaponItem.dataset.name = weaponId;
+
+                        const weaponSpan = document.createElement('span');
+                        weaponSpan.className = 'item-name';
+                        weaponSpan.textContent = weapon;
+                        weaponSpan.style.paddingLeft = '20px'; // Indent
+
+                        const weaponLabel = document.createElement('label');
+                        weaponLabel.className = 'toggle-container';
+
+                        const weaponInput = document.createElement('input');
+                        weaponInput.type = 'checkbox';
+                        weaponInput.dataset.category = 'weapons';
+                        weaponInput.dataset.item = weaponId;
+                        weaponInput.onchange = function () { toggleItem(this); };
+
+                        // Set initial state from stored data
+                        if (completionData.fieldnotes.weapons && completionData.fieldnotes.weapons[weaponId]) {
+                            weaponInput.checked = true;
+                        }
+
+                        const weaponSpanSlider = document.createElement('span');
+                        weaponSpanSlider.className = 'toggle-slider';
+
+                        weaponLabel.appendChild(weaponInput);
+                        weaponLabel.appendChild(weaponSpanSlider);
+
+                        weaponItem.appendChild(weaponSpan);
+                        weaponItem.appendChild(weaponLabel);
+                        weaponsContent.appendChild(weaponItem);
+                    });
+
+                    characterSection.appendChild(weaponsContent);
+                    list.appendChild(characterSection);
+                }
+            } catch (error) {
+                console.error('Error loading weapons.txt:', error);
+            }
+        }
+
+        // Function to toggle all weapons for a character
+        function toggleCharacterWeapons(checkbox, character, weapons) {
+            const isChecked = checkbox.checked;
+
+            weapons.forEach(weapon => {
+                const weaponId = `${character}'s ${weapon}`;
+
+                // Update the toggle in the UI
+                const weaponToggle = document.querySelector(`input[data-item="${weaponId}"]`);
+                if (weaponToggle) {
+                    weaponToggle.checked = isChecked;
+                }
+
+                // Update the data
+                if (!completionData.fieldnotes.weapons) {
+                    completionData.fieldnotes.weapons = {};
+                }
+                completionData.fieldnotes.weapons[weaponId] = isChecked;
+            });
+
+            saveData();
+            updateProgress();
+        }
+
+        // Export data function for saving progress
+        function exportData() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(completionData));
+            const downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", dataStr);
+            downloadAnchorNode.setAttribute("download", "gbfr_completion_backup.json");
+            document.body.appendChild(downloadAnchorNode);
+            downloadAnchorNode.click();
+            downloadAnchorNode.remove();
+        }
+
+        // Import data function for loading progress
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    const importedData = JSON.parse(e.target.result);
+                    completionData = importedData;
+                    saveData();
+                    applyStoredStates();
+                    updateProgress();
+                    alert('Data imported successfully!');
+                } catch (error) {
+                    console.error('Error importing data:', error);
+                    alert('Error importing data. Please check the file format.');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        // Reset progress function
+        function resetProgress() {
+            if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
+                completionData = {
+                    achievements: {},
+                    fieldnotes: {
+                        characters: {},
+                        foes: {},
+                        weapons: {},
+                        treasure: {},
+                        wrightstones: {}
+                    }
+                };
+                saveData();
+                applyStoredStates();
+                updateProgress();
+                alert('Progress has been reset.');
+            }
+        }
+
+        // Load all data from text files
+        async function loadAllTextData() {
+            await Promise.all([
+                loadTextFileData('characters', 'characters'),
+                loadTextFileData('foes', 'foes'),
+                loadWeaponsData(),
+                loadTextFileData('treasure', 'treasure'),
+                loadTextFileData('wrightstones', 'wrightstones')
+            ]);
+
+            updateProgress();
+        }
+
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', function () {
+            loadData();
+            loadAllTextData();
+        });
+    </script>
+</body>
+
+</html>
