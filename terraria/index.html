@@ -397,6 +397,7 @@
                     const descMatch = block.match(/description:\s*"([^"]*)"/);
                     const typeMatch = block.match(/type:\s*"([^"]*)"/);
                     const notesMatch = block.match(/notes:\s*"([^"]*)"/);
+                    const percentMatch = block.match(/percent:\s*"([^"]*)"/);
 
                     if (nameMatch) {
                         const achievement = {
@@ -404,7 +405,8 @@
                             quote: quoteMatch ? quoteMatch[1] : "",
                             description: descMatch ? descMatch[1] : "",
                             type: typeMatch ? typeMatch[1] : "Unknown",
-                            notes: notesMatch ? notesMatch[1] : ""
+                            notes: notesMatch ? notesMatch[1] : "",
+                            percent: percentMatch ? percentMatch[1] : "%"
                         };
                         achievements.push(achievement);
                     }
@@ -468,6 +470,7 @@
               <h3>${achievement.name}</h3>
               <button class="completion-toggle ${isCompleted ? 'completed' : ''}" data-name="${achievement.name}"></button>
             </div>
+              <div><em>~${achievement.percent} of players</em></div>
             <div class="achievement-content">
               <div class="achievement-quote">"${achievement.quote}"</div>
               <p>${achievement.description}</p>
