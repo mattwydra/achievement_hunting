@@ -1,0 +1,170 @@
+The Captain
+
+Starting Weapon: Partenza (Djeeta) / Traveller's Sword (Gran) - HP: Boosts base health
+Ascension Weapon: Sword of Eos - ATK: Boosts attack power
+Executioner Weapon: Ultima Sword - Weak Point DMG
+Stinger Weapon: Albacore Blade - Critical Hit Rate
+Stunner Weapon: Durandal - Stun Power (T. Lvl 3)
+Terminus Weapon: Seven-Star Sword - Regen, Catastrophe
+
+Cagliostro
+
+Starting Weapon: Magnum Opus - HP: Boosts base health
+Ascension Weapon: Transmigration Tome - ATK: Boosts attack power
+Executioner Weapon: Arshivelle - Weak Point DMG
+Stinger Weapon: Sacred Codex - Critical Hit Rate
+Stunner Weapon: Dream Atlas - Stun Power
+Terminus Weapon: Zosimos - Regen, Catastrophe
+
+Charlotta
+
+Starting Weapon: Claíomh Solais - HP: Boosts base health
+Ascension Weapon: Claidheamh Soluis - ATK: Boosts attack power
+Executioner Weapon: Sahrivar - Weak Point DMG
+Stinger Weapon: Ushumgal - Critical Hit Rate
+Stunner Weapon: Arondight - Stun Power
+Terminus Weapon: Galatine - Regen, Catastrophe
+
+Eugen
+
+Starting Weapon: Dreyse - HP: Boosts base health
+Ascension Weapon: AK-4A - ATK: Boosts attack power
+Executioner Weapon: Clarion - Weak Point DMG
+Stinger Weapon: Leviathan Muzzle - Critical Hit Rate (T. Lvl 3)
+Stunner Weapon: Matchlock - Stun Power
+Terminus Weapon: Draconic Fire - Regen, Catastrophe
+
+Ferry
+
+Starting Weapon: Geisterpeitsche - HP: Boosts base health
+Ascension Weapon: Erinnerung - ATK: Boosts attack power
+Executioner Weapon: Live Wire - Weak Point DMG
+Stinger Weapon: Flame Lit Curl - Critical Hit Rate
+Stunner Weapon: Leather Belt - Stun Power
+Terminus Weapon: Ethereal Lasher - Regen, Catastrophe
+
+Ghandagoza
+
+Starting Weapon: Brahma Gauntlet - HP: Boosts base health
+Ascension Weapon: Golden Fists of Ura - ATK: Boosts attack power
+Executioner Weapon: Arkab - Weak Point DMG
+Stinger Weapon: Crimson Finger - Critical Hit Rate
+Stunner Weapon: Rope Knuckles - Stun Power
+Terminus Weapon: Sky Piercer - Regen, Catastrophe
+
+Id
+
+Starting Weapon: Ragnarok - HP: Boosts base health
+Ascension Weapon: Susanoo - ATK: Boosts attack power
+Executioner Weapon: Ecke Sachs - Weak Point DMG
+Stinger Weapon: Premium Sword - Critical Hit Rate
+Stunner Weapon: Aviaeth Faussart - Stun Power
+Terminus Weapon: Sword of Bahamut - Regen, Catastrophe
+
+Io
+
+Starting Weapon: Little Witch Scepter - HP: Boosts base health
+Ascension Weapon: Gambanteinn - ATK: Boosts attack power
+Executioner Weapon: Tupsimati - Weak Point DMG
+Stinger Weapon: Colossus Cane Omega - Critical Hit Rate
+Stunner Weapon: Zhezel - Stun Power (T. Lvl 3)
+Terminus Weapon: Caduceus - Regen, Catastrophe
+
+Katalina
+
+Starting Weapon: Rukalsa - HP: Boosts base health
+Ascension Weapon: Murgleis - ATK: Boosts attack power
+Executioner Weapon: Ephemeron - Weak Point DMG (T. Lvl 3)
+Stinger Weapon: Luminiera Sword Omega - Critical Hit Rate
+Stunner Weapon: Flame Rapier - Stun Power (T. Lvl 2)
+Terminus Weapon: Blutgang - Regen, Catastrophe
+
+Lancelot
+
+Starting Weapon: Altachiara - HP: Boosts base health
+Ascension Weapon: Knight of Ice - ATK: Boosts attack power
+Executioner Weapon: Blanc Comme Neige - Weak Point DMG
+Stinger Weapon: Vegalta - Critical Hit Rate
+Stunner Weapon: Hoarfrost Blade Persius - Stun Power
+Terminus Weapon: Damascus Knife - Regen, Catastrophe
+
+Narmaya
+
+Starting Weapon: Nakamaki Nodachi - HP: Boosts base health
+Ascension Weapon: Venustas - ATK: Boosts attack power
+Executioner Weapon: Blade of Purification - Weak Point DMG
+Stinger Weapon: Fluorithium Blade - Critical Hit Rate
+Stunner Weapon: Kotetsu - Stun Power
+Terminus Weapon: Ameno Habakiri - Regen, Catastrophe
+
+Percival
+
+Starting Weapon: Flamberge - HP: Boosts base health
+Ascension Weapon: Lord of Flames - ATK: Boosts attack power
+Executioner Weapon: Antwerp - Weak Point DMG
+Stinger Weapon: Joyeuse - Critical Hit Rate
+Stunner Weapon: Lohengrin - Stun Power
+Terminus Weapon: Gottfried - Regen, Catastrophe
+
+Rackam
+
+Starting Weapon: Flintspike - HP: Boosts base health
+Ascension Weapon: Benedia - ATK: Boosts attack power
+Executioner Weapon: Stormcloud - Weak Point DMG
+Stinger Weapon: Tiamat Bolt Omega - Critical Hit Rate (T. Lvl 3)
+Stunner Weapon: Wheellock Axe - Stun Power
+Terminus Weapon: Freikugel - Regen, Catastrophe
+
+Rosetta
+
+Starting Weapon: Egoism - HP: Boosts base health
+Ascension Weapon: Love Eternal - ATK: Boosts attack power
+Executioner Weapon: Cortana - Weak Point DMG
+Stinger Weapon: Rose Crystal Knife - Critical Hit Rate
+Stunner Weapon: Sword Breaker - Stun Power (T. Lvl 3)
+Terminus Weapon: Dagger of Bahamut Coda - Regen, Catastrophe
+
+Siegfried
+
+Starting Weapon: Integrity - HP: Boosts base health
+Ascension Weapon: Ascalon - ATK: Boosts attack power
+Executioner Weapon: Windhose - Weak Point DMG
+Stinger Weapon: Hrunting - Critical Hit Rate
+Stunner Weapon: Broadsword of Earth - Stun Power
+Terminus Weapon: Balmung - Regen, Catastrophe
+
+Vane
+
+Starting Weapon: Alabarda - HP: Boosts base health
+Ascension Weapon: Treuer Krieger - ATK: Boosts attack power
+Executioner Weapon: Blossom Axe - Weak Point DMG
+Stinger Weapon: Ukonvasara - Critical Hit Rate
+Stunner Weapon: Swan - Stun Power
+Terminus Weapon: Mjolnir - Regen, Catastrophe
+
+Vaseraga
+
+Starting Weapon: Great Scythe Grynoth - HP: Boosts base health
+Ascension Weapon: Wurtzite Scythe - ATK: Boosts attack power
+Executioner Weapon: Cosmic Scythe - Weak Point DMG
+Stinger Weapon: Soul Eater - Critical Hit Rate
+Stunner Weapon: Alsarav - Stun Power
+Terminus Weapon: Ereshkigal - Regen, Catastrophe
+
+Yodarha
+
+Starting Weapon: Kiku-Ichimonji - HP: Boosts base health
+Ascension Weapon: Fudo-Kuniyuki - ATK: Boosts attack power
+Executioner Weapon: Xeno Phantom Demon Blade - Weak Point DMG
+Stinger Weapon: Higurashi - Critical Hit Rate
+Stunner Weapon: Asura - Stun Power
+Terminus Weapon: Swordfish - Regen, Catastrophe
+
+Zeta
+
+Starting Weapon: Spear of Arvess - HP: Boosts base health
+Ascension Weapon: Brionac - ATK: Boosts attack power
+Executioner Weapon: Huanglong Spear - Weak Point DMG
+Stinger Weapon: Gisla - Critical Hit Rate
+Stunner Weapon: Sunspot Spear - Stun Power
+Terminus Weapon: Gae Bulg - Regen, Catastrophe
