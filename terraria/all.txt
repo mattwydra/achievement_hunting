@@ -84,7 +84,7 @@
     description: "Get killed by a Trap for the first time.",
     type: "Explorer",
     notes: "Being killed by explosives activated by a Pressure Plate also works. You must be killed by the trap; merely taking damage will not work.",
-    percent: "%"
+    percent: "59.0%"
 }, 
 {
     name: "Heavy Metal",
