@@ -116,7 +116,7 @@
     description: "Survive your first Blood Moon.",
     type: "Explorer",
     notes: "",
-    percent: "%"
+    percent: "52.2%"
 },
 {
     name: "Hold on Tight!",
