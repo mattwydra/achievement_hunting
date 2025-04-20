@@ -132,7 +132,7 @@
     description: "Have a pair of Wings equipped.",
     type: "Collector",
     notes: "Fledgling Wings count towards this achievement. Fledgeling Wings (or possibly Angel Wings) are also the same ones depicted in the Achievement's image. Reference to the idiom of the same name, describing someone who is too distracted by their own imagination to notice things around them.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Smashing, Poppet!",
@@ -140,7 +140,7 @@
     description: "Smash your first Shadow Orb or Crimson Heart.",
     type: "Explorer",
     notes: "Reference to The Wild Thornberrys, an American animated television series that originally aired on Nickelodeon from 1998 to 2004. The catchphrase of the protagonist girl's father is 'Smashing' and he usually calls his daughter 'Poppet'.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "It's Getting Hot in Here",
@@ -148,7 +148,7 @@
     description: "Reach The Underworld for the first time.",
     type: "Explorer",
     notes: "Reference to the song Hot In Herre. The file name for the achievement misspells it as 'Its Hetting Hot in Here' (This was corrected in 1.4.0.1).",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Pretty in Pink",
@@ -156,7 +156,7 @@
     description: "Defeat Pinky for the first time.",
     type: "Slayer",
     notes: "Probably a reference to the 1986 American romantic comedy movie by the same name, Pretty in Pink.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Fashion Statement",
@@ -164,7 +164,7 @@
     description: "Equip armor or vanity clothing in all three social slots.",
     type: "Collector",
     notes: "Also known as Vanity Armor slots.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Jeepers Creepers",
@@ -172,7 +172,7 @@
     description: "Enter your first underground Spider Cave.",
     type: "Explorer",
     notes: "'Jeepers Creepers' is an expression of surprise or annoyance."
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Vehicular Manslaughter",
@@ -180,7 +180,7 @@
     description: "Kill an enemy by running over it with a Minecart.",
     type: "Slayer",
     notes: "Killing an enemy with the Mechanical Cart's lasers will not work.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Throwing Lines",
@@ -188,7 +188,7 @@
     description: "Throw a Yoyo for the first time.",
     type: "Challenger",
     notes: "",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Goblin Punter",
@@ -196,7 +196,7 @@
     description: "Defeat a Goblin Army for the first time.",
     type: "Slayer",
     notes: "Possible reference to a quote in The Hobbit.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Marathon Medalist",
@@ -204,7 +204,7 @@
     description: "Travel a total of 26.2 miles (69,168 tiles) on foot.",
     type: "Challenger",
     notes: "26.2 miles is equivalent to 69,168 tiles. This is a reference to how marathons typically require contenders to run 26.2 miles.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Boned",
@@ -212,7 +212,7 @@
     description: "Defeat Skeletron for the first time.",
     type: "Slayer",
     notes: "Reference to the word 'Owned', usually used when a person defeats an opponent in a game. May also be playing off the term 'boner.'",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Slippery Shinobi",
@@ -220,7 +220,7 @@
     description: "Defeat King Slime for the first time.",
     type: "Slayer",
     notes: "Shinobi is another word for Ninja, clearly referencing the ninja inside the King Slime.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Hey! Listen!",
@@ -228,7 +228,7 @@
     description: "Encounter a Fairy.",
     type: "Explorer",
     notes: "A reference to Navi, a character from The Legend of Zelda: Ocarina of Time.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Into Orbit",
@@ -236,7 +236,7 @@
     description: "Reach Space.",
     type: "Explorer",
     notes: "Reach the top of Space. Despite the achievement name, the player does not actually enter the orbit of the planet.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Lucky Break",
@@ -244,7 +244,7 @@
     description: "Survive a fall with not much health left.",
     type: "Challenger",
     notes: "With 500 health, a defense of 0 and no items to negate fall damage, the player must fall exactly 74 blocks. (70 HP)",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "The Cavalry",
@@ -252,7 +252,7 @@
     description: "Equip your first Mount.",
     type: "Collector",
     notes: "Calvary in battle are the soldiers who ride on mounts (or commonly in modern day society, vehicles), as opposed to infantry.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Where's My Honey?",
@@ -260,7 +260,7 @@
     description: "Discover your first Bee Hive.",
     type: "Explorer",
     notes: "Natural hive walls must be behind the player. Note that if you destroy a Larva, you will summon the Queen Bee. A reference to the video game Where's My Water?.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Dungeon Heist",
@@ -268,7 +268,7 @@
     description: "Unlock your first Gold Chest within the Dungeon.",
     type: "Explorer",
     notes: "Achievement name is a reference to the 2011 heist comedy film Tower Heist.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Sting Operation",
@@ -276,7 +276,7 @@
     description: "Defeat the Queen Bee for the first time.",
     type: "Slayer",
     notes: "References Sting operations, a law enforcement tactic used to catch criminals via deception.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Bulldozer",
@@ -284,7 +284,7 @@
     description: "Mine a total of 10,000 tiles.",
     type: "Challenger",
     notes: "",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Still Hungry",
@@ -292,7 +292,7 @@
     description: "Defeat the Wall of Flesh for the first time.",
     type: "Slayer",
     notes: "Note that defeating the Wall of Flesh will initiate Hardmode in a pre-Hardmode world. Possibly a reference to the 1980's band 'Twisted Sister' and an album of the same name as the achievement.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "It's Hard!",
@@ -300,7 +300,7 @@
     description: "Enter Hardmode.",
     type: "Explorer",
     notes: "You must defeat the Wall of Flesh in a pre-Hardmode world. You can get this achievement without the one above if you are in a pre-Hardmode world and someone else defeats the Wall of Flesh. The achievement image appears to show the various souls obtainable in Hardmode. Clockwise, starting from the top-left, it seems to be: Sight, Night, Fright, Light, Flight, and (barely visible) Might.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Quiet Neighborhood",
@@ -308,7 +308,7 @@
     description: "Enter in a Graveyard for the first time.",
     type: "Explorer",
     notes: "The icon is possibly a reference to the movie Ghostbusters II.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Sticky Situation",
@@ -316,7 +316,7 @@
     description: "Survive the Slime Rain.",
     type: "Explorer",
     notes: "A sticky situation is a problem that is delicate or hard to solve/get out of.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Begone, Evil!",
@@ -324,7 +324,7 @@
     description: "Smash a demon or crimson altar, using the Pwnhammer.",
     type: "Explorer",
     notes: "Any hammer with a hammer power of 80% or any method to break Altars will do, as long as the Altar is destroyed (can only be done in Hardmode).",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Til Death...",
@@ -332,7 +332,7 @@
     description: "Defeat The Groom for the first time.",
     type: "Slayer",
     notes: "Likely reference to traditional marriage vows found in the Book of Common Prayer and the Alternative Service Book which include the phrase 'til death do us part'.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Extra Shiny!",
@@ -340,7 +340,7 @@
     description: "Mine your first Hardmode ore.",
     type: "Explorer",
     notes: "You can place down any Hardmode ore and mine it to get the achievement. Cobalt, Mythril, Adamantite, Palladium, Orichalcum, and Titanium are the only ores which count towards this achievement. The drill in the picture is a Cobalt Drill mining Mythril Ore.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Mastermind",
@@ -348,7 +348,7 @@
     description: "Defeat the Brain of Cthulhu for the first time.",
     type: "Slayer",
     notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Worm Fodder",
@@ -356,7 +356,7 @@
     description: "Defeat the Eater of Worlds for the first time.",
     type: "Slayer",
     notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Deceiver of Fools",
@@ -364,7 +364,7 @@
     description: "Defeat a Nymph for the first time.",
     type: "Slayer",
     notes: "Needs to be killed in Nymph form. Killing a Lost Girl before it transforms into a Nymph will not count.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "There are Some Who Call Him...",
@@ -372,7 +372,7 @@
     description: "Defeat Tim for the first time.",
     type: "Slayer",
     notes: "Reference to Tim the Enchanter from Monty Python and the Holy Grail, and his quote 'There are some who call me... Tim.'",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Get a Life",
@@ -380,7 +380,7 @@
     description: "Consume a Life Fruit.",
     type: "Explorer",
     notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt 'Get a life'.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Walk the Plank",
@@ -388,7 +388,7 @@
     description: "Defeat the Pirate Invasion for the first time.",
     type: "Slayer",
     notes: "'Walking the Plank' is a term used for when pre-modern pirates would coerce captives off of their ships and into the sea via a plank.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Completely Awesome",
@@ -396,7 +396,7 @@
     description: "Obtain the Minishark.",
     type: "Collector",
     notes: "A nod to the minishark's tooltip, Half shark, half gun, completely awesome.",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Robbing the Grave",
@@ -404,7 +404,7 @@
     description: "Obtain a rare item from an enemy in the post-Plantera Dungeon.",
     type: "Explorer",
     notes: "Pick up a weapon dropped by any post-Plantera enemy in the Dungeon. A reference to the term 'Grave robbery'",
-    percent: "%"
+    percent: "x.x%"
 },
 {
     name: "Buckets of Bolts",
