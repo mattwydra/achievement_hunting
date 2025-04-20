@@ -60,7 +60,7 @@
     description: "Craft your first Work Bench.",
     type: "Collector",
     notes: "May be a reference to an identical term in sports where a player is 'benched' from the deck play.",
-    percent: "%"
+    percent: "61.3%"
 },
 {
     name: "Heart Breaker",
