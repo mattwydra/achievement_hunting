@@ -12,7 +12,7 @@
     description: "Survive your first full night.",
     type: "Explorer",
     notes: "",
-    percent: "77.9%"
+    percent: "77.8%"
 },
 {
     name: "Ooo! Shiny!",
@@ -28,7 +28,7 @@
     description: "Successfully get an NPC to move into your first House.",
     type: "Explorer",
     notes: "A reference to the phrase 'no homo'.",
-    percent: "71.1%"
+    percent: "71.0%"
 },
 {
     name: "Matching Attire",
@@ -36,7 +36,7 @@
     description: "Equip armor pieces in all armor slots (pieces do not have to be from the same set).",
     type: "Collector",
     notes: "The armor set in the picture is Palladium armor. Does not have to be a matching set.",
-    percent: "68.7%"
+    percent: "68.6%"
 },
 {
     name: "Stop! Hammer Time!",
@@ -44,7 +44,7 @@
     description: "Obtain a Hammer.",
     type: "Collector",
     notes: "A reference to a lyric in the MC Hammer song, U Can't Touch This.",
-    percent: "67.6%"
+    percent: "67.5%"
 },
 {
     name: "I Am Loot!",
