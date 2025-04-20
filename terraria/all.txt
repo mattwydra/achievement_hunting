@@ -68,7 +68,7 @@
     description: "Find and break a Life Crystal.",
     type: "Explorer",
     notes: "This isn't granted if broken via Actuating the block(s) underneath the crystal. The name is a reference to the idiom of breaking someone's heart.",
-    percent: "%"
+    percent: "60.1%"
 },
 {
     name: "Star Power",
