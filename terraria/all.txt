@@ -108,7 +108,7 @@
     description: "Obtain any boss-summoning item.",
     type: "Collector",
     notes: "Truffle Worms, Celestial Sigils, Gelatin Crystals, Prismatic Lacewings and the Deer Thing do not count for this achievement. A reference to the song Like a Boss. It depicts (from left to right) the Worm Food, Suspicious Looking Eye, and Bloody Spine.",
-    percent: "%"
+    percent: "52.4%"
 },
 {
     name: "Bloodbath",
