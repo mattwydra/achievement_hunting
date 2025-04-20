@@ -76,7 +76,7 @@
     description: "Consume your first Mana Crystal.",
     type: "Collector",
     notes: "Possibly a reference to the mechanic of the same name within the Guitar Hero series.",
-    percent: "%"
+    percent: "59.4%"
 },
 {
     name: "Watch Your Step!",
