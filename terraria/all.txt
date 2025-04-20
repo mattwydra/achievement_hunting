@@ -92,7 +92,7 @@
     description: "Obtain your first Iron or Lead Anvil.",
     type: "Collector",
     notes: "A nod to the music genre of the same name, which is frequently referenced in-game: Plantera and its associated items, as well as the Blood Rain Bow.",
-    percent: "%"
+    percent: "54.7%"
 },
 {
     name: "Eye on You",
