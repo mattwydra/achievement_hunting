@@ -100,7 +100,7 @@
     description: "Defeat the Eye of Cthulhu for the first time.",
     type: "Slayer",
     notes: "Reference to the saying 'I've got my eye on you'.",
-    percent: "%"
+    percent: "52.4%"
 },
 {
     name: "Like a Boss",
