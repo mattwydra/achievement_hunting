@@ -132,7 +132,7 @@
     description: "Have a pair of Wings equipped.",
     type: "Collector",
     notes: "Fledgling Wings count towards this achievement. Fledgeling Wings (or possibly Angel Wings) are also the same ones depicted in the Achievement's image. Reference to the idiom of the same name, describing someone who is too distracted by their own imagination to notice things around them.",
-    percent: "x.x%"
+    percent: "51.8%"
 },
 {
     name: "Smashing, Poppet!",
