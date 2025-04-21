@@ -124,7 +124,7 @@
     description: "Equip a Grappling Hook.",
     type: "Collector",
     notes: "To get this achievement, the grappling hook needs to be in the grappling hook slot.",
-    percent: "x.x%"
+    percent: "52.2%"
 },
 {
     name: "Head in the Clouds",
