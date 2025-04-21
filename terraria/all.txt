@@ -172,7 +172,7 @@
     description: "Enter your first underground Spider Cave.",
     type: "Explorer",
     notes: "'Jeepers Creepers' is an expression of surprise or annoyance."
-    percent: "x.x%"
+    percent: "48.8%"
 },
 {
     name: "Vehicular Manslaughter",
