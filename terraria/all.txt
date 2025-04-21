@@ -180,7 +180,7 @@
     description: "Kill an enemy by running over it with a Minecart.",
     type: "Slayer",
     notes: "Killing an enemy with the Mechanical Cart's lasers will not work.",
-    percent: "x.x%"
+    percent: "48.8%"
 },
 {
     name: "Throwing Lines",
