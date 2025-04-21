@@ -164,7 +164,7 @@
     description: "Equip armor or vanity clothing in all three social slots.",
     type: "Collector",
     notes: "Also known as Vanity Armor slots.",
-    percent: "x.x%"
+    percent: "49.2%"
 },
 {
     name: "Jeepers Creepers",
