@@ -188,7 +188,7 @@
     description: "Throw a Yoyo for the first time.",
     type: "Challenger",
     notes: "",
-    percent: "x.x%"
+    percent: "47.2%"
 },
 {
     name: "Goblin Punter",
