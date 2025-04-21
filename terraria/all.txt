@@ -140,7 +140,7 @@
     description: "Smash your first Shadow Orb or Crimson Heart.",
     type: "Explorer",
     notes: "Reference to The Wild Thornberrys, an American animated television series that originally aired on Nickelodeon from 1998 to 2004. The catchphrase of the protagonist girl's father is 'Smashing' and he usually calls his daughter 'Poppet'.",
-    percent: "x.x%"
+    percent: "51.4%"
 },
 {
     name: "It's Getting Hot in Here",
