@@ -196,7 +196,7 @@
     description: "Defeat a Goblin Army for the first time.",
     type: "Slayer",
     notes: "Possible reference to a quote in The Hobbit.",
-    percent: "x.x%"
+    percent: "46.6%"
 },
 {
     name: "Marathon Medalist",
