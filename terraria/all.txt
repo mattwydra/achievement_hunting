@@ -156,7 +156,7 @@
     description: "Defeat Pinky for the first time.",
     type: "Slayer",
     notes: "Probably a reference to the 1986 American romantic comedy movie by the same name, Pretty in Pink.",
-    percent: "x.x%"
+    percent: "50.0%"
 },
 {
     name: "Fashion Statement",
