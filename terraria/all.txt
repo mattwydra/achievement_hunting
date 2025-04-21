@@ -148,7 +148,7 @@
     description: "Reach The Underworld for the first time.",
     type: "Explorer",
     notes: "Reference to the song Hot In Herre. The file name for the achievement misspells it as 'Its Hetting Hot in Here' (This was corrected in 1.4.0.1).",
-    percent: "x.x%"
+    percent: "50.3%"
 },
 {
     name: "Pretty in Pink",
