@@ -220,7 +220,7 @@
     description: "Defeat King Slime for the first time.",
     type: "Slayer",
     notes: "Shinobi is another word for Ninja, clearly referencing the ninja inside the King Slime.",
-    percent: "x.x%"
+    percent: "44.0%"
 },
 {
     name: "Hey! Listen!",
