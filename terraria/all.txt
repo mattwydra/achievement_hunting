@@ -228,7 +228,7 @@
     description: "Encounter a Fairy.",
     type: "Explorer",
     notes: "A reference to Navi, a character from The Legend of Zelda: Ocarina of Time.",
-    percent: "x.x%"
+    percent: "43.4%"
 },
 {
     name: "Into Orbit",
