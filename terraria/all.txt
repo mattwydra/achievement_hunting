@@ -236,7 +236,7 @@
     description: "Reach Space.",
     type: "Explorer",
     notes: "Reach the top of Space. Despite the achievement name, the player does not actually enter the orbit of the planet.",
-    percent: "x.x%"
+    percent: "42.7%"
 },
 {
     name: "Lucky Break",
