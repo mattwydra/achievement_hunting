@@ -260,7 +260,7 @@
     description: "Discover your first Bee Hive.",
     type: "Explorer",
     notes: "Natural hive walls must be behind the player. Note that if you destroy a Larva, you will summon the Queen Bee. A reference to the video game Where's My Water?.",
-    percent: "x.x%"
+    percent: "41.8%"
 },
 {
     name: "Dungeon Heist",
