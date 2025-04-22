@@ -204,7 +204,7 @@
     description: "Travel a total of 26.2 miles (69,168 tiles) on foot.",
     type: "Challenger",
     notes: "26.2 miles is equivalent to 69,168 tiles. This is a reference to how marathons typically require contenders to run 26.2 miles.",
-    percent: "x.x%"
+    percent: "45.8%"
 },
 {
     name: "Boned",
