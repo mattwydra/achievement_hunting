@@ -244,7 +244,7 @@
     description: "Survive a fall with not much health left.",
     type: "Challenger",
     notes: "With 500 health, a defense of 0 and no items to negate fall damage, the player must fall exactly 74 blocks. (70 HP)",
-    percent: "x.x%"
+    percent: "42.7%"
 },
 {
     name: "The Cavalry",
