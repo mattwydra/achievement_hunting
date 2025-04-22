@@ -252,7 +252,7 @@
     description: "Equip your first Mount.",
     type: "Collector",
     notes: "Calvary in battle are the soldiers who ride on mounts (or commonly in modern day society, vehicles), as opposed to infantry.",
-    percent: "x.x%"
+    percent: "42.6%"
 },
 {
     name: "Where's My Honey?",
