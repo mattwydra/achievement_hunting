@@ -276,7 +276,7 @@
     description: "Defeat the Queen Bee for the first time.",
     type: "Slayer",
     notes: "References Sting operations, a law enforcement tactic used to catch criminals via deception.",
-    percent: "x.x%"
+    percent: "40.2%"
 },
 {
     name: "Bulldozer",
