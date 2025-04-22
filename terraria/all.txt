@@ -268,7 +268,7 @@
     description: "Unlock your first Gold Chest within the Dungeon.",
     type: "Explorer",
     notes: "Achievement name is a reference to the 2011 heist comedy film Tower Heist.",
-    percent: "x.x%"
+    percent: "41.2%"
 },
 {
     name: "Sting Operation",
