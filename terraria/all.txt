@@ -212,7 +212,7 @@
     description: "Defeat Skeletron for the first time.",
     type: "Slayer",
     notes: "Reference to the word 'Owned', usually used when a person defeats an opponent in a game. May also be playing off the term 'boner.'",
-    percent: "x.x%"
+    percent: "44.1%"
 },
 {
     name: "Slippery Shinobi",
