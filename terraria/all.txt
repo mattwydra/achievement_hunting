@@ -343,20 +343,20 @@
     percent: "36.0"
 },
 {
-    name: "Mastermind",
-    quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
-    description: "Defeat the Brain of Cthulhu for the first time.",
-    type: "Slayer",
-    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions.",
-    percent: "35.8%"
-},
-{
     name: "Worm Fodder",
     quote: "Defeat the Eater of Worlds, a massive worm who dwells in the corruption.",
     description: "Defeat the Eater of Worlds for the first time.",
     type: "Slayer",
     notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it.",
     percent: "35.9%"
+},
+{
+    name: "Mastermind",
+    quote: "Defeat the Brain of Cthulhu, an enormous demon brain which haunts the creeping crimson.",
+    description: "Defeat the Brain of Cthulhu for the first time.",
+    type: "Slayer",
+    notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions.",
+    percent: "35.8%"
 },
 {
     name: "Deceiver of Fools",
