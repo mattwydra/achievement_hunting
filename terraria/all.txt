@@ -364,7 +364,7 @@
     description: "Defeat a Nymph for the first time.",
     type: "Slayer",
     notes: "Needs to be killed in Nymph form. Killing a Lost Girl before it transforms into a Nymph will not count.",
-    percent: "x.x%"
+    percent: "34.7%"
 },
 {
     name: "There are Some Who Call Him...",
