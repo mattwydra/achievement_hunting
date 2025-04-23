@@ -340,7 +340,7 @@
     description: "Mine your first Hardmode ore.",
     type: "Explorer",
     notes: "You can place down any Hardmode ore and mine it to get the achievement. Cobalt, Mythril, Adamantite, Palladium, Orichalcum, and Titanium are the only ores which count towards this achievement. The drill in the picture is a Cobalt Drill mining Mythril Ore.",
-    percent: "x.x%"
+    percent: "36.0"
 },
 {
     name: "Mastermind",
