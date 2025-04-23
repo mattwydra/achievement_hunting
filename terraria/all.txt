@@ -324,7 +324,7 @@
     description: "Smash a demon or crimson altar, using the Pwnhammer.",
     type: "Explorer",
     notes: "Any hammer with a hammer power of 80% or any method to break Altars will do, as long as the Altar is destroyed (can only be done in Hardmode).",
-    percent: "x.x%"
+    percent: "37.9%"
 },
 {
     name: "Til Death...",
