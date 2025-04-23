@@ -316,7 +316,7 @@
     description: "Survive the Slime Rain.",
     type: "Explorer",
     notes: "A sticky situation is a problem that is delicate or hard to solve/get out of.",
-    percent: "x.x%"
+    percent: "38.0%"
 },
 {
     name: "Begone, Evil!",
