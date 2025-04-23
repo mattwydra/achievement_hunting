@@ -300,7 +300,7 @@
     description: "Enter Hardmode.",
     type: "Explorer",
     notes: "You must defeat the Wall of Flesh in a pre-Hardmode world. You can get this achievement without the one above if you are in a pre-Hardmode world and someone else defeats the Wall of Flesh. The achievement image appears to show the various souls obtainable in Hardmode. Clockwise, starting from the top-left, it seems to be: Sight, Night, Fright, Light, Flight, and (barely visible) Might.",
-    percent: "x.x%"
+    percent: "39.7%"
 },
 {
     name: "Quiet Neighborhood",
