@@ -356,7 +356,7 @@
     description: "Defeat the Eater of Worlds for the first time.",
     type: "Slayer",
     notes: "Fodder is food for livestock, possibly referencing the Worm Food used to summon it.",
-    percent: "x.x%"
+    percent: "35.9%"
 },
 {
     name: "Deceiver of Fools",
