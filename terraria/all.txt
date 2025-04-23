@@ -348,7 +348,7 @@
     description: "Defeat the Brain of Cthulhu for the first time.",
     type: "Slayer",
     notes: "In the description of the Steam version of the achievement, 'enormous' is misspelled as 'enourmous'. A mastermind is a tactical and smart leader, possibly unintentionally referencing the control it has over its' Creeper minions.",
-    percent: "x.x%"
+    percent: "35.8%"
 },
 {
     name: "Worm Fodder",
