@@ -292,7 +292,7 @@
     description: "Defeat the Wall of Flesh for the first time.",
     type: "Slayer",
     notes: "Note that defeating the Wall of Flesh will initiate Hardmode in a pre-Hardmode world. Possibly a reference to the 1980's band 'Twisted Sister' and an album of the same name as the achievement.",
-    percent: "x.x%"
+    percent: "39.8%"
 },
 {
     name: "It's Hard!",
