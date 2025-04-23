@@ -332,7 +332,7 @@
     description: "Defeat The Groom for the first time.",
     type: "Slayer",
     notes: "Likely reference to traditional marriage vows found in the Book of Common Prayer and the Alternative Service Book which include the phrase 'til death do us part'.",
-    percent: "x.x%"
+    percent: "37.1%"
 },
 {
     name: "Extra Shiny!",
