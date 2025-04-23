@@ -308,7 +308,7 @@
     description: "Enter in a Graveyard for the first time.",
     type: "Explorer",
     notes: "The icon is possibly a reference to the movie Ghostbusters II.",
-    percent: "x.x%"
+    percent: "39.0%"
 },
 {
     name: "Sticky Situation",
