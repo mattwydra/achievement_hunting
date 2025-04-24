@@ -388,7 +388,7 @@
     description: "Defeat the Pirate Invasion for the first time.",
     type: "Slayer",
     notes: "'Walking the Plank' is a term used for when pre-modern pirates would coerce captives off of their ships and into the sea via a plank.",
-    percent: "x.x%"
+    percent: "32.6%"
 },
 {
     name: "Completely Awesome",
