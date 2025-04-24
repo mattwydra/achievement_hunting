@@ -372,7 +372,7 @@
     description: "Defeat Tim for the first time.",
     type: "Slayer",
     notes: "Reference to Tim the Enchanter from Monty Python and the Holy Grail, and his quote 'There are some who call me... Tim.'",
-    percent: "x.x%"
+    percent: "34.1%"
 },
 {
     name: "Get a Life",
