@@ -412,7 +412,7 @@
     description: "Defeat all three Mechanical Bosses.",
     type: "Slayer",
     notes: "In popular culture, this is often a term characters use to disparagingly refer to robots.",
-    percent: "x.x%"
+    percent: "31.2%"
 },
 {
     name: "Kill the Sun",
