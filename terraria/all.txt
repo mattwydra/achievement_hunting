@@ -428,7 +428,7 @@
     description: "Defeat Plantera for the first time.",
     type: "Slayer",
     notes: "Can only be summoned once the three Mechanical Bosses have been defeated. A reference to the heavy metal band Pantera's eighth album, The Great Southern Trendkill.",
-    percent: "x.x%"
+    percent: "29.8%"
 },
 {
     name: "Feeling Petty",
