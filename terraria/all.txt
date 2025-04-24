@@ -420,7 +420,7 @@
     description: "Survive a Solar Eclipse.",
     type: "Explorer",
     notes: "Possibly a reference to the German band Xandia's debut album of the same name.",
-    percent: "x.x%"
+    percent: "31.1%"
 },
 {
     name: "The Great Southern Plantkill",
