@@ -396,7 +396,7 @@
     description: "Obtain the Minishark.",
     type: "Collector",
     notes: "A nod to the minishark's tooltip, Half shark, half gun, completely awesome.",
-    percent: "x.x%"
+    percent: "31.8%"
 },
 {
     name: "Robbing the Grave",
