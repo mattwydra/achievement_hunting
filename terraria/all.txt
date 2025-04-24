@@ -452,7 +452,7 @@
     description: "Defeat Golem for the first time.",
     type: "Slayer",
     notes: "Post-Plantera. A reference to the singing competition television series American Idol.",
-    percent: "x.x%"
+    percent: "28.8%"
 },
 {
     name: "Funkytown",
