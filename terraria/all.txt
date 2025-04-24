@@ -444,7 +444,7 @@
     description: "Mine your first Chlorophyte Ore.",
     type: "Explorer",
     notes: "Placing Chlorophyte Ore down and then mining it also grants the achievement. A reference to Chlorophyte's resemblance to chlorophyll, green pigments in plants essential for photosynthesis.",
-    percent: "x.x%"
+    percent: "29.1%"
 },
 {
     name: "Lihzahrdian Idol",
