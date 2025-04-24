@@ -380,7 +380,7 @@
     description: "Consume a Life Fruit.",
     type: "Explorer",
     notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt 'Get a life'.",
-    percent: "x.x%"
+    percent: "33.0%"
 },
 {
     name: "Walk the Plank",
