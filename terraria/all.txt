@@ -436,7 +436,7 @@
     description: "Pet a Town pet.",
     type: "Challenger",
     notes: "",
-    percent: "x.x%"
+    percent: "29.5%"
 },
 {
     name: "Photosynthesis",
