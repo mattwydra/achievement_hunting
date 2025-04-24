@@ -404,7 +404,7 @@
     description: "Obtain a rare item from an enemy in the post-Plantera Dungeon.",
     type: "Explorer",
     notes: "Pick up a weapon dropped by any post-Plantera enemy in the Dungeon. A reference to the term 'Grave robbery'",
-    percent: "x.x%"
+    percent: "31.8%"
 },
 {
     name: "Buckets of Bolts",
