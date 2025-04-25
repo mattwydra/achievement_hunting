@@ -460,7 +460,7 @@
     description: "Craft a Molten Pickaxe.",
     type: "Collector",
     notes: "A play on the phrase '[job position] for hire.'",
-    percent: "x.x%"
+    percent: "28.3%"
 },
 {
     name: "Funkytown",
