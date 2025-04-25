@@ -500,7 +500,7 @@
     description: "Defeat the Lunatic Cultist for the first time.",
     type: "Slayer",
     notes: "Skeletron needs to be defeated in order for the Cultists to spawn. Post-Golem. Note that this will initiate the Lunar Events.",
-    percent: "x.x%"
+    percent: "26.7%"
 },
 {
     name: "Heliophobia",
