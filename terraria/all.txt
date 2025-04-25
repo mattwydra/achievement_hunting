@@ -455,19 +455,19 @@
     percent: "28.8%"
 },
 {
-    name: "Funkytown",
-    quote: "Build or encounter a glowing mushroom field above the surface.",
-    description: "Encounter an above-ground Glowing Mushroom biome.",
-    type: "Explorer",
-    notes: "Requires 100 Glowing Mushroom biome blocks. Shares the name with the 1980 Lipps, Inc. single Funkytown. Can sometimes be obtained by using a Magic Mirror, Ice Mirror or Cell Phone while in an Underground Glowing Mushroom biome. This is likely caused by lag.",
-    percent: "x.x%"
-},
-{
     name: "Miner for Fire",
     quote: "Craft a molten pickaxe using the hottest of materials.",
     description: "Craft a Molten Pickaxe.",
     type: "Collector",
     notes: "A play on the phrase '[job position] for hire.'",
+    percent: "x.x%"
+},
+{
+    name: "Funkytown",
+    quote: "Build or encounter a glowing mushroom field above the surface.",
+    description: "Encounter an above-ground Glowing Mushroom biome.",
+    type: "Explorer",
+    notes: "Requires 100 Glowing Mushroom biome blocks. Shares the name with the 1980 Lipps, Inc. single Funkytown. Can sometimes be obtained by using a Magic Mirror, Ice Mirror or Cell Phone while in an Underground Glowing Mushroom biome. This is likely caused by lag.",
     percent: "x.x%"
 },
 {
