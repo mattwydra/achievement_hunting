@@ -492,7 +492,7 @@
     description: "Die within 10 seconds after opening a Dead Man's Chest.",
     type: "Challenger",
     notes: "'Dead men tell no tales' is a well-known proverb, often used as a motive for murder. The Tooltip is a reference to the character Ian Malcolm's iconic line from Jurassic Park.",
-    percent: "x.x%"
+    percent: "27.2%"
 },
 {
     name: "Obsessive Devotion",
