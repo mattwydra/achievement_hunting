@@ -476,7 +476,7 @@
     description: "Spend over 1 gold total being treated by the Nurse.",
     type: "Challenger",
     notes: "It does not have to be all at once. You can get healed by the nurse every so often and it adds up.",
-    percent: "x.x%"
+    percent: "28.0%"
 },
 {
     name: "Topped Off",
