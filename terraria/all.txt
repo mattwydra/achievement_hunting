@@ -508,7 +508,7 @@
     description: "Turn a Gnome into a Garden Gnome.",
     type: "Challenger",
     notes: "Heliophobia is the fear of the sun. Note that Gnomes are likely to spawn inside a naturally generated Living Tree.",
-    percent: "x.x%"
+    percent: "26.6%"
 },
 {
     name: "Temple Raider",
