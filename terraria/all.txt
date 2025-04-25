@@ -468,7 +468,7 @@
     description: "Encounter an above-ground Glowing Mushroom biome.",
     type: "Explorer",
     notes: "Requires 100 Glowing Mushroom biome blocks. Shares the name with the 1980 Lipps, Inc. single Funkytown. Can sometimes be obtained by using a Magic Mirror, Ice Mirror or Cell Phone while in an Underground Glowing Mushroom biome. This is likely caused by lag.",
-    percent: "x.x%"
+    percent: "28.2%"
 },
 {
     name: "The Frequent Flyer",
