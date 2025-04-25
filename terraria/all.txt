@@ -524,7 +524,7 @@
     description: "Reach the very bottom of The Underworld.",
     type: "Explorer",
     notes: "Reach the bottom of The Underworld. 'Rock Bottom' is a common phrase used when someone as at their lowest or worst point. This is also approved by the description.",
-    percent: "x.x%"
+    percent: "25.7%"
 },
 {
     name: "Jolly Jamboree",
