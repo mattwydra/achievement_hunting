@@ -532,7 +532,7 @@
     description: "Throw a Party.",
     type: "Challenger",
     notes: "May be a reference to the Reader Rabbit song of the same name in Reader Rabbit Preschool.",
-    percent: "x.x%"
+    percent: "25.6%"
 },
 {
     name: "Champion of Terraria",
