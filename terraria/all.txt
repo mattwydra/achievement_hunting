@@ -484,7 +484,7 @@
     description: "Reach maximum health and mana.",
     type: "Challenger",
     notes: "500 health and 200 mana. Requires 15 Life Crystals, 20 Life Fruit, and 9 Mana Crystals.",
-    percent: "x.x%"
+    percent: "27.4%"
 },
 {
     name: "Dead Men Tell No Tales",
