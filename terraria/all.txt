@@ -516,7 +516,7 @@
     description: "Unlock the Jungle Temple's Lihzahrd Door.",
     type: "Collector",
     notes: "A reference to the Tomb Raider media franchise.",
-    percent: "x.x%"
+    percent: "26.5%"
 },
 {
     name: "Rock Bottom",
