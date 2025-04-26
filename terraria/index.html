@@ -381,6 +381,16 @@
         let currentFilter = 'all';
         let searchQuery = '';
 
+        // Function to convert achievement name to URL-friendly format
+        function slugify(text) {
+            return text
+                .toString()
+                .toLowerCase()
+                .replace(/[^\w\s-]/g, '')  // Remove special characters
+                .replace(/\s+/g, '-')      // Replace spaces with hyphens
+                .replace(/--+/g, '-');     // Replace multiple hyphens with single hyphen
+        }
+
         // Parse achievement data from text
         function parseAchievements(text) {
             // Regular expression to match each achievement block
@@ -464,19 +474,23 @@
 
             filteredAchievements.forEach(achievement => {
                 const isCompleted = completionStatus[achievement.name];
+                const achievementSlug = slugify(achievement.name);
+                const guidePath = `./achievements/${achievementSlug}/index.html`;
+
                 const cardHTML = `
           <div class="achievement-card ${isCompleted ? 'completed' : ''}">
             <div class="achievement-header">
               <h3>${achievement.name}</h3>
               <button class="completion-toggle ${isCompleted ? 'completed' : ''}" data-name="${achievement.name}"></button>
             </div>
-              <div><em>~${achievement.percent} of players</em></div>
+            <div><em>~${achievement.percent} of players</em></div>
             <div class="achievement-content">
               <div class="achievement-quote">"${achievement.quote}"</div>
               <p>${achievement.description}</p>
               <div class="achievement-type">${achievement.type}</div>
               ${achievement.notes ? `<div class="achievement-notes"><strong>Notes:</strong> ${achievement.notes}</div>` : ''}
             </div>
+            <div class="achievement-link" data-path="${guidePath}"></div>
           </div>
         `;
 
@@ -485,9 +499,27 @@
 
             // Add event listeners to toggle buttons
             document.querySelectorAll('.completion-toggle').forEach(button => {
-                button.addEventListener('click', function () {
+                button.addEventListener('click', function (e) {
+                    e.stopPropagation(); // Prevent triggering the card click
                     toggleAchievement(this.dataset.name);
                 });
+            });
+
+            // Add click event to achievement cards for redirection
+            document.querySelectorAll('.achievement-card').forEach(card => {
+                card.addEventListener('click', function (e) {
+                    // Don't navigate if the click was on the toggle button
+                    if (!e.target.classList.contains('completion-toggle') &&
+                        !e.target.closest('.completion-toggle')) {
+                        const linkElement = this.querySelector('.achievement-link');
+                        if (linkElement && linkElement.dataset.path) {
+                            window.location.href = linkElement.dataset.path;
+                        }
+                    }
+                });
+
+                // Add a cursor pointer to indicate clickability
+                card.style.cursor = 'pointer';
             });
 
             updateProgressBar();
