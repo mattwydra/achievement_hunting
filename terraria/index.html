@@ -475,7 +475,7 @@
             filteredAchievements.forEach(achievement => {
                 const isCompleted = completionStatus[achievement.name];
                 const achievementSlug = slugify(achievement.name);
-                const guidePath = `./achievements/${achievementSlug}/index.html`;
+                const guidePath = `./achievements/${achievementSlug}.html`;
 
                 const cardHTML = `
           <div class="achievement-card ${isCompleted ? 'completed' : ''}">
