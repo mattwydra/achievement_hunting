@@ -13,8 +13,8 @@ Standard Refinium
 Quality Refinium
 Exceptional Refinium
 Damascus Ingot
-Azurite's Splendor
 Mirage Munition
+Azurite's Splendor
 Copper Spellbook
 Silver Spellbook
 Gold Spellbook
@@ -65,9 +65,61 @@ Shining Orb
 Dark Shard
 Dark Orb
 Abysm Orb
+Bizarre Wing
+Bizarre Ice Spine
+Chilling Demon Eye
+Bleak Bone
+Bleak Armguard
+Frosty War Axe
+Purgatory Bone
+Purgatory Armguard
+Searing War Axe
+Griffin Feather
+Griffin Talon
+Giant Beak
+Landbeast Claw
+Landbeast Plate
+Landbeast Horn
+Frostbeast Claw
+Frostbeast Plate
+Frostbeast Horn
+Flamebeast Claw
+Flamebeast Plate
+Flamebeast Horn
+Mythril Wheel
+Condemnation Saw
+Ether Battery
+Extension Bracer
+Swivel Cannon
+Judgment Prongs
+Golem Finger
+Golem Rockjaw
+Crowning Parapet
+Chieftain's Braid
+Greatshield Fragment
+Broken Savage Sword
+Tayu'itar Head Unit
+Ukhar Core
+Silver Centrum
+Furycane Anima
+Furycane Omega Anima
+Vitality Hoof
+Managarmr Anima
+Managarmr Omega Anima
+Sequestered Mane
+Excavallion Anima
+Excavallion Omega Anima
+Fortified Hearth
+Vulkan Bolla Anima
+Vulkan Bolla Omega Anima
+Dreaded Tail
+Angra Mainyu Anima
+Angra Mainyu Omega Anima
+Calamitous Hand
+Calamity Corkscrew
+Reality Thorn
 Dragon Scale
 Dragon Wing
-Ancient Hollowpoint
 Red Dragon Scale
 Firewyem's Jewel
 Crimson Horn
@@ -86,23 +138,7 @@ Bright Horn
 Black Dragon Scale
 Blackwyrm's Jewel
 Abyssal Horn
-Furycane Anima
-Furycane Omega Anima
-Vitality Hoof
-Managarmr Anima
-Managarmr Omega Anima
-Sequestered Mane
-Excavallion Anima
-Excavallion Omega Anima
-Fortified Hearth
-Vulkan Bolla Anima
-Vulkan Bolla Omega Anima
-Dreaded Tail
-Angra Mainyu Anima
-Angra Mainyu Omega Anima
-Calamitous Hand
-Calamity Corkscrew
-Reality Thorn
+Ancient Hollowpoint
 Terror Urn
 Divinity Shackle
 Horn of Bahamut
@@ -128,42 +164,6 @@ Mana Circuit
 Chronos Core
 Lunary Detector
 Lunary Cell
-Landbeast Claw
-Landbeast Plate
-Landbeast Horn
-Chieftain's Braid
-Greatshield Fragment
-Broken Savage Sword
-Bizarre Wing
-Bizarre Ice Spine
-Chilling Demon Eye
-Bleak Bone
-Bleak Armguard
-Frosty War Axe
-Griffin Feather
-Griffin Talon
-Giant Beak
-Golem Finger
-Golem Rockjaw
-Crowning Parapet
-Purgatory Bone
-Purgatory Armguard
-Searing War Axe
-Mythril Wheel
-Condemnation Saw
-Ether Battery
-Extension Bracer
-Swivel Cannon
-Judgment Prongs
-Tayu'itar Haed Unit
-Ukhar Core
-Frostbeast Claw
-Frostbeast Plate
-Frostbeast Horn
-Flamebeast Claw
-Flamebeast Plate
-Flamebeast Horn
-Silver Centrum
 Glitterstone (S)
 Glitterstone (L)
 Glittercrystal
