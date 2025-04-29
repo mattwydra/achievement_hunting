@@ -1,0 +1,176 @@
+Fortitude Shard
+Fortitude Crystal (S)
+Fortitude Crystal (M)
+Fortitude Crystal (L)
+Prism Chip
+Flawed Prism
+Flawless Prism
+Rainbow Prism
+Champion Merit
+Supreme Merit
+Legendary Merit
+Standard Refinium
+Quality Refinium
+Exceptional Refinium
+Damascus Ingot
+Azurite's Splendor
+Mirage Munition
+Copper Spellbook
+Silver Spellbook
+Gold Spellbook
+Ambrosia
+Cobblestone
+Whorlshroom
+Tempestone
+Valley Bloom
+Charred Lumber
+Damaged Tail Fin
+Machine Unit
+High-Grade Scrap
+Ice Spire
+Snow Pillow
+Frosted Flower
+Eternal Snowflake
+Desert Ash
+Red-Hot Cactus
+Fornax Stone
+Electromagnetic Sand
+Magma Worm
+Salamander Egg
+Vermillion Powder
+Phondam Sulfur
+Busted Manikin
+Aviaeth Prayer Book
+Patalena Glass
+Bloomsword Hilt
+Welkin Reflection
+Dark Liquid
+Disast Ore
+Astral Mater
+Fire Shard
+Fire Orb
+Inferno Orb
+Water Shard
+Water Orb
+Frost Orb
+Earth Shard
+Earth Orb
+Rumbling Orb
+Wind Shard
+Wind Orb
+Cyclone Orb
+Light Shard
+Light Orb
+Shining Orb
+Dark Shard
+Dark Orb
+Abysm Orb
+Dragon Scale
+Dragon Wing
+Ancient Hollowpoint
+Red Dragon Scale
+Firewyem's Jewel
+Crimson Horn
+Blue Dragon Scale
+Icewyrm's Jewel
+Frozen Horn
+Brown Dragon Scale
+Earthwyrm's Jewel
+Terra Horn
+Green Dragon Scale
+Windwyrm's Jewel
+Typhoon Horn
+White Dragon Scale
+Whitewyrm's Jewel
+Bright Horn
+Black Dragon Scale
+Blackwyrm's Jewel
+Abyssal Horn
+Furycane Anima
+Furycane Omega Anima
+Vitality Hoof
+Managarmr Anima
+Managarmr Omega Anima
+Sequestered Mane
+Excavallion Anima
+Excavallion Omega Anima
+Fortified Hearth
+Vulkan Bolla Anima
+Vulkan Bolla Omega Anima
+Dreaded Tail
+Angra Mainyu Anima
+Angra Mainyu Omega Anima
+Calamitous Hand
+Calamity Corkscrew
+Reality Thorn
+Terror Urn
+Divinity Shackle
+Horn of Bahamut
+Protector's Pride
+Id Anamnesis
+Destrudo
+Alpha Wolf's Valor
+Gallanza Anamnesis
+Silver Wolf Clovis
+Bladecaller's Gambit
+Maglielle Anamnesis
+Cutthroat Fang
+Furycane Nihilla Core
+Nihilla-Cast Sword
+Managarmr Nihilla Core
+Nihilla Horn of Disdain
+Vulkan Bolla Nihilla Core
+Nihilla-Fused Dark Plasma
+Heliotrope Urn
+Demigod Feather
+Protocol Fiber
+Mana Circuit
+Chronos Core
+Lunary Detector
+Lunary Cell
+Landbeast Claw
+Landbeast Plate
+Landbeast Horn
+Chieftain's Braid
+Greatshield Fragment
+Broken Savage Sword
+Bizarre Wing
+Bizarre Ice Spine
+Chilling Demon Eye
+Bleak Bone
+Bleak Armguard
+Frosty War Axe
+Griffin Feather
+Griffin Talon
+Giant Beak
+Golem Finger
+Golem Rockjaw
+Crowning Parapet
+Purgatory Bone
+Purgatory Armguard
+Searing War Axe
+Mythril Wheel
+Condemnation Saw
+Ether Battery
+Extension Bracer
+Swivel Cannon
+Judgment Prongs
+Tayu'itar Haed Unit
+Ukhar Core
+Frostbeast Claw
+Frostbeast Plate
+Frostbeast Horn
+Flamebeast Claw
+Flamebeast Plate
+Flamebeast Horn
+Silver Centrum
+Glitterstone (S)
+Glitterstone (L)
+Glittercrystal
+Glittercrystal Cluster
+Rafale Coin
+Silver Dalia Badge
+Gold Dalia Badge
+Curio
+Crewmate Card
+Knickknack Voucher
