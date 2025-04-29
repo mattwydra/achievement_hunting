@@ -1,0 +1,1108 @@
+Fortitude Shard
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Easy Quest: Protect Our Woods
+    Easy Quest: Guard Our Hometown
+    Easy Quest: Bash the Goblin Hordes
+    Easy Quest: Fort Fumigation
+
+Fortitude Crystal (S)
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Normal Quest: Spare the Rod, Spoil the Valley
+    Normal Quest: Dagger Really Done Did It
+    Normal Quest: Sweep the Volcano
+    Hard Quest: I See a Flaming Vision
+
+Fortitude Crystal (M)
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: Wings of Rime
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Wings of Conflagration
+
+Fortitude Crystal (L)
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: Absolutely No Trespassers!
+    Very Hard Quest: Dark Refrain
+    Extreme Quest: Shedding Light on the Pillar
+    Extreme Quest: Great Goblins of Fire
+
+Prism Chip
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Normal Quest: Only You Can Prevent Forest Flyers
+    Hard Quest: Drumsticks au Griffin
+    Hard Quest: Looming Tower Leering Eye
+    Hard Quest: Collector’s Digest
+
+Flawed Prism
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: A Bone to Peak
+    Very Hard Quest: Golemology 102: Volcanic Golems
+    Very Hard Quest: Wings of Antiquity
+    Very Hard Quest: The Next Hot Topic
+    Very Hard Quest: I See a Deathly Vision
+
+Flawless Prism
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: General Investigation: Maglielle
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: To Know the Unknowable
+
+Rainbow Prism
+
+    Siero’s Knickknack Shack: Treasure Trade
+
+Champion Merit
+
+    Hard Quest: Drumsticks au Griffin
+    Hard Quest: I See a Flaming Vision
+    Very Hard Quest: A Bone to Peak
+    Very Hard Quest: Seeds of Trouble
+    Very Hard Quest: Wings of Antiquity
+
+Supreme Merit
+
+    Extreme Quest: Shedding Light on the Pillar
+    Extreme Quest: Great Goblins of Fire
+    Extreme Quest: Assault Formation!
+    Extreme Quest: Wings of Rime
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: Wings of Upheaval
+
+Legendary Merit
+
+    Maniac Quest: A Heated Rivalry
+    Maniac Quest: Armor ls Best Served Cold
+    Maniac Quest: Throw a Smith a Bone
+    Maniac Quest: Slimepede
+    Maniac Quest: I See a Grim Vision
+    Maniac Quest: Rumble in the Desert
+
+Standard Refinium
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Easy Quest: Tomorrow’s Prayers
+    Normal Quest: Saga Grande: The Beginning
+    Normal Quest: The Saga Continues: Ice
+    Normal Quest: The Saga Continues: Fire
+
+Quality Refinium:
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: Wings of Rime
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Wings of Conflagration
+    Maniac Quest: A Heated Rivalry
+
+Exceptional Refinium:
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: To Know the Unknowable
+    Extreme Quest: General Investigation: Maglielle
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: Saga Illustrated: Inferno
+
+Damascus Ingot
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Seedhollow Side Quest #55: Slime after Slime Reward
+
+Azurite’s Splendor
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Seedhollow Side Quest #56: A Vision of Gates Reward
+    Seedhollow Side Quest #57: Degoop the Farm Reward
+
+Mirage Munition
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: A Heated Rivalry
+    Maniac Quest: Armor ls Best Served Cold
+    Maniac Quest: Throw a Smith a Bone
+    Maniac Quest: I See a Grim Vision
+    Maniac Quest: Rumble in the Desert
+
+Copper Spellbook
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: Slimepede
+
+Silver Spellbook
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: To Know the Unknowable
+    Maniac Quest: Slimepede
+
+Gold Spellbook
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+
+Ambrosia
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Seedhollow Side Quest #54: Symbol of the Hordes Reward
+
+Cobblestone
+
+    Normal Quest: Only You Can Prevent Forest Flyers
+    Normal Quest: Saga Grande: The Beginning
+    Hard Quest: Drumsticks au Griffin
+    Hard Quest: Unthinning the Troops
+    Hard Quest: The Juice of Jealousy
+    Hard Quest: Delts of Our Lives
+
+Whorlshroom
+
+    Hard Quest: Drumsticks au Griffin
+    Very Hard Quest: I See a Deathly Vision
+    Very Hard Quest: Wings of Antiquity
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: License to Thril
+
+Tempestone
+
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: License to Thril
+    Maniac Quest: Death, Taxes, and Goblins
+    Maniac Quest: A New Breed
+    Maniac Quest: Golemology 103: Forest Golems
+
+Valley Bloom
+
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: License to Thril
+    Maniac Quest: Death, Taxes, and Goblins
+    Maniac Quest: A New Breed
+    Maniac Quest: Golemology 103: Forest Golems
+
+Charred Lumber
+
+    Easy Quest: Make Our Skies Safe Again
+    Hard Quest: Rule the Skies
+
+Damaged Tail Fin
+
+    Easy Quest: Make Our Skies Safe Again
+    Hard Quest: Rule the Skies
+    Very Hard Quest: Seeds of Trouble
+    Extreme Quest: Assault Formation!
+
+Machine Unit
+
+    Hard Quest: Rule the Skies
+    Very Hard Quest: Seeds of Trouble
+    Extreme Quest: Assault Formation!
+
+High-Grade Scrap
+
+    Extreme Quest: Assault Formation!
+
+Ice Spire
+
+    Normal Quest: Eye Have a Problem
+    Normal Quest: Spare the Rod, Spoil the Valley
+    Normal Quest: The Saga Continues: Ice
+    Hard Quest: Hide and Chic
+
+Snow Pillow
+
+    Normal Quest: Eye Have a Problem
+    Hard Quest: Hide and Chic
+    Very Hard Quest: A Bone to Peak
+    Extreme Quest: Wings of Rime
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: Saga Illustrated: The Beginning
+
+Frosted Flower
+
+    Extreme Quest: Wings of Rime
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: Saga Illustrated: The Beginning
+    Manaic Quest: Armor Is Best Served Cold
+    Manaic Quest: Throw a Smith a Bone
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Eternal Snowflake
+
+    Extreme Quest: Wings of Rime
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: Saga Illustrated: The Beginning
+    Manaic Quest: Armor Is Best Served Cold
+    Manaic Quest: Throw a Smith a Bone
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Desert Ash
+
+    Normal Quest:  Dagger Really Done Did It
+    Normal Quest: Golemology 101: Desert Golems
+    Normal Quest: Rilla Done Did It
+    Hard Quest: Collector’s Digest
+    Hard Quest: Protect the Rep
+
+Red-Hot Cactus
+
+    Normal Quest:  Dagger Really Done Did It
+    Normal Quest: Golemology 101: Desert Golems
+    Normal Quest: Rilla Done Did It
+    Hard Quest: Collector’s Digest
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Learning from the Past
+
+Fornax Stone
+
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Learning from the Past
+    Maniac Quest: Rumble in the Desert
+
+Electromagnetic Sand
+
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Learning from the Past
+    Maniac Quest: Rumble in the Desert
+
+Magma Worm
+
+    Normal Quest: The Saga Continues: Fire
+    Normal Quest: Sweep the Volcano
+    Hard Quest: I See a Flaming Vision
+
+Salamander Egg
+
+    Very Hard Quest: Absolutely No Trespassers!
+    Very Hard Quest: Golemology 102: Volcanic Golems
+    Very Hard Quest: The Next Hot Topic
+    Extreme Quest: Great Goblins of Fire
+    Extreme Quest: Wings of Conflagration
+    Extreme Quest: Saga Illustrated: Inferno
+
+Vermillion Powder
+
+    Very Hard Quest: Absolutely No Trespassers!
+    Extreme Quest: Wings of Conflagration
+    Extreme Quest: Saga Illustrated: Inferno
+    Extreme Quest: Great Goblins of Fire
+    Maniac Quest: A Heated Rivalry
+    Maniac Quest: Hope in the Machine
+
+Phondam Sulfur
+
+    Extreme Quest: Wings of Conflagration
+    Extreme Quest: Saga Illustrated: Inferno
+    Extreme Quest: Great Goblins of Fire
+    Maniac Quest: A Heated Rivalry
+    Maniac Quest: Hope in the Machine
+
+Busted Manikin
+
+    Normal Quest: I See a Bloody Vision
+    Normal Quest: On the Front Lines
+
+Aviaeth Prayer Book
+
+    Normal Quest: I See a Bloody Vision
+    Normal Quest: On the Front Lines
+    Very Hard Quest: No One Likes Leftovers
+    Very Hard Quest: Seeds of Trouble
+    Extreme Quest: General Investigation: Maglielle
+
+Patalena Glass
+
+    Very Hard Quest: No One Likes Leftovers
+    Very Hard Quest: Seeds of Trouble
+    Extreme Quest: General Investigation: Maglielle
+    Maniac Quest: Slimepede
+    Maniac Quest: I See a Grim Vision
+
+Bloomsword Hilt
+
+    Extreme Quest: General Investigation: Maglielle
+    Maniac Quest: Slimepede
+    Maniac Quest: Saga Illustrated: Veil
+    Maniac Quest: Id Bears Repeating
+    Maniac Quest: I See a Grim Vision
+    Proud Quest: The Wolf and the Veil
+
+Welkin Reflection
+
+    Hard Quest: Looming Tower, Leering Eye
+
+Dark Liquid
+
+    Hard Quest: Looming Tower, Leering Eye
+    Very Hard Quest: Dark Refrain
+    Extreme Quest: Shedding Light on the Pillar
+    Extreme Quest:  To Know the Unknowable
+
+Disast Ore
+
+    Very Hard Quest: Dark Refrain
+    Extreme Quest:  To Know the Unknowable
+    Extreme Quest: Shedding Light on the Pillar
+
+Astral Mater
+
+    Extreme Quest:  To Know the Unknowable
+    Extreme Quest: Shedding Light on the Pillar
+
+Fire Shard
+
+    Normal Quest: The Saga Continues: Fire
+    Very Hard Quest: The Next Hot Topic
+    Very Hard Quest: Wings of Antiquity
+    Extreme Quest: Saga Illustrated: Inferno
+
+Fire Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: The Next Hot Topic
+    Very Hard Quest: Wings of Antiquity
+    Extreme Quest: Saga Illustrated: Inferno
+    Extreme Quest: Shedding Light on the Pillar
+    Maniac Quest: A Heated Rivalry
+
+Inferno Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: Saga Illustrated: Inferno
+    Maniac Quest: A Heated Rivalry
+
+Water Shard
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Normal Quest: The Saga Continues: Ice
+    Hard Quest: Looming Tower, Leering Eye
+    Hard Quest: Hide and Chic
+    Very Hard Quest: A Bone to Peak
+    Extreme Quest: Saga Illustrated: The Beginning
+
+Water Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: A Bone to Peak
+    Extreme Quest: Saga Illustrated: The Beginning
+    Maniac Quest: Armor ls Best Served Cold
+    Maniac Quest: Throw a Smith a Bone
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Frost Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: Saga Illustrated: The Beginning
+    Maniac Quest: Armor ls Best Served Cold
+    Maniac Quest: Throw a Smith a Bone
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Earth Shard
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Hard Quest: Protect the Rep
+    Hard Quest: Delts of Our Lives
+    Very Hard Quest: Golemology 102: Volcanic Golems
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: Learning from the Past
+
+Earth Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: Golemology 102: Volcanic Golems
+    Extreme Quest: General Investigation: Gallanza
+    Maniac Quest: Rumble in the Desert
+    Maniac Quest: Death, Taxes, and Goblins
+    Maniac Quest: Golemology 103: Forest Golems
+
+Rumbling Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: General Investigation: Gallanza
+    Extreme Quest: Learning from the Past
+    Maniac Quest: Rumble in the Desert
+    Maniac Quest: Death, Taxes, and Goblins
+    Maniac Quest: Golemology 103: Forest Golems
+
+Wind Shard
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Easy Quest: Protect Our Woods
+    Normal Quest: Saga Grande: The Beginning
+    Normal Quest: Only You Can Prevent Forest Flyers
+    Hard Quest: Drumsticks au Griffin
+    Extreme Quest: License to Thrill
+
+Wind Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Hard Quest: Drumsticks au Griffin
+    Very Hard Quest: A New Breed
+    Extreme Quest: License to Thrill
+
+Cyclone Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: License to Thrill
+    Maniac Quest: A New Breed
+
+Light Shard
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Normal Quest: I See a Bloody Vision
+    Very Hard Quest: No One Likes Leftovers
+    Very Hard Quest: Seeds of Trouble
+    Extreme Quest: General Investigation: Maglielle
+
+Light Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: No One Likes Leftovers
+    Extreme Quest: General Investigation: Maglielle
+    Extreme Quest: Shedding Light on the Pillar
+    Maniac Quest: Hope in the Machine
+
+Shining Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: No One Likes Leftovers
+    Extreme Quest: General Investigation: Maglielle
+    Maniac Quest: Hope in the Machine
+
+Dark Shard
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Normal Quest: I See a Bloody Vision
+    Very Hard Quest: I See a Deathly Vision
+    Very Hard Quest: Dark Refrain
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: To Know the Unknowable
+
+Dark Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: I See a Deathly Vision
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: To Know the Unknowable
+    Extreme Quest: Shedding Light on the Pillar
+    Maniac Quest: I See a Grim Vision
+
+Abysm Orb
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Extreme Quest: General Investigation: Id
+    Extreme Quest: To Know the Unknowable
+    Maniac Quest: I See a Grim Vision
+
+Dragon Scale
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: Wings of Antiquity
+    Extreme Quest: Wings of Rime
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Wings of Conflagration
+
+Dragon Wing
+
+    Siero’s Knickknack Shack: Treasure Trade
+    Very Hard Quest: Wings of Antiquity
+    Extreme Quest: Wings of Rime
+    Extreme Quest: Wings of the Storm
+    Extreme Quest: Wings of Upheaval
+    Extreme Quest: Wings of Conflagration
+
+Ancient Hollowpoint
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Very Hard Quest: Wings of Antiquity
+
+Red Dragon Scale
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Conflagration
+
+Firewyem’s Jewel
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Conflagration
+
+Crimson Horn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Conflagration
+
+Blue Dragon Scale
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Rime
+
+Icewyrm’s Jewel
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Rime
+
+Frozen Horn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Rime
+
+Brown Dragon Scale
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Upheaval
+
+Earthwyrm’s Jewel
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Upheaval
+
+Terra Horn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of Upheaval
+
+Green Dragon Scale
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of the Storm
+
+Windwyrm’s Jewel
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of the Storm
+
+Typhoon Horn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Wings of the Storm
+
+White Dragon Scale
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: Thunderbolts and Lightning
+
+Whitewyrm’s Jewel
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: Thunderbolts and Lightning
+
+Bright Horn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: Thunderbolts and Lightning
+
+Black Dragon Scale
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: Into the Abyss
+
+Blackwyrm’s Jewel
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: Into the Abyss
+
+Abyssal Horn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: Into the Abyss
+
+Furycane Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: License to Thrill
+
+Furycane Omega Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: License to Thrill
+
+Vitality Hoof
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: The Saga Continues: Wind
+
+Managarmr Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: Saga Illustrated: The Beginning
+    Maniac Quest: Saga Illustrated: Crystal
+
+Managarmr Omega Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: Saga Illustrated: The Beginning
+    Maniac Quest: Saga Illustrated: Crystal
+
+Sequestered Mane
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: Saga Illustarated: Crystal
+
+Excavallion Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: Learning from the Past
+
+Excavallion Omega Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: Learning from the Past
+
+Fortified Hearth
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: The Saga Continues: Earth
+
+Vulkan Bolla Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: Saga Illustrated: Inferno
+
+Vulkan Bolla Omega Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: Saga Illustrated: Inferno
+
+Dreaded Tail
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: Saga Illustrated: Hellfire
+
+Angra Mainyu Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: To Know the Unknowable
+
+Angra Mainyu Omega Anima
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: To Know the Unknowable
+
+Calamitous Hand
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: Saga Grande: Happily Ever After
+
+Calamity Corkscrew
+
+    Extreme Quest: To Know the Unknowable
+    Maniac Quest: Saga Grande: Happily Ever After
+
+Reality Thorn
+
+    Proud Quest: The Tale of Bahamut’s Rage
+
+Terror Urn
+
+    Proud Quest: The Tale of Bahamut’s Rage
+
+Divinity Shackle
+
+    Proud Quest: The Tale of Bahamut’s Rage
+
+Horn of Bahamut
+
+    Proud Quest: The Tale of Bahamut’s Rage
+
+Protector’s Pride
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: General Investigation: Id
+
+Id Anamnesis
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: General Investigation: Id
+
+Destrudo
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: Id Bears Repeating
+    Proud Quest: The Wolf and the Veil
+
+Alpha Wolf’s Valor
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: General Investigation: Gallanza
+
+Gallanza Anamnesis
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: General Investigation: Gallanza
+
+Silver Wolf Clovis
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: The Saga Continues: Silver
+    Proud Quest: The Wolf and the Veil
+
+Bladecaller’s Gambit
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: General Investigation: Maglielle
+
+Maglielle Anamnesis
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Extreme Quest: General Investigation: Maglielle
+
+Cutthroat Fang
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Maniac Quest: Saga Illustrated: Veil
+    Proud Quest: The Wolf and the Veil
+
+Furycane Nihilla Core
+
+    Proud Quest: Calamity Incarnate
+
+Nihilla-Cast Sword
+
+    Proud Quest: Calamity Incarnate
+
+Managarmr Nihilla Core
+
+    Proud Quest: As Fierce as the Silver Wolf
+
+Nihilla Horn of Disdain
+
+    Proud Quest: As Fierce as the Silver Wolf
+
+Vulkan Bolla Nihilla Core
+
+    Proud Quest: Memories of Fire
+
+Nihilla-Fused Dark Plasma
+
+    Proud Quest: Memories of Fire
+
+Heliotrope Urn
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: The Final Report
+
+Demigod Feather
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Proud Quest: The Final Report
+
+Protocol Fiber
+
+    Proud Quest: The Automagod Strikes Back
+
+Mana Circuit
+
+    Proud Quest: The Automagod Strikes Back
+
+Chronos Core
+
+    Proud Quest: The Automagod Strikes Back
+
+Lunary Detector
+
+    Proud Quest: The Automagod Strikes Back
+
+Lunary Cell
+
+    Proud Quest: The Automagod Strikes Back
+
+Landbeast Claw
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Easy Quest: Worried about Papa
+    Hard Quest: Protect the Rep
+
+Landbeast Plate
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Easy Quest: Worried about Papa
+    Hard Quest: Protect the Rep
+    Maniac Quest: Rumble in the Desert
+
+Landbeast Horn
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest: Protect the Rep
+    Maniac Quest: Rumble in the Desert
+
+Chieftain’s Braid
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Easy Quest: Defeat 一 *wheeze* 一 Goblin Boss
+    Hard Quest Delts of Our Lives
+
+Greatshield Fragment
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Easy Quest: Defeat 一 *wheeze* 一 Goblin Boss
+    Hard Quest Delts of Our Lives
+    Maniac Quest Death, Taxes and Goblins
+
+Broken Savage Sword
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest Delts of Our Lives
+    Maniac Quest Death, Taxes and Goblins
+
+Bizarre Wing
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: Eye Have a Problem
+    Hard Quest: Looming Tower, Leering Eye
+
+Bizarre Ice Spine
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: Eye Have a Problem
+    Hard Quest: Looming Tower, Leering Eye
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Chilling Demon Eye
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest: Looming Tower, Leering Eye
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Bleak Bone
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: A Bone to Peak
+
+Bleak Armguard
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: A Bone to Peak
+    Maniac Quest: Throw a Smith a Bone
+
+Frosty War Axe
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: A Bone to Peak
+    Maniac Quest: Throw a Smith a Bone
+
+Griffin Feather
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: Only You Can Prevent Forest Flyers
+    Hard Quest: Drumsticks au Griffin
+
+Griffin Talon
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: Only You Can Prevent Forest Flyers
+    Hard Quest: Drumsticks au Griffin
+    Maniac Quest A New Breed
+
+Giant Beak
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest: Drumsticks au Griffin
+    Maniac Quest A New Breed
+
+Golem Finger
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: Golemology 101: Desert Golems
+    Very Hard Quest: Golemology 102: Volcanic Golems
+
+Golem Rockjaw
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: Golemology 101: Desert Golems
+    Very Hard Quest: Golemology 102: Volcanic Golems
+    Maniac Quest: Golemology 103: Forest Golems
+    Maniac Quest: Boss Done Wants It Did
+
+Crowning Parapet
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: Golemology 102: Volcanic Golems
+    Maniac Quest: Golemology 103: Forest Golems
+    Maniac Quest: Boss Done Wants It Did
+
+Purgatory Bone
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: I See a Bloody Vision
+    Very Hard Quest: I See a Deathly Vision
+
+Purgatory Armguard
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Normal Quest: I See a Bloody Vision
+    Very Hard Quest: I See a Deathly Vision
+    Maniac Quest: I See a Grim Vision
+    Maniac Quest: Hallowed Be Thy Ground
+
+Searing War Axe
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: I See a Deathly Vision
+    Maniac Quest: I See a Grim Vision
+    Maniac Quest: Hallowed Be Thy Ground
+
+Mythril Wheel
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: No One Likes Leftovers
+
+Condemnation Saw
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: No One Likes Leftovers
+    Maniac Quest: Hope in the Machine
+
+Ether Battery
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: No One Likes Leftovers
+    Maniac Quest: Hope in the Machine
+
+Extension Bracer
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Maniac Quest: Know Your Enemy
+
+Swivel Cannon
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Maniac Quest: Know Your Enemy
+
+Judgment Prongs
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Maniac Quest: Know Your Enemy
+
+Tayu’itar Haed Unit
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: No One Likes Leftovers
+    Maniac Quest: Hope in the Machine
+
+Ukhar Core
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Maniac Quest: Know Your Enemy
+
+Frostbeast Claw
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest: Hide and Chic
+
+Frostbeast Plate
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest: Hide and Chic
+    Maniac Quest: Armor Is Best Served Cold
+
+Frostbeast Horn
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Hard Quest: Hide and Chic
+    Maniac Quest: Armor Is Best Served Cold
+
+Flamebeast Claw
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: The Next Hot Topic
+
+Flamebeast Plate
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: The Next Hot Topic
+    Maniac Quest: A Heated Rivalry
+
+Flamebeast Horn
+
+    Siero’s Knickknack Shack: Treasure Trade/Trade Dalia Badges
+    Very Hard Quest: The Next Hot Topic
+    Maniac Quest: A Heated Rivalry
+
+Silver Centrum
+
+    Maniac Quest: A Heated Rivalry
+    Maniac Quest: Armor ls Best Served Cold
+    Maniac Quest: Throw a Smith a Bone
+    Maniac Quest: I See a Grim Vision
+    Maniac Quest: Rumble in the Desert
+    Maniac Quest: Icy Eye on the Holy Prize
+
+Glitterstone (S)
+
+    Easy Quest: Fort Fumigation
+    Normal Quest: Rilla Done Did It
+    Normal Quest: Spare the Rod, Spoil the Valley
+    Hard Quest: The Juice of Jealousy
+    Very Hard Quest: Seeds of Trouble
+    Maniac Quest: Slimepede
+
+Glitterstone (L)
+
+    Hard Quest: Coillector’s Digest
+    Hard Quest: The Juice of Jealousy
+    Very Hard Quest: Dark Refrain
+    Extreme Quest: Assult Formation!
+    Maniac Quest: Slimepede
+
+Glittercrystal
+
+    Hard Quest: Coillector’s Digest
+    Hard Quest: The Juice of Jealousy
+    Very Hard Quest: Dark Refrain
+    Extreme Quest: Assult Formation!
+    Maniac Quest: Slimepede
+
+Glittercrystal Cluster
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Extreme Quest: Assult Formation!
+    Maniac Quest: Slimepede
+
+Rafale Coin:
+
+    Can be obtained from any Quest
+
+Silver Dalia Badge
+
+    Quick Quest
+
+Gold Dalia Badge
+
+    Quick Quest
+
+Curio
+
+    Can be obtained from any Quest
+
+Crewmate Card
+
+    Unlocked During story
+    Unlocked During story
+    Unlocked During story
+    Unlocked after unlocking Hard Quest Difficulty
+    First-Clear Reward for the Quest Saga Grande: The Beginning
+    First-Clear Reward for the Quest The Saga Continues: Ice, (Unlocks after beating the previous Quest)
+    First-Clear Reward for the Quest The Saga Continues: Fire, (Unlocks after beating the previous Quest)
+    First-Clear Reward for the Quest Hide and Chic
+    First-Clear Reward for the Rank Up Quest Wings of Antiquity
+    First-Clear Reward for the Quest No One Likes Leftovers
+    Unlocked after unlocking Extreme Quest Difficulty
+    Unlocked from Siero’s Knickknack Shack: Trade Dalia Badges. You will need 7 Gold Dalia Badges to unlock it, which are only obtainable through a Quick Quest, This can be done offline but the drop rate for them Offline compared to Online is extremely low and may take many attempts to get.
+
+Knickknack Voucher
+
+    Siero’s Knickknack Shack: Trade Dalia Badges
+    Very Hard Quest:
+    I See a Deathly Vision
+    Extreme Quest: To Know the Unknowable
+    Maniac Quest: A Heated Rivalry
+    Maniac Quest: Armor ls Best Served Cold
+    Maniac Quest: Throw a Smith a Bone
