@@ -372,7 +372,7 @@
               <p><strong>Category:</strong> ${achievement.category}</p>
             </div>
             <div class="achievement-footer">
-              <a href="achievements/${achievement.id}/index.html" class="view-guide-btn">View Guide</a>
+              <a href="${achievement.id}/index.html" class="view-guide-btn">View Guide</a>
             </div>
           </div>
         `;
@@ -397,7 +397,7 @@
           }
 
           // Navigate to the achievement guide
-          window.location.href = `achievements/${this.dataset.id}/index.html`;
+          window.location.href = `${this.dataset.id}/index.html`;
         });
       });
 
