@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls Guide</title>
+    <style>
+        :root {
+            --background: #121212;
+            --surface: #1e1e1e;
+            --primary: #e2c292;
+            --text: #e0e0e0;
+            --secondary-text: #aaaaaa;
+            --accent: #f39040;
+            --completed: #4caf50;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+            color: var(--text);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-blend-mode: overlay;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("bg_img.jpg");
+            background-size: contain;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: var(--primary);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Trajan Pro', 'Times New Roman', serif;
+            letter-spacing: 1px;
+        }
+
+        .game-info {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border: 1px solid #333;
+        }
+
+        .navigation-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            margin-bottom: 25px;
+        }
+
+        .navigation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .navigation-card {
+            background: var(--surface);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            border: 1px solid #333;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
+            text-align: center;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navigation-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            border-color: var(--accent);
+        }
+
+        .navigation-header {
+            padding: 15px;
+            border-bottom: 1px solid #333;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .navigation-header h3 {
+            margin: 0;
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+
+        .navigation-content {
+            padding: 15px;
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navigation-content p {
+            margin: 0;
+        }
+
+        .nav-icon {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-text);
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            .navigation-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dark Souls: Remastered Guide</h1>
+    </header>
+
+    <div class="game-info">
+        <h2>Welcome, Chosen Undead</h2>
+        <p>Thou who art Undead, art chosen. In thine exodus from the Undead Asylum, maketh pilgrimage to the land of
+            Ancient
+            Lords. When thou ringeth the Bell of Awakening, the fate of the Undead thou shalt know.</p>
+        <p>Choose your path below to explore different aspects of this comprehensive Dark Souls guide.</p>
+    </div>
+
+    <div class="navigation-container">
+        <div class="navigation-grid">
+            <div class="navigation-card" onclick="window.location.href='achievements/index.html'">
+                <div class="navigation-header">
+                    <h3>Achievements</h3>
+                </div>
+                <div class="navigation-content">
+                    <div>
+                        <div class="nav-icon">🏆</div>
+                        <p>Track and complete all achievements</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation-card" onclick="window.location.href='bosses/index.html'">
+                <div class="navigation-header">
+                    <h3>Bosses</h3>
+                </div>
+                <div class="navigation-content">
+                    <div>
+                        <div class="nav-icon">⚔️</div>
+                        <p>Strategies for defeating all bosses</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation-card" onclick="window.location.href='areas/index.html'">
+                <div class="navigation-header">
+                    <h3>Areas</h3>
+                </div>
+                <div class="navigation-content">
+                    <div>
+                        <div class="nav-icon">🗺️</div>
+                        <p>Guides for all locations in Lordran</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Dark Souls: Remastered Guide - Praise the Sun!</p>
+    </footer>
+</body>
+
+</html>
