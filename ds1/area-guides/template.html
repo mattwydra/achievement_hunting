@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[guide name] guide</title>
+    <style>
+        :root {
+            --background: #121212;
+            --surface: #1e1e1e;
+            --primary: #e2c292;
+            --text: #e0e0e0;
+            --secondary-text: #aaaaaa;
+            --accent: #f39040;
+            --completed: #4caf50;
+        }
+
+        body {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+            color: var(--text);
+            z-index: 1;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../../bg_img.jpg");
+            background-size: contain;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: var(--primary);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Trajan Pro', 'Times New Roman', serif;
+            letter-spacing: 1px;
+        }
+
+        header a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 1rem;
+            color: var(--secondary-text);
+        }
+
+        .breadcrumbs a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .guide-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border: 1px solid #333;
+        }
+
+        .guide-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .guide-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .guide-title {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+        }
+
+        .guide-description {
+            font-style: italic;
+            color: var(--secondary-text);
+            margin: 0;
+        }
+
+        .difficulty-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: #3ce759;
+            color: white;
+        }
+
+        .guide-section {
+            margin-bottom: 30px;
+        }
+
+        .guide-section h3 {
+            color: var(--primary);
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .weapon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .weapon-card {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            border: 1px solid #333;
+        }
+
+        .weapon-card h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .weapon-card .location {
+            color: var(--secondary-text);
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-text);
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            .weapon-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dark Souls: Remastered Guides</h1>
+    </header>
+
+    <div class="breadcrumbs">
+        <a href="../../index.html">Home</a> >
+        <a href="../index.html">Dark Souls: Remastered</a> >
+        [guide name] guide
+    </div>
+
+    <div class="guide-container">
+        <div class="guide-header">
+            <div class="guide-info">
+                <h2 class="guide-title">[guide name] guide</h2>
+                <p class="guide-description">[guide name] guide</p>
+            </div>
+            <span class="difficulty-tag">[diff]</span>
+        </div>
+
+        <div class="guide-section">
+            <h3>Overview</h3>
+            <p>Quick tagline.</p>
+            <p>Deeper explanation.</p>
+        </div>
+
+        <div class="guide-section">
+            <h3>Additional Information</h3>
+            <p>Information on [input]:</p>
+            <ol>
+                <li>.</li>
+                <li>
+                    nested list:
+                    <ul>
+                        <li>.</li>
+                        <li>
+                            nested list:
+                            <ul>
+                                <li>.</li>
+                                <li>.</li>
+                                <li>.</li>
+                                <li>.</li>
+                            </ul>
+                            <strong>Note:</strong> note
+                        </li>
+                        <li>.</li>
+                        <li>.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="guide-section">
+            <h3>Additional Information</h3>
+            <p>Information on [input]:</p>
+            <ol>
+                <li>.</li>
+                <li>
+                    nested list:
+                    <ul>
+                        <li>.</li>
+                        <li>
+                            nested list:
+                            <ul>
+                                <li>.</li>
+                                <li>.</li>
+                                <li>.</li>
+                                <li>.</li>
+                            </ul>
+                            <strong>Note:</strong> note
+                        </li>
+                        <li>.</li>
+                        <li>.</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <a href="../../index.html" class="back-button">Back to All Guides</a>
+    </div>
+
+    <footer>
+        <p>Dark Souls: Remastered Guides - Praise the Sun!</p>
+    </footer>
+</body>
+
+</html>
