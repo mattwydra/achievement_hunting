@@ -1,1 +1,1 @@
-# Way of White Guide
+# Chaos Servant Guide
