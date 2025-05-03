@@ -1,14 +1,16 @@
 # Guides
 
 ## Completed:
-- Enkindle
-- Estus Flask
+- [Enkindle](https://mattwydra.github.io/achievement_hunting/ds1/achievements/enkindle/index.html)
+- [Estus Flask](https://mattwydra.github.io/achievement_hunting/ds1/achievements/estus-flask/index.html)
+- [Covenant: Way of White](https://mattwydra.github.io/achievement_hunting/ds1/achievements/covenant-way-of-white/index.html)
+
+## In development:
 - Knight's Honor
 
 ## Only template:
 - Reach Lordran
 - Ring The Bell (Undead Church)
-- Covenant: Way of White
 - Ring The Bell (Quelaag's Domain)
 - Reach Anor Londo
 - Lordvessel
