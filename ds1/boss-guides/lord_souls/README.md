@@ -1,0 +1,1 @@
+# Directory for lord soul bosses
