@@ -266,8 +266,15 @@
             <h2>Story Achievements</h2>
 
             <div class="achievement-card" data-name="Chapter 1">
-                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter1')">Chapter 1</a>
-                </h3>
+                <div class="achievement-container">
+                    <div class="achievement-header">
+                        <h3 class="achievement-title">
+                            <a href="#" onclick="toggleAchievementDetails('chapter1')">Chapter 1</a>
+                        </h3>
+                        <span class="achievement-percentage">87%</span>
+                    </div>
+                    <p class="achievement-subtitle">Complete Chapter 1 of the main story</p>
+                </div>
                 <label class="toggle-container">
                     <input type="checkbox" id="chapter1-toggle" data-achievement="chapter1"
                         onchange="toggleAchievement(this)">
