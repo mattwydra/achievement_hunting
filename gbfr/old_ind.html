@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBFR 100% Completion Guide</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --primary-text: #87CEEB;
+            /* Sky blue */
+            --secondary-text: #e0e0e0;
+            --accent-color: #4287f5;
+            --toggle-bg: #333;
+            --toggle-active: #5fb3ff;
+            --border-color: #333;
+            --hover-color: #2a2a2a;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--secondary-text);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: var(--primary-text);
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-top: 0;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: var(--primary-text);
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .achievement-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .achievement-card:hover {
+            background-color: var(--hover-color);
+            transform: translateY(-2px);
+        }
+
+        .achievement-title {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .achievement-title a {
+            color: var(--primary-text);
+            text-decoration: none;
+        }
+
+        .achievement-title a:hover {
+            text-decoration: underline;
+        }
+
+        .toggle-container {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 28px;
+        }
+
+        .toggle-container input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: var(--toggle-bg);
+            transition: .4s;
+            border-radius: 28px;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        input:checked+.toggle-slider {
+            background-color: var(--toggle-active);
+        }
+
+        input:checked+.toggle-slider:before {
+            transform: translateX(32px);
+        }
+
+        .search-container {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            flex-grow: 1;
+            padding: 10px 16px;
+            font-size: 1rem;
+            border: none;
+            background-color: var(--card-bg);
+            color: var(--secondary-text);
+            border-radius: 4px;
+            outline: none;
+        }
+
+        .search-input:focus {
+            box-shadow: 0 0 0 2px var(--accent-color);
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            background-color: var(--toggle-bg);
+            border-radius: 8px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 20px;
+            background-color: var(--toggle-active);
+            border-radius: 8px;
+            transition: width 0.3s ease;
+        }
+
+        .progress-text {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 0.9rem;
+        }
+
+        #completion-status {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.2rem;
+        }
+
+        /* Data management controls */
+        .data-btn {
+            background-color: var(--card-bg);
+            color: var(--primary-text);
+            border: 1px solid var(--primary-text);
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            display: inline-block;
+        }
+
+        .data-btn:hover {
+            background-color: var(--primary-text);
+            color: var(--bg-color);
+        }
+
+        .reset-btn:hover {
+            background-color: #ff2525 !important;
+            color: white;
+            border-color: #ff2525;
+        }
+
+        .data-management {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Home</a>
+        <header>
+            <h1 class="main-title">GBFR 100% Completion Guide</h1>
+            <p class="subtitle">Track your progress through Granblue Fantasy Relink</p>
+        </header>
+
+        <div id="homepage">
+            <div class="search-container">
+                <input type="text" id="achievement-search" class="search-input" placeholder="Search achievements...">
+            </div>
+
+            <!-- Story Achievements -->
+
+            <h2>Story Achievements</h2>
+
+            <div class="achievement-card" data-name="Chapter 1">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter1')">Chapter 1</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter1-toggle" data-achievement="chapter1"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 2">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter2')">Chapter 2</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter2-toggle" data-achievement="chapter2"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 3">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter3')">Chapter 3</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter3-toggle" data-achievement="chapter3"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 4">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter4')">Chapter 4</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter4-toggle" data-achievement="chapter4"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 5">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter5')">Chapter 5</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter5-toggle" data-achievement="chapter5"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 6">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter6')">Chapter 6</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter6-toggle" data-achievement="chapter6"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 7">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter7')">Chapter 7</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter7-toggle" data-achievement="chapter7"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 8">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter8')">Chapter 8</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter8-toggle" data-achievement="chapter8"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 9">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter9')">Chapter 9</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter9-toggle" data-achievement="chapter9"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Final Chapter">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter10')">Final
+                        Chapter</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter10-toggle" data-achievement="chapter10"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <div class="achievement-card" data-name="Chapter 0">
+                <h3 class="achievement-title"><a href="#" onclick="toggleAchievementDetails('chapter0')">Chapter Ø</a>
+                </h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="chapter0-toggle" data-achievement="chapter0"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <!-- Combat Achievements -->
+
+            <h2>Combat Achievements</h2>
+
+            <div class="achievement-card" data-name="In Perfect Sync">
+                <h3 class="achievement-title"><a href="achievements/combat/index.html">In Perfect Sync</a></h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="fieldnotes-toggle" data-achievement="fieldnotes"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <!-- Special Achievements -->
+
+            <h2>Special Achievements</h2>
+
+            <div class="achievement-card" data-name="Reminiscence">
+                <h3 class="achievement-title"><a href="achievements/reminiscence/index.html">Reminiscence</a></h3>
+                <label class="toggle-container">
+                    <input type="checkbox" id="fieldnotes-toggle" data-achievement="fieldnotes"
+                        onchange="toggleAchievement(this)">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+
+            <!-- Progress Bar -->
+
+            <div id="completion-status">
+                <div class="progress-bar-container">
+                    <div id="total-progress" class="progress-bar" style="width: 0%"></div>
+                </div>
+                <div class="progress-text">Overall Completion: <span id="completion-percentage">0%</span></div>
+            </div>
+
+            <div class="data-management">
+                <button class="data-btn" onclick="exportData()">Export Progress</button>
+                <label class="data-btn" style="margin-left: 10px; cursor: pointer;">
+                    Import Progress
+                    <input type="file" id="import-input" accept=".json" style="display: none;"
+                        onchange="importData(event)">
+                </label>
+                <button class="data-btn reset-btn" onclick="resetProgress()"
+                    style="background-color: #ff4545; margin-top: 10px;">Reset All Progress</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Store data in local storage
+        const STORAGE_KEY = 'gbfr_completion_data';
+        let completionData = {
+            achievements: {},
+            fieldnotes: {
+                characters: {},
+                foes: {},
+                weapons: {},
+                treasure: {},
+                wrightstones: {}
+            }
+        };
+
+        // Load data from local storage on page load
+        function loadData() {
+            const savedData = localStorage.getItem(STORAGE_KEY);
+            if (savedData) {
+                completionData = JSON.parse(savedData);
+            }
+
+            // Apply saved states to UI
+            applyStoredStates();
+            updateProgress();
+        }
+
+        // Apply stored states to UI elements
+        function applyStoredStates() {
+            // Apply achievement toggles
+            for (const achievement in completionData.achievements) {
+                const toggle = document.getElementById(`${achievement}-toggle`);
+                if (toggle) {
+                    toggle.checked = completionData.achievements[achievement];
+                }
+            }
+        }
+
+        // Save data to local storage
+        function saveData() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(completionData));
+        }
+
+        // Toggle achievement state
+        function toggleAchievement(checkbox) {
+            const achievement = checkbox.dataset.achievement;
+            completionData.achievements[achievement] = checkbox.checked;
+            saveData();
+            updateProgress();
+        }
+
+        // Update progress bars and percentages
+        function updateProgress() {
+            // Update overall completion
+            const achievementCount = document.querySelectorAll('[data-achievement]').length;
+            let completedAchievements = 0;
+
+            for (const achievement in completionData.achievements) {
+                if (completionData.achievements[achievement]) {
+                    completedAchievements++;
+                }
+            }
+
+            const overallPercentage = achievementCount > 0 ? (completedAchievements / achievementCount) * 100 : 0;
+            document.getElementById('total-progress').style.width = `${overallPercentage}%`;
+            document.getElementById('completion-percentage').textContent = `${Math.round(overallPercentage)}%`;
+
+            // Calculate field notes completion for badge update
+            let totalItems = 0;
+            let completedItems = 0;
+
+            const categories = ['characters', 'foes', 'weapons', 'treasure', 'wrightstones'];
+            categories.forEach(category => {
+                for (const item in completionData.fieldnotes[category]) {
+                    totalItems++;
+                    if (completionData.fieldnotes[category][item]) {
+                        completedItems++;
+                    }
+                }
+            });
+
+            const fieldnotesPercentage = totalItems > 0 ? (completedItems / totalItems) * 100 : 0;
+
+            // Update fieldnotes achievement based on completion
+            if (fieldnotesPercentage === 100) {
+                const fieldnotesToggle = document.getElementById('fieldnotes-toggle');
+                if (fieldnotesToggle && !fieldnotesToggle.checked) {
+                    fieldnotesToggle.checked = true;
+                    completionData.achievements.fieldnotes = true;
+                    saveData();
+                }
+            }
+        }
+
+        // Placeholder for future implementation of achievement details
+        function toggleAchievementDetails(achievement) {
+            alert('Achievement details for ' + achievement + ' will be implemented in the future.');
+        }
+
+        // Search functionality for homepage
+        document.getElementById('achievement-search').addEventListener('input', function () {
+            const searchValue = this.value.toLowerCase();
+            const achievementCards = document.querySelectorAll('.achievement-card');
+
+            achievementCards.forEach(card => {
+                const achievementName = card.dataset.name.toLowerCase();
+                if (achievementName.includes(searchValue)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+
+        // Export data function for saving progress
+        function exportData() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(completionData));
+            const downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", dataStr);
+            downloadAnchorNode.setAttribute("download", "gbfr_completion_backup.json");
+            document.body.appendChild(downloadAnchorNode);
+            downloadAnchorNode.click();
+            downloadAnchorNode.remove();
+        }
+
+        // Import data function for loading progress
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    const importedData = JSON.parse(e.target.result);
+                    completionData = importedData;
+                    saveData();
+                    applyStoredStates();
+                    updateProgress();
+                    alert('Data imported successfully!');
+                } catch (error) {
+                    console.error('Error importing data:', error);
+                    alert('Error importing data. Please check the file format.');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        // Reset progress function
+        function resetProgress() {
+            if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
+                completionData = {
+                    achievements: {},
+                    fieldnotes: {
+                        characters: {},
+                        foes: {},
+                        weapons: {},
+                        treasure: {},
+                        wrightstones: {}
+                    }
+                };
+                saveData();
+                applyStoredStates();
+                updateProgress();
+                alert('Progress has been reset.');
+            }
+        }
+
+        // Initialize the app
+        document.addEventListener('DOMContentLoaded', function () {
+            loadData();
+            updateProgress();
+        });
+    </script>
+</body>
+
+</html>
