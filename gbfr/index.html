@@ -190,6 +190,78 @@
             box-shadow: 0 0 0 2px var(--accent-color);
         }
 
+        .filter-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filter-btn {
+            background-color: var(--card-bg);
+            color: var(--secondary-text);
+            border: 1px solid var(--border-color);
+            padding: 6px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            background-color: var(--hover-color);
+        }
+
+        .filter-btn.active {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .sort-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .sort-select {
+            background-color: var(--card-bg);
+            color: var(--secondary-text);
+            border: 1px solid var(--border-color);
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .category-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            padding: 0 10px;
+        }
+
+        .category-header h2 {
+            margin-bottom: 0;
+        }
+
+        .category-header .collapse-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .category-header.collapsed .collapse-icon {
+            transform: rotate(-90deg);
+        }
+
+        .category-content {
+            transition: max-height 0.5s ease-in-out;
+            overflow: hidden;
+            max-height: 5000px;
+            /* Arbitrary large value */
+        }
+
+        .category-content.collapsed {
+            max-height: 0;
+        }
+
         .progress-bar-container {
             width: 100%;
             background-color: var(--toggle-bg);
@@ -259,6 +331,26 @@
         <div id="homepage">
             <div class="search-container">
                 <input type="text" id="achievement-search" class="search-input" placeholder="Search achievements...">
+            </div>
+
+            <!-- Filter -->
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+                <button class="filter-btn" data-filter="incomplete">Incomplete</button>
+            </div>
+
+            <!-- Sort -->
+            <div class="sort-container">
+                <label>Sort by:</label>
+                <select id="sort-select" class="sort-select">
+                    <option value="default">Default</option>
+                    <option value="name-asc">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                    <option value="percent-desc">Percentage (High-Low)</option>
+                    <option value="percent-asc">Percentage (Low-High)</option>
+                    <option value="completion">Completion Status</option>
+                </select>
             </div>
 
             <!-- All Achievements -->
@@ -529,20 +621,107 @@
             alert('Achievement details for ' + achievement + ' will be implemented in the future.');
         }
 
-        // Search functionality for homepage
+        // Enhanced search functionality for homepage
         document.getElementById('achievement-search').addEventListener('input', function () {
-            const searchValue = this.value.toLowerCase();
+            const searchValue = this.value.toLowerCase().trim();
+            if (searchValue === '') {
+                // Show all cards if search is empty
+                document.querySelectorAll('.achievement-card').forEach(card => {
+                    card.style.display = 'flex';
+                });
+                return;
+            }
+
             const achievementCards = document.querySelectorAll('.achievement-card');
 
             achievementCards.forEach(card => {
                 const achievementName = card.dataset.name.toLowerCase();
-                if (achievementName.includes(searchValue)) {
+                const subtitle = card.querySelector('.achievement-subtitle')?.textContent.toLowerCase() || '';
+
+                if (achievementName.includes(searchValue) || subtitle.includes(searchValue)) {
                     card.style.display = 'flex';
                 } else {
                     card.style.display = 'none';
                 }
             });
         });
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function () {
+                // Set active state
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                const filter = this.dataset.filter;
+                const cards = document.querySelectorAll('.achievement-card');
+
+                cards.forEach(card => {
+                    const checkbox = card.querySelector('input[type="checkbox"]');
+                    if (filter === 'all') {
+                        card.style.display = 'flex';
+                    } else if (filter === 'completed' && checkbox.checked) {
+                        card.style.display = 'flex';
+                    } else if (filter === 'incomplete' && !checkbox.checked) {
+                        card.style.display = 'flex';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        document.getElementById('sort-select').addEventListener('change', function () {
+            const sortValue = this.value;
+            const achievementList = document.querySelector('#homepage');
+            const categories = achievementList.querySelectorAll('h2');
+
+            categories.forEach(category => {
+                const sectionCards = [];
+                let currentNode = category.nextElementSibling;
+
+                // Collect all achievement cards in this section
+                while (currentNode && currentNode.tagName !== 'H2') {
+                    if (currentNode.classList.contains('achievement-card')) {
+                        sectionCards.push(currentNode);
+                    }
+                    currentNode = currentNode.nextElementSibling;
+                }
+
+                // Sort the cards based on selected option
+                sectionCards.sort((a, b) => {
+                    if (sortValue === 'name-asc') {
+                        return a.dataset.name.localeCompare(b.dataset.name);
+                    } else if (sortValue === 'name-desc') {
+                        return b.dataset.name.localeCompare(a.dataset.name);
+                    } else if (sortValue === 'percent-desc') {
+                        const percentA = parseInt(a.querySelector('.achievement-percentage')?.textContent || '0');
+                        const percentB = parseInt(b.querySelector('.achievement-percentage')?.textContent || '0');
+                        return percentB - percentA;
+                    } else if (sortValue === 'percent-asc') {
+                        const percentA = parseInt(a.querySelector('.achievement-percentage')?.textContent || '0');
+                        const percentB = parseInt(b.querySelector('.achievement-percentage')?.textContent || '0');
+                        return percentA - percentB;
+                    } else if (sortValue === 'completion') {
+                        const completedA = a.querySelector('input[type="checkbox"]').checked;
+                        const completedB = b.querySelector('input[type="checkbox"]').checked;
+                        return completedB - completedA;
+                    }
+                    return 0;
+                });
+
+                // Remove all cards from the DOM
+                sectionCards.forEach(card => card.remove());
+
+                // Insert them back in sorted order
+                let insertPoint = category.nextElementSibling;
+                sectionCards.forEach(card => {
+                    achievementList.insertBefore(card, insertPoint);
+                    insertPoint = card.nextElementSibling;
+                });
+            });
+        });
+
+        
 
         // Export data function for saving progress
         function exportData() {
