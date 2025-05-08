@@ -723,14 +723,8 @@
         // Store data in local storage
         const STORAGE_KEY = 'gbfr_completion_data';
         let completionData = {
-            achievements: {},
-            fieldnotes: {
-                characters: {},
-                foes: {},
-                weapons: {},
-                treasure: {},
-                wrightstones: {}
-            }
+            achievements: {}
+            // Remove the fieldnotes section
         };
 
         // Load data from local storage on page load
@@ -771,45 +765,28 @@
 
         // Update progress bars and percentages
         function updateProgress() {
-            // Update overall completion
-            const achievementCount = document.querySelectorAll('[data-achievement]').length;
+            // Get all checkboxes for achievements
+            const achievementCheckboxes = document.querySelectorAll('input[type="checkbox"][data-achievement]');
+            const totalAchievements = achievementCheckboxes.length;
+
+            // Count completed achievements
             let completedAchievements = 0;
-
-            for (const achievement in completionData.achievements) {
-                if (completionData.achievements[achievement]) {
+            achievementCheckboxes.forEach(checkbox => {
+                if (checkbox.checked) {
                     completedAchievements++;
-                }
-            }
-
-            const overallPercentage = achievementCount > 0 ? (completedAchievements / achievementCount) * 100 : 0;
-            document.getElementById('total-progress').style.width = `${overallPercentage}%`;
-            document.getElementById('completion-percentage').textContent = `${Math.round(overallPercentage)}%`;
-
-            // Calculate field notes completion for badge update
-            let totalItems = 0;
-            let completedItems = 0;
-
-            const categories = ['characters', 'foes', 'weapons', 'treasure', 'wrightstones'];
-            categories.forEach(category => {
-                for (const item in completionData.fieldnotes[category]) {
-                    totalItems++;
-                    if (completionData.fieldnotes[category][item]) {
-                        completedItems++;
-                    }
                 }
             });
 
-            const fieldnotesPercentage = totalItems > 0 ? (completedItems / totalItems) * 100 : 0;
+            // Calculate and update the progress percentage
+            const overallPercentage = totalAchievements > 0 ? (completedAchievements / totalAchievements) * 100 : 0;
+            const roundedPercentage = Math.round(overallPercentage);
 
-            // Update fieldnotes achievement based on completion
-            if (fieldnotesPercentage === 100) {
-                const fieldnotesToggle = document.getElementById('fieldnotes-toggle');
-                if (fieldnotesToggle && !fieldnotesToggle.checked) {
-                    fieldnotesToggle.checked = true;
-                    completionData.achievements.fieldnotes = true;
-                    saveData();
-                }
-            }
+            // Update the progress bar
+            document.getElementById('total-progress').style.width = `${overallPercentage}%`;
+            document.getElementById('completion-percentage').textContent = `${roundedPercentage}%`;
+
+            // Update the document title to show progress
+            document.title = `GBFR 100% (${roundedPercentage}%)`;
         }
 
         // Placeholder for future implementation of achievement details
@@ -956,14 +933,8 @@
         function resetProgress() {
             if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
                 completionData = {
-                    achievements: {},
-                    fieldnotes: {
-                        characters: {},
-                        foes: {},
-                        weapons: {},
-                        treasure: {},
-                        wrightstones: {}
-                    }
+                    achievements: {}
+                    // Remove the fieldnotes section
                 };
                 saveData();
                 applyStoredStates();
