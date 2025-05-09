@@ -362,15 +362,14 @@
                     <option value="default">Default</option>
                     <option value="name-asc">Name (A-Z)</option>
                     <option value="name-desc">Name (Z-A)</option>
-                    <option value="percent-desc">Percentage (High-Low)</option>
-                    <option value="percent-asc">Percentage (Low-High)</option>
-                    <option value="completion">Completion Status</option>
+                    <option value="percent-desc">Playerbase Completion (High-Low)</option>
+                    <option value="percent-asc">Playerbase Completion (Low-High)</option>
                 </select>
             </div>
 
             <!-- All Achievements -->
 
-            <h2>All Achievements, sorted by [method]</h2>
+            <h2 id="sort-text">All Achievements, sorted by playerbase completion</h2>
 
             <div class="achievement-card" data-name="The Forgotten Sky">
                 <div class="achievement-container">
@@ -878,23 +877,30 @@
                     currentNode = currentNode.nextElementSibling;
                 }
 
+                const sortText = document.getElementById("sort-text");
+
                 // Sort the cards based on selected option
                 sectionCards.sort((a, b) => {
                     if (sortValue === 'name-asc') {
+                        sortText.innerHTML = "All Achievements, sorted alphabetically";
                         return a.dataset.name.localeCompare(b.dataset.name);
                     } else if (sortValue === 'name-desc') {
+                        sortText.innerHTML = "All Achievements, sorted reverse alphabetically";
                         return b.dataset.name.localeCompare(a.dataset.name);
                     } else if (sortValue === 'percent-desc') {
                         const percentA = parseInt(a.querySelector('.achievement-percentage')?.textContent || '0');
                         const percentB = parseInt(b.querySelector('.achievement-percentage')?.textContent || '0');
+                        sortText.innerHTML = "All Achievements, highest completion first";
                         return percentB - percentA;
                     } else if (sortValue === 'percent-asc') {
                         const percentA = parseInt(a.querySelector('.achievement-percentage')?.textContent || '0');
                         const percentB = parseInt(b.querySelector('.achievement-percentage')?.textContent || '0');
+                        sortText.innerHTML = "All Achievements, lowest completion first";
                         return percentA - percentB;
-                    } else if (sortValue === 'completion') {
+                    } else if (sortValue === 'default') {
                         const completedA = a.querySelector('input[type="checkbox"]').checked;
                         const completedB = b.querySelector('input[type="checkbox"]').checked;
+                        sortText.innerHTML = "All Achievements, sorted by playerbase completion";
                         return completedB - completedA;
                     }
                     return 0;
