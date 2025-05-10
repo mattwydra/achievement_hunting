@@ -230,6 +230,10 @@
             color: white;
         }
 
+        #sort-text {
+            text-shadow: 2px 2px 4px var(--bg-color);
+        }
+
         .sort-container {
             display: flex;
             align-items: center;
@@ -359,7 +363,8 @@
             <div class="sort-container">
                 <label>Sort by:</label>
                 <select id="sort-select" class="sort-select">
-                    <option value="default">Default</option>
+                    <option value="" disabled selected>Sort by...</option>
+                    <!-- <option value="default">Default</option> -->
                     <option value="name-asc">Name (A-Z)</option>
                     <option value="name-desc">Name (Z-A)</option>
                     <option value="percent-desc">Playerbase Completion (High-Low)</option>
