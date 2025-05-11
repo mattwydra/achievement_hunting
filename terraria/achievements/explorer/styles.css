@@ -60,7 +60,8 @@ nav {
     text-decoration: none;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
     background-color: var(--primary);
     color: var(--background);
     transform: translateY(-3px);
@@ -127,8 +128,10 @@ nav {
 
 .achievement-name {
     font-size: 1.3em;
-    margin-bottom: 10px;
     color: var(--accent);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .achievement-card.completed .achievement-name {
@@ -150,8 +153,11 @@ nav {
 }
 
 .difficulty {
+    color: var(--text);
+    font-size: 16px;
     display: flex;
     align-items: center;
+    right: 0;
 }
 
 .difficulty-meter {
@@ -232,7 +238,7 @@ footer {
     .achievement-list {
         grid-template-columns: 1fr;
     }
-    
+
     nav {
         flex-wrap: wrap;
     }
