@@ -142,8 +142,8 @@ nav {
 }
 
 .checkmark-box {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     border: 2px solid var(--secondary-text);
     border-radius: 4px;
     display: flex;
