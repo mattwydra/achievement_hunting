@@ -60,7 +60,7 @@
     description: "Craft your first Work Bench.",
     type: "Collector",
     notes: "May be a reference to an identical term in sports where a player is 'benched' from the deck play.",
-    percent: "61.3%"
+    percent: "61.5%"
 },
 {
     name: "Heart Breaker",
@@ -111,19 +111,19 @@
     percent: "52.4%"
 },
 {
-    name: "Bloodbath",
-    quote: "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
-    description: "Survive your first Blood Moon.",
-    type: "Explorer",
-    notes: "",
-    percent: "52.2%"
-},
-{
     name: "Hold on Tight!",
     quote: "Equip your first grappling hook.",
     description: "Equip a Grappling Hook.",
     type: "Collector",
     notes: "To get this achievement, the grappling hook needs to be in the grappling hook slot.",
+    percent: "52.2%"
+},
+{
+    name: "Bloodbath",
+    quote: "Survive a blood moon, a nocturnal event where the rivers run red and monsters swarm aplenty.",
+    description: "Survive your first Blood Moon.",
+    type: "Explorer",
+    notes: "",
     percent: "52.2%"
 },
 {
@@ -156,7 +156,7 @@
     description: "Defeat Pinky for the first time.",
     type: "Slayer",
     notes: "Probably a reference to the 1986 American romantic comedy movie by the same name, Pretty in Pink.",
-    percent: "50.0%"
+    percent: "50.1%"
 },
 {
     name: "Fashion Statement",
@@ -172,7 +172,7 @@
     description: "Enter your first underground Spider Cave.",
     type: "Explorer",
     notes: "'Jeepers Creepers' is an expression of surprise or annoyance."
-    percent: "48.8%"
+    percent: "48.9%"
 },
 {
     name: "Vehicular Manslaughter",
@@ -180,7 +180,7 @@
     description: "Kill an enemy by running over it with a Minecart.",
     type: "Slayer",
     notes: "Killing an enemy with the Mechanical Cart's lasers will not work.",
-    percent: "48.8%"
+    percent: "48.9%"
 },
 {
     name: "Throwing Lines",
@@ -228,7 +228,7 @@
     description: "Encounter a Fairy.",
     type: "Explorer",
     notes: "A reference to Navi, a character from The Legend of Zelda: Ocarina of Time.",
-    percent: "43.4%"
+    percent: "43.6%"
 },
 {
     name: "Into Orbit",
@@ -260,7 +260,7 @@
     description: "Discover your first Bee Hive.",
     type: "Explorer",
     notes: "Natural hive walls must be behind the player. Note that if you destroy a Larva, you will summon the Queen Bee. A reference to the video game Where's My Water?.",
-    percent: "41.8%"
+    percent: "41.9%"
 },
 {
     name: "Dungeon Heist",
@@ -284,7 +284,7 @@
     description: "Mine a total of 10,000 tiles.",
     type: "Challenger",
     notes: "",
-    percent: "39.9%"
+    percent: "40.0%"
 },
 {
     name: "Still Hungry",
@@ -292,7 +292,7 @@
     description: "Defeat the Wall of Flesh for the first time.",
     type: "Slayer",
     notes: "Note that defeating the Wall of Flesh will initiate Hardmode in a pre-Hardmode world. Possibly a reference to the 1980's band 'Twisted Sister' and an album of the same name as the achievement.",
-    percent: "39.8%"
+    percent: "39.9%"
 },
 {
     name: "It's Hard!",
@@ -308,7 +308,7 @@
     description: "Enter in a Graveyard for the first time.",
     type: "Explorer",
     notes: "The icon is possibly a reference to the movie Ghostbusters II.",
-    percent: "39.0%"
+    percent: "39.1%"
 },
 {
     name: "Sticky Situation",
@@ -316,7 +316,7 @@
     description: "Survive the Slime Rain.",
     type: "Explorer",
     notes: "A sticky situation is a problem that is delicate or hard to solve/get out of.",
-    percent: "38.0%"
+    percent: "38.1%"
 },
 {
     name: "Begone, Evil!",
@@ -380,7 +380,7 @@
     description: "Consume a Life Fruit.",
     type: "Explorer",
     notes: "Using a character that already has 500 life will not work. Is a pun on Life Fruit and the common taunt 'Get a life'.",
-    percent: "33.0%"
+    percent: "33.1%"
 },
 {
     name: "Walk the Plank",
@@ -436,7 +436,7 @@
     description: "Pet a Town pet.",
     type: "Challenger",
     notes: "",
-    percent: "29.5%"
+    percent: "29.7%"
 },
 {
     name: "Photosynthesis",
@@ -476,7 +476,15 @@
     description: "Spend over 1 gold total being treated by the Nurse.",
     type: "Challenger",
     notes: "It does not have to be all at once. You can get healed by the nurse every so often and it adds up.",
-    percent: "28.0%"
+    percent: "28.1%"
+},
+{
+    name: "Dead Men Tell No Tales",
+    quote: "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should.",
+    description: "Die within 10 seconds after opening a Dead Man's Chest.",
+    type: "Challenger",
+    notes: "'Dead men tell no tales' is a well-known proverb, often used as a motive for murder. The Tooltip is a reference to the character Ian Malcolm's iconic line from Jurassic Park.",
+    percent: "27.4%"
 },
 {
     name: "Topped Off",
@@ -485,14 +493,6 @@
     type: "Challenger",
     notes: "500 health and 200 mana. Requires 15 Life Crystals, 20 Life Fruit, and 9 Mana Crystals.",
     percent: "27.4%"
-},
-{
-    name: "Dead Men Tell No Tales",
-    quote: "You were so preoccupied with whether or not you could open the chest that you didn't stop to think if you should.",
-    description: "Die within 10 seconds after opening a Dead Man's Chest.",
-    type: "Challenger",
-    notes: "'Dead men tell no tales' is a well-known proverb, often used as a motive for murder. The Tooltip is a reference to the character Ian Malcolm's iconic line from Jurassic Park.",
-    percent: "27.2%"
 },
 {
     name: "Obsessive Devotion",
@@ -508,7 +508,7 @@
     description: "Turn a Gnome into a Garden Gnome.",
     type: "Challenger",
     notes: "Heliophobia is the fear of the sun. Note that Gnomes are likely to spawn inside a naturally generated Living Tree.",
-    percent: "26.6%"
+    percent: "26.7%"
 },
 {
     name: "Temple Raider",
@@ -540,7 +540,7 @@
     description: "Defeat the Martian Invasion for the first time.",
     type: "Slayer",
     notes: "Named for tin foil hats, often associated with alien conspiracy theorists. The image is a reference to how UFOs are commonly depicted in artwork shining rays of light at livestock (typically cows) and causing them to float up into their ships. The Bunny replaces this because there are no cows in Terraria.",
-    percent: "x.x%"
+    percent: "24.8%"
 },
 {
     name: "Champion of Terraria",
@@ -548,7 +548,7 @@
     description: "Defeat the Moon Lord for the first time.",
     type: "Slayer",
     notes: "Had a different image before the release of 1.3.0.1, as not to spoil the surprise of what the final boss would look like before 1.3 was released. It was a silhouette of the Moon Lord, only showing the eye at the top of his head and his shape.",
-    percent: "x.x%"
+    percent: "24.8%"
 },
 {
     name: "Sword of the Hero",
@@ -556,7 +556,7 @@
     description: "Obtain a Terra Blade.",
     type: "Collector",
     notes: "The swords of 'light' and 'dark' are a reference to the Night's Edge and True Excalibur, two items used to craft it.",
-    percent: "x.x%"
+    percent: "24.7%"
 },
 {
     name: "Star Destroyer",
@@ -564,7 +564,7 @@
     description: "Defeat all four Celestial Pillars.",
     type: "Slayer",
     notes: "Note that defeating all four Towers will summon the Moon Lord. Possible references to the Star Destroyers in the epic space opera media franchise Star Wars. Only requires a player to be on a world while the pillar is being destroyed. Does not have to be on the same world",
-    percent: "x.x%"
+    percent: "23.3%"
 },
 {
     name: "Drax Attax",
@@ -572,7 +572,7 @@
     description: "Craft your first Drax or Pickaxe Axe.",
     type: "Collector",
     notes: "",
-    percent: "x.x%"
+    percent: "22.6%"
 },
 {
     name: "Fish Out of Water",
@@ -580,7 +580,7 @@
     description: "Defeat Duke Fishron for the first time.",
     type: "Slayer",
     notes: "A reference to the expression 'fish out of water' meaning someone who is outside their comfort zone or area of expertise.",
-    percent: "x.x%"
+    percent: "22.4%"
 },
 {
     name: "Big Booty",
@@ -588,7 +588,7 @@
     description: "Open your first Biome Chest.",
     type: "Explorer",
     notes: "Open a Biome Chest (can only be done after Plantera is defeated).",
-    percent: "x.x%"
+    percent: "21.9%"
 }, 
 {
     name: "Sick Throw",
@@ -596,7 +596,7 @@
     description: "Get the Terrarian.",
     type: "Collector",
     notes: "",
-    percent: "x.x%"
+    percent: "21.5%"
 },
 {
     name: "Servant-in-Training",
@@ -604,7 +604,7 @@
     description: "Complete 1 Angler quest.",
     type: "Challenger",
     notes: "",
-    percent: "x.x%"
+    percent: "21.2%"
 },
 {
     name: "It Can Talk?!",
@@ -612,7 +612,7 @@
     description: "Have a Truffle move into a house created in the Glowing Mushroom biome.",
     type: "Explorer",
     notes: "It must be above the surface for the Truffle to move in.",
-    percent: "x.x%"
+    percent: "21.0%"
 },
 {
     name: "Slayer of Worlds",
@@ -620,7 +620,7 @@
     description: "Defeat every boss in the game.",
     type: "Challenger",
     notes: "There are a total of 15 bosses to defeat: Brain of Cthulhu, The Destroyer, Duke Fishron, Eater of Worlds, Eye of Cthulhu, Golem, King Slime, the Lunatic Cultist, the Moon Lord, Plantera, Queen Bee, Skeletron, Skeletron Prime, The Twins, and the Wall of Flesh.",
-    percent: "x.x%"
+    percent: "20.8%"
 },
 {
     name: "Archaeologist",
@@ -628,7 +628,7 @@
     description: "Defeat Doctor Bones for the first time.",
     type: "Slayer",
     notes: "Doctor Bones is a parody of Indiana Jones, also known as Doctor Jones.",
-    percent: "x.x%"
+    percent: "20.5%"
 },
 {
     name: "Just Desserts",
@@ -636,7 +636,7 @@
     description: "Defeat the Queen Slime for the first time.",
     type: "Slayer",
     notes: "A common pun on the idiom, 'just deserts'.",
-    percent: "x.x%"
+    percent: "20.0%"
 },
 {
     name: "Baleful Harvest",
@@ -644,7 +644,7 @@
     description: "Reach the 15th wave of a Pumpkin Moon.",
     type: "Slayer",
     notes: "",
-    percent: "x.x%"
+    percent: "19.3%"
 },
 {
     name: "Leading Landlord",
@@ -652,7 +652,7 @@
     description: "Talk to any town NPC while its happiness is at its maximum.",
     type: "Challenger",
     notes: "Can be easily achieved by housing the Party Girl, Wizard, and Zoologist in the Hallow biome and then speaking with the Party Girl, or housing the Arms Dealer and the nurse in the desert and talking to the Arms Dealer.",
-    percent: "x.x%"
+    percent: "17.7%"
 }, 
 {
     name: "Boots of the Hero",
@@ -660,7 +660,7 @@
     description: "Obtain the Terraspark Boots.",
     type: "Collector",
     notes: "",
-    percent: "x.x%"
+    percent: "17.3%"
 },
 {
     name: "Infinity +1 Sword",
@@ -668,7 +668,7 @@
     description: "Obtain the Zenith.",
     type: "Collector",
     notes: "A reference to the identically named trope on TV Tropes.",
-    percent: "x.x%"
+    percent: "17.3%"
 },
 {
     name: "Real Estate Agent",
@@ -676,23 +676,7 @@
     description: "All town NPCs are housed in your world.",
     type: "Challenger",
     notes: "The Traveling Merchant, Old Man, and Skeleton Merchant are not Town NPCs and Santa Claus and the Tavernkeep are not considered for this achievement. Therefore, only the remaining 21 Town NPCs are required.",
-    percent: "x.x%"
-},
-{
-    name: "Dye Hard",
-    quote: "Equip a dye in every possible dye slot.",
-    description: "Equip dyes in all dye slots.",
-    type: "Collector",
-    notes: "3 armor dye slots, 5 accessory dye slots, and 5 equipment dye slots (Pet, Light Pet, Minecart, Mount, and Grappling hook).",
-    percent: "x.x%"
-},
-{
-    name: "Gelatin World Tour",
-    quote: "Defeat every type of slime there is!",
-    description: "Defeat at least one of every type of slime.",
-    type: "Challenger",
-    notes: "The types that are counted for this achievement are Baby, Black, Blue, Corrupt, Dungeon, Green, Ice, Illuminant, Jungle, King, Lava, Mother, Purple, Rainbow, Red, Slimeling, Slimer, Spiked Ice, Spiked Jungle, Umbrella, Yellow, Toxic Sludge, Crimslime, and Pinky. Seven are Hardmode, three are Corruption-exclusive, and one is Crimson-exclusive.",
-    percent: "x.x%"
+    percent: "16.0%"
 },
 {
     name: "A Shimmer In The Dark",
@@ -700,15 +684,23 @@
     description: "Transmute an item.",
     type: "Explorer",
     notes: "",
-    percent: "x.x%"
+    percent: "15.8%"
 },
 {
-    name: "Do You Want to Slay a Snowman?",
-    quote: "Triumph over the frost legion, a festive family of maniacal snowman mobsters.",
-    description: "Defeat the Frost Legion for the first time.",
-    type: "Slayer",
-    notes: "Reference to the 2013 Disney film Frozen, which has a song called 'Do You Want to Build a Snowman?'",
-    percent: "x.x%"
+    name: "Gelatin World Tour",
+    quote: "Defeat every type of slime there is!",
+    description: "Defeat at least one of every type of slime.",
+    type: "Challenger",
+    notes: "The types that are counted for this achievement are Baby, Black, Blue, Corrupt, Dungeon, Green, Ice, Illuminant, Jungle, King, Lava, Mother, Purple, Rainbow, Red, Slimeling, Slimer, Spiked Ice, Spiked Jungle, Umbrella, Yellow, Toxic Sludge, Crimslime, and Pinky. Seven are Hardmode, three are Corruption-exclusive, and one is Crimson-exclusive.",
+    percent: "15.5%"
+},
+{
+    name: "Dye Hard",
+    quote: "Equip a dye in every possible dye slot.",
+    description: "Equip dyes in all dye slots.",
+    type: "Collector",
+    notes: "3 armor dye slots, 5 accessory dye slots, and 5 equipment dye slots (Pet, Light Pet, Minecart, Mount, and Grappling hook).",
+    percent: "15.5%"
 },
 {
     name: "A Rather Blustery Day",
@@ -716,7 +708,15 @@
     description: "Fly a kite on a Windy Day.",
     type: "Challenger",
     notes: "A reference to Winnie-the-Pooh, both a common phrase used by the characters (aptly, to refer to windy days) and a song of the same name.",
-    percent: "x.x%"
+    percent: "14.5%"
+},
+{
+    name: "Do You Want to Slay a Snowman?",
+    quote: "Triumph over the frost legion, a festive family of maniacal snowman mobsters.",
+    description: "Defeat the Frost Legion for the first time.",
+    type: "Slayer",
+    notes: "Reference to the 2013 Disney film Frozen, which has a song called 'Do You Want to Build a Snowman?'",
+    percent: "14.5%"
 },
 {
     name: "Fae Flayer",
@@ -724,7 +724,7 @@
     description: "Defeat the Empress of Light for the first time.",
     type: "Slayer",
     notes: "",
-    percent: "x.x%"
+    percent: "14.3%"
 },
 {
     name: "Mecha Mayhem",
@@ -732,15 +732,7 @@
     description: "Defeat all three Mechanical Bosses simultaneously in a single battle.",
     type: "Challenger",
     notes: "",
-    percent: "x.x%"
-},
-{
-    name: "Glorious Golden Pole",
-    quote: "Obtain a golden fishing rod.",
-    description: "Obtain the Golden Fishing Rod from the Angler.",
-    type: "Collector",
-    notes: "Reward from the Angler, after exactly 30 quests or 1/250 chance after 75 quests.",
-    percent: "x.x%"
+    percent: "13.8%"
 },
 {
     name: "You and What Army?",
@@ -748,7 +740,15 @@
     description: "Have nine minions summoned at the same time.",
     type: "Challenger",
     notes: "You and What Army? is a phrase of defiance used in many forms of media.",
-    percent: "x.x%"
+    percent: "13.6%"
+},
+{
+    name: "Glorious Golden Pole",
+    quote: "Obtain a golden fishing rod.",
+    description: "Obtain the Golden Fishing Rod from the Angler.",
+    type: "Collector",
+    notes: "Reward from the Angler, after exactly 30 quests or 1/250 chance after 75 quests.",
+    percent: "13.6%"
 },
 {
     name: "Ice Scream",
@@ -756,7 +756,7 @@
     description: "Reach the 15th wave of a Frost Moon.",
     type: "Slayer",
     notes: "A reference to the popular children's song, 'I scream, you scream, we all scream for ice cream!'.",
-    percent: "x.x%"
+    percent: 13.2%"
 },
 {
     name: "Good Little Slave",
@@ -764,7 +764,7 @@
     description: "Complete 10 Angler quests.",
     type: "Challenger",
     notes: "",
-    percent: "x.x%"
+    percent: "12.7%"
 },
 {
     name: "Prismancer",
@@ -772,7 +772,7 @@
     description: "Obtain the Rainbow Rod.",
     type: "Collector",
     notes: "The word 'Prismancer' means someone who can control prisms.",
-    percent: "x.x%"
+    percent: "12.3%"
 },
 {
     name: "An Eye For An Eye",
@@ -780,7 +780,7 @@
     description: "Defeat the Deerclops for the first time.",
     type: "Slayer",
     notes: "'An eye for an eye' is a famous proverb that means people must be punished the same way they offended.",
-    percent: "x.x%"
+    percent: "12.1%"
 },
 {
     name: "Hero of Etheria",
@@ -788,7 +788,7 @@
     description: "Defeat the last round of the Old One's Army.",
     type: "Slayer",
     notes: "Achievement is granted after defeating Betsy, upon the status message, 'The old one's army has been defeated!'",
-    percent: "x.x%"
+    percent: "11.3%"
 },
 {
     name: "Ankhumulation Complete",
@@ -796,7 +796,7 @@
     description: "Obtain the Ankh Shield.",
     type: "Collector",
     notes: "Ankhumulation is a portmanteau of the words 'Ankh' and 'Accumulation'.",
-    percent: "x.x%"
+    percent: "10.4%"
 },
 {
     name: "A Rare Realm",
@@ -804,7 +804,7 @@
     description: "Enter a world using any secret world seed.",
     type: "Explorer",
     notes: "The achievement depicts a golden seed, quite literally representing the term used for the relatively short number or text string that corresponds with Randomized Procedural World Generation in video games, called 'Seeds'.",
-    percent: "x.x%"
+    percent: "10.0%"
 },
 {
     name: "Trout Monkey",
@@ -812,7 +812,7 @@
     description: "Complete 25 Angler quests.",
     type: "Challenger",
     notes: "",
-    percent: "x.x%"
+    percent: "9.6%"
 },
 {
     name: "Not the Bees!",
@@ -820,7 +820,7 @@
     description: "Fire a Bee Gun while equipped in a full set of Bee Armor.",
     type: "Challenger",
     notes: "Do not confuse Bee armor with the Bee set. Reference to Nicholas Cage in the 2006 mystery horror film The Wicker Man.",
-    percent: "x.x%"
+    percent: "9.5%"
 },
 {
     name: "Torch God",
@@ -828,7 +828,7 @@
     description: "Use the Torch God's Favor.",
     type: "Slayer",
     notes: "This achievement is relatively easy to get early on, as it just requires 34 Gel and 34 Woods to get all the torches required.",
-    percent: "x.x%"
+    percent: "9.2%"
 },
 {
     name: "Black Mirror",
@@ -836,7 +836,7 @@
     description: "Obtain the Cell Phone.",
     type: "Collector",
     notes: "The name of the achievement is a reference to the popular British TV show Black Mirror",
-    percent: "x.x%"
+    percent: "9.2%"
 },
 {
     name: "Don't Dread on Me",
@@ -844,7 +844,7 @@
     description: "Defeat the Dreadnautilus for the first time.",
     type: "Slayer",
     notes: "A reference to the motto of the Gadsden Flag, in which the motto reads 'Don't Tread on Me'",
-    percent: "x.x%"
+    percent: "8.8%"
 },
 {
     name: "Hot Reels!",
@@ -852,7 +852,7 @@
     description: "Use any fishing pole in the lava.",
     type: "Challenger",
     notes: "A reference to Hot Wheels toy cars.",
-    percent: "x.x%"
+    percent: "8.5%"
 },
 {
     name: "Rainbows and Unicorns",
@@ -860,7 +860,7 @@
     description: "Fire a Rainbow Gun while riding a Unicorn Mount.",
     type: "Challenger",
     notes: "'Rainbows and unicorns' is a common idiom that describes a wonderful, yet unrealistic scenario.",
-    percent: "x.x%"
+    percent: "7.8%"
 },
 {
     name: "Fast and Fishious",
@@ -868,15 +868,7 @@
     description: "Complete 50 Angler quests.",
     type: "Challenger",
     notes: "The name of this achievement is a reference to various movies titled Fast and Furious.",
-    percent: "x.x%"
-},
-{
-    name: "Feast of Midas",
-    quote: "Obtain Golden Delight, the highest quality meal made from the highest quality . . . ingredients.",
-    description: "Obtain a Golden Delight.",
-    type: "Collector",
-    notes: "Midas is a famous Greek mythology character that was blessed with the ability to turn everything he touched into gold.",
-    percent: "x.x%"
+    percent: "6.8%"
 },
 {
     name: "To Infinity... and Beyond!",
@@ -884,7 +876,15 @@
     description: "Fly a Kwad Racer into space.",
     type: "Challenger",
     notes: "A reference to Buzz Lightyear's catchphrase, 'To Infinity, and Beyond!'",
-    percent: "x.x%"
+    percent: "5.0%"
+},
+{
+    name: "Feast of Midas",
+    quote: "Obtain Golden Delight, the highest quality meal made from the highest quality . . . ingredients.",
+    description: "Obtain a Golden Delight.",
+    type: "Collector",
+    notes: "Midas is a famous Greek mythology character that was blessed with the ability to turn everything he touched into gold.",
+    percent: "4.9%"
 },
 {
     name: "The Great Slime Mitosis",
@@ -892,7 +892,7 @@
     description: "All town Slimes are housed in the world.",
     type: "Challenger",
     notes: "Mitosis is the process of single-celled organisms reproducing via the splitting and duplication of their genetic code.",
-    percent: "x.x%"
+    percent: "4.8%"
 },
 {
     name: "Unusual Survival Strategies",
@@ -900,7 +900,7 @@
     description: "Drink Bottled Water while underwater and drowning.",
     type: "Challenger",
     notes: "The Water Bottle in the image is producing bubbles, despite it visually containing water. Being able to drink water from an open bottle underwater is paradoxical.",
-    percent: "x.x%"
+    percent: "3.8%"
 },
 {
     name: "Supreme Helper Minion!",
@@ -908,7 +908,7 @@
     description: "Complete 200 Angler quests.",
     type: "Challenger",
     notes: "This is the only of the five fishing quest trophies to have multiple fish, totaling visually at 18.",
-    percent: "x.x%"
+    percent: "2.9%"
 },
 {
     name: "And Good Riddance!",
@@ -916,5 +916,5 @@
     description: "Completely purify all Corruption, Crimson, and Hallow from the world.",
     type: "Challenger",
     notes: "This achievement CAN be completed in a pre-hardmode world. However, at least one boss and sufficient housing must be built, as speaking to the Dryad and getting her purity message is what produces the achievement.",
-    percent: "x.x%"
+    percent: "2.3%"
 }
