@@ -519,6 +519,14 @@
     percent: "26.5%"
 },
 {
+    name: "Jolly Jamboree",
+    quote: "What you're celebrating doesn't matter, just throw a party already!",
+    description: "Throw a Party.",
+    type: "Challenger",
+    notes: "May be a reference to the Reader Rabbit song of the same name in Reader Rabbit Preschool.",
+    percent: "25.6%"
+},
+{
     name: "Rock Bottom",
     quote: "The only way is up!",
     description: "Reach the very bottom of The Underworld.",
@@ -527,12 +535,12 @@
     percent: "25.7%"
 },
 {
-    name: "Jolly Jamboree",
-    quote: "What you're celebrating doesn't matter, just throw a party already!",
-    description: "Throw a Party.",
-    type: "Challenger",
-    notes: "May be a reference to the Reader Rabbit song of the same name in Reader Rabbit Preschool.",
-    percent: "25.6%"
+    name: "Tin-Foil Hatter",
+    quote: "Triumph over a martian invasion, when beings from out of this world come to scramble your brains and probe you in uncomfortable places.",
+    description: "Defeat the Martian Invasion for the first time.",
+    type: "Slayer",
+    notes: "Named for tin foil hats, often associated with alien conspiracy theorists. The image is a reference to how UFOs are commonly depicted in artwork shining rays of light at livestock (typically cows) and causing them to float up into their ships. The Bunny replaces this because there are no cows in Terraria.",
+    percent: "x.x%"
 },
 {
     name: "Champion of Terraria",
@@ -548,14 +556,6 @@
     description: "Obtain a Terra Blade.",
     type: "Collector",
     notes: "The swords of 'light' and 'dark' are a reference to the Night's Edge and True Excalibur, two items used to craft it.",
-    percent: "x.x%"
-},
-{
-    name: "Tin-Foil Hatter",
-    quote: "Triumph over a martian invasion, when beings from out of this world come to scramble your brains and probe you in uncomfortable places.",
-    description: "Defeat the Martian Invasion for the first time.",
-    type: "Slayer",
-    notes: "Named for tin foil hats, often associated with alien conspiracy theorists. The image is a reference to how UFOs are commonly depicted in artwork shining rays of light at livestock (typically cows) and causing them to float up into their ships. The Bunny replaces this because there are no cows in Terraria.",
     percent: "x.x%"
 },
 {
