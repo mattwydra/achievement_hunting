@@ -60,7 +60,8 @@ nav {
     text-decoration: none;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
     background-color: var(--primary);
     color: var(--background);
     transform: translateY(-3px);
@@ -116,13 +117,53 @@ nav {
     border-left: 4px solid var(--completed);
 }
 
-.achievement-card.completed::after {
+/* .achievement-card.completed::after {
     content: "✓";
     position: absolute;
     top: 15px;
     right: 15px;
     color: var(--completed);
     font-size: 1.2em;
+} */
+
+.top-right-meta {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.difficulty {
+    font-size: 0.9em;
+    color: var(--secondary-text);
+}
+
+.checkmark-box {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--secondary-text);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: var(--completed);
+}
+
+.checkmark-box::before {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.achievement-card.completed .checkmark-box::before {
+    opacity: 1;
+}
+
+.achievement-card.completed .checkmark-box::before {
+    content: "✓";
 }
 
 .achievement-name {
@@ -232,7 +273,7 @@ footer {
     .achievement-list {
         grid-template-columns: 1fr;
     }
-    
+
     nav {
         flex-wrap: wrap;
     }
