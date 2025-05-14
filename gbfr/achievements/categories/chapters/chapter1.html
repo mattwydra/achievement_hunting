@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[guide name]</title>
+    <title>Chapter Achievement Template - GBFR</title>
     <style>
         :root {
             --background: #121212;
@@ -19,6 +19,8 @@
             --hard: #4287f5;
             --veryhard: black;
             --difftext: lavenderblush;
+            --boss-highlight: rgba(242, 156, 156, 0.2);
+            --tips-bg: rgba(75, 75, 75, 0.5);
         }
 
         body {
@@ -32,18 +34,6 @@
             color: var(--text);
             z-index: 1;
         }
-
-        /* :root {
-            --bg-color: #121212;
-            --card-bg: #1e1e1e;
-            --primary-text: #87CEEB;
-            --secondary-text: #e0e0e0;
-            --accent-color: #4287f5;
-            --toggle-bg: #333;
-            --toggle-active: #5fb3ff;
-            --border-color: #333;
-            --hover-color: #2a2a2a;
-        } */
 
         body::before {
             content: "";
@@ -146,28 +136,100 @@
             padding-bottom: 5px;
         }
 
-        .weapon-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 15px;
-        }
-
-        .weapon-card {
+        /* New styles for chapter achievements */
+        .chapter-info {
             background-color: var(--surface);
             border-radius: 5px;
             padding: 15px;
-            border: 1px solid #333;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--primary);
         }
 
-        .weapon-card h4 {
+        .progress-step {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent);
+            position: relative;
+        }
+
+        .step-number {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            background-color: var(--accent);
+            color: #fff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .boss-encounter {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #f25757;
+            position: relative;
+            background-color: var(--boss-highlight);
+        }
+
+        .boss-name {
+            color: #f25757;
+            font-weight: bold;
             margin-top: 0;
-            color: var(--accent);
         }
 
-        .weapon-card .location {
-            color: var(--secondary-text);
-            font-style: italic;
+        .tips-container {
+            background-color: var(--tips-bg);
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .tips-container h4 {
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+
+        .achievement-list {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .achievement-item {
+            display: flex;
+            align-items: flex-start;
             margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .achievement-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .achievement-checkmark {
+            margin-right: 10px;
+            color: var(--completed);
+            font-size: 1.2em;
+        }
+
+        .achievement-item-name {
+            color: var(--accent);
+            font-weight: bold;
+            margin-right: 10px;
         }
 
         .back-button {
@@ -194,8 +256,13 @@
         }
 
         @media (max-width: 768px) {
-            .weapon-list {
-                grid-template-columns: 1fr;
+            .achievement-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .difficulty-tag {
+                margin-top: 10px;
             }
         }
     </style>
@@ -208,74 +275,115 @@
 
     <div class="breadcrumbs">
         <a href="../index.html">Home</a> >
-        [guide name]
+        Chapter X: [Chapter Title]
     </div>
 
     <div class="achievement-container">
         <div class="achievement-header">
             <div class="achievement-info">
-                <h2 class="achievement-title">[guide name]</h2>
-                <p class="achievement-description">[guide name]</p>
+                <h2 class="achievement-title">Chapter X: [Chapter Title]</h2>
+                <p class="achievement-description">Complete all achievements in Chapter X</p>
             </div>
-            <span class="difficulty-tag">[diff]</span>
+            <span class="difficulty-tag">Easy</span>
         </div>
 
         <div class="guide-section">
-            <h3>Overview</h3>
-            <p>Quick tagline.</p>
-            <p>Deeper explanation.</p>
+            <h3>Chapter Overview</h3>
+            <div class="chapter-info">
+                <p><strong>Location:</strong> [Starting area of the chapter]</p>
+                <p><strong>Estimated Time:</strong> [Time to complete the chapter]</p>
+                <p><strong>Summary:</strong> [Brief summary of the chapter's storyline without spoilers]</p>
+            </div>
+            <p>[General notes about the chapter - story significance, gameplay mechanics introduced, etc.]</p>
+        </div>
+
+        <div class="guide-section">
+            <h3>Chapter Achievements</h3>
+            <div class="achievement-list">
+                <div class="achievement-item">
+                    <span class="achievement-checkmark">✓</span>
+                    <span class="achievement-item-name">[Achievement Name 1]</span>
+                    <span>[Achievement description]</span>
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-checkmark">✓</span>
+                    <span class="achievement-item-name">[Achievement Name 2]</span>
+                    <span>[Achievement description]</span>
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-checkmark">✓</span>
+                    <span class="achievement-item-name">[Achievement Name 3]</span>
+                    <span>[Achievement description]</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="guide-section">
+            <h3>Walkthrough</h3>
+
+            <!-- PROGRESS STEP TEMPLATE - Copy this for each step -->
+            <div class="progress-step">
+                <div class="step-number">1</div>
+                <h4>Starting the Chapter</h4>
+                <p>[Instructions on how to begin the chapter - where to go, who to talk to, etc.]</p>
+                <p>[Any important notes or items to collect at this point]</p>
+            </div>
+
+            <!-- PROGRESS STEP TEMPLATE -->
+            <div class="progress-step">
+                <div class="step-number">2</div>
+                <h4>[Step Title]</h4>
+                <p>[Instructions for this step of the chapter]</p>
+                <p>[Any important notes or items to collect at this point]</p>
+            </div>
+
+            <!-- BOSS ENCOUNTER TEMPLATE - Copy this for each boss -->
+            <div class="boss-encounter">
+                <h4 class="boss-name">[Boss Name]</h4>
+                <p>[Brief description of the boss encounter]</p>
+
+                <div class="tips-container">
+                    <h4>Boss Tips</h4>
+                    <ul>
+                        <li><strong>Boss Type:</strong> [Element/Type]</li>
+                        <li><strong>Weakness:</strong> [Element/Damage Type]</li>
+                        <li><strong>Attack Pattern:</strong> [Brief description]</li>
+                        <li><strong>Strategy:</strong> [Brief strategy tips]</li>
+                        <li><strong>Party Recommendation:</strong> [Suggested character types]</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- PROGRESS STEP TEMPLATE -->
+            <div class="progress-step">
+                <div class="step-number">3</div>
+                <h4>[Step Title]</h4>
+                <p>[Instructions for this step of the chapter]</p>
+                <p>[Any important notes or items to collect at this point]</p>
+            </div>
+
+            <!-- Continue with more steps as needed -->
+
         </div>
 
         <div class="guide-section">
             <h3>Additional Information</h3>
-            <p>Information on [input]:</p>
-            <ol>
-                <li>.</li>
-                <li>
-                    nested list:
-                    <ul>
-                        <li>.</li>
-                        <li>
-                            nested list:
-                            <ul>
-                                <li>.</li>
-                                <li>.</li>
-                                <li>.</li>
-                                <li>.</li>
-                            </ul>
-                            <strong>Note:</strong> note
-                        </li>
-                        <li>.</li>
-                        <li>.</li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
+            <div class="chapter-info">
+                <h4>Rewards</h4>
+                <ul>
+                    <li><strong>[Reward Name]:</strong> [Description/stats]</li>
+                    <li><strong>[Reward Name]:</strong> [Description/stats]</li>
+                    <li><strong>[Reward Name]:</strong> [Description/stats]</li>
+                </ul>
+            </div>
 
-        <div class="guide-section">
-            <h3>Additional Information</h3>
-            <p>Information on [input]:</p>
-            <ol>
-                <li>.</li>
-                <li>
-                    nested list:
-                    <ul>
-                        <li>.</li>
-                        <li>
-                            nested list:
-                            <ul>
-                                <li>.</li>
-                                <li>.</li>
-                                <li>.</li>
-                                <li>.</li>
-                            </ul>
-                            <strong>Note:</strong> note
-                        </li>
-                        <li>.</li>
-                        <li>.</li>
-                    </ul>
-                </li>
-            </ol>
+            <div class="chapter-info">
+                <h4>Missable Items</h4>
+                <ul>
+                    <li><strong>[Item Name]:</strong> [Location] - [How to obtain]</li>
+                    <li><strong>[Item Name]:</strong> [Location] - [How to obtain]</li>
+                </ul>
+            </div>
         </div>
 
         <a href="../index.html" class="back-button">Back to All Achievements</a>
