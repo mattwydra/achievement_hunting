@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter Achievement Template - GBFR</title>
+    <style>
+        :root {
+            --background: #121212;
+            --surface: #1e1e1e;
+            --primary: #87CEEB;
+            --text: #e0e0e0;
+            --secondary-text: #e0e0e0;
+            --accent: #4287f5;
+            --completed: #4caf50;
+            --easy: lightskyblue;
+            --medium: #5fb3ff;
+            --hard: #4287f5;
+            --veryhard: black;
+            --difftext: lavenderblush;
+            --boss-highlight: rgba(242, 156, 156, 0.2);
+            --tips-bg: rgba(75, 75, 75, 0.5);
+        }
+
+        body {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+            color: var(--text);
+            z-index: 1;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../gbfr_bg.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: var(--primary);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Trajan Pro', 'Times New Roman', serif;
+            letter-spacing: 1px;
+        }
+
+        header a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 1rem;
+            color: var(--secondary-text);
+        }
+
+        .breadcrumbs a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .achievement-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border: 1px solid #333;
+        }
+
+        .achievement-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .achievement-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .achievement-title {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+        }
+
+        .achievement-description {
+            font-style: italic;
+            color: var(--secondary-text);
+            margin: 0;
+        }
+
+        .difficulty-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: var(--easy);
+            color: var(--difftext);
+        }
+
+        .guide-section {
+            margin-bottom: 30px;
+        }
+
+        .guide-section h3 {
+            color: var(--primary);
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* New styles for chapter achievements */
+        .chapter-info {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .progress-step {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent);
+            position: relative;
+        }
+
+        .step-number {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            background-color: var(--accent);
+            color: #fff;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .boss-encounter {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #f25757;
+            position: relative;
+            background-color: var(--boss-highlight);
+        }
+
+        .boss-name {
+            color: #f25757;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        .tips-container {
+            background-color: var(--tips-bg);
+            border-radius: 5px;
+            padding: 15px;
+            margin-top: 10px;
+        }
+
+        .tips-container h4 {
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+
+        .achievement-list {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .achievement-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .achievement-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+
+        .achievement-checkmark {
+            margin-right: 10px;
+            color: var(--completed);
+            font-size: 1.2em;
+        }
+
+        .achievement-item-name {
+            color: var(--accent);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-text);
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            .achievement-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .difficulty-tag {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Granblue Fantasy: Relink Achievements</h1>
+    </header>
+
+    <div class="breadcrumbs">
+        <a href="../index.html">Home</a> >
+        Chapter 0: Prologue
+    </div>
+
+    <div class="achievement-container">
+        <div class="achievement-header">
+            <div class="achievement-info">
+                <h2 class="achievement-title">Chapter X: [Chapter Title]</h2>
+                <p class="achievement-description">Complete all achievements in Chapter X</p>
+            </div>
+            <span class="difficulty-tag">Easy</span>
+        </div>
+
+        <div class="guide-section">
+            <h3>Chapter Overview</h3>
+            <div class="chapter-info">
+                <p><strong>Location:</strong> [Starting area of the chapter]</p>
+                <p><strong>Estimated Time:</strong> [Time to complete the chapter]</p>
+                <p><strong>Summary:</strong> [Brief summary of the chapter's storyline without spoilers]</p>
+            </div>
+            <p>[General notes about the chapter - story significance, gameplay mechanics introduced, etc.]</p>
+        </div>
+
+        <div class="guide-section">
+            <h3>Chapter Achievements</h3>
+            <div class="achievement-list">
+                <div class="achievement-item">
+                    <span class="achievement-checkmark">✓</span>
+                    <span class="achievement-item-name">[Achievement Name 1]</span>
+                    <span>[Achievement description]</span>
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-checkmark">✓</span>
+                    <span class="achievement-item-name">[Achievement Name 2]</span>
+                    <span>[Achievement description]</span>
+                </div>
+                <div class="achievement-item">
+                    <span class="achievement-checkmark">✓</span>
+                    <span class="achievement-item-name">[Achievement Name 3]</span>
+                    <span>[Achievement description]</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="guide-section">
+            <h3>Walkthrough</h3>
+
+            <!-- PROGRESS STEP TEMPLATE - Copy this for each step -->
+            <div class="progress-step">
+                <div class="step-number">1</div>
+                <h4>Starting the Chapter</h4>
+                <p>[Instructions on how to begin the chapter - where to go, who to talk to, etc.]</p>
+                <p>[Any important notes or items to collect at this point]</p>
+            </div>
+
+            <!-- PROGRESS STEP TEMPLATE -->
+            <div class="progress-step">
+                <div class="step-number">2</div>
+                <h4>[Step Title]</h4>
+                <p>[Instructions for this step of the chapter]</p>
+                <p>[Any important notes or items to collect at this point]</p>
+            </div>
+
+            <!-- BOSS ENCOUNTER TEMPLATE - Copy this for each boss -->
+            <div class="boss-encounter">
+                <h4 class="boss-name">[Boss Name]</h4>
+                <p>[Brief description of the boss encounter]</p>
+
+                <div class="tips-container">
+                    <h4>Boss Tips</h4>
+                    <ul>
+                        <li><strong>Boss Type:</strong> [Element/Type]</li>
+                        <li><strong>Weakness:</strong> [Element/Damage Type]</li>
+                        <li><strong>Attack Pattern:</strong> [Brief description]</li>
+                        <li><strong>Strategy:</strong> [Brief strategy tips]</li>
+                        <li><strong>Party Recommendation:</strong> [Suggested character types]</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- PROGRESS STEP TEMPLATE -->
+            <div class="progress-step">
+                <div class="step-number">3</div>
+                <h4>[Step Title]</h4>
+                <p>[Instructions for this step of the chapter]</p>
+                <p>[Any important notes or items to collect at this point]</p>
+            </div>
+
+            <!-- Continue with more steps as needed -->
+
+        </div>
+
+        <div class="guide-section">
+            <h3>Additional Information</h3>
+            <div class="chapter-info">
+                <h4>Rewards</h4>
+                <ul>
+                    <li><strong>[Reward Name]:</strong> [Description/stats]</li>
+                    <li><strong>[Reward Name]:</strong> [Description/stats]</li>
+                    <li><strong>[Reward Name]:</strong> [Description/stats]</li>
+                </ul>
+            </div>
+
+            <div class="chapter-info">
+                <h4>Missable Items</h4>
+                <ul>
+                    <li><strong>[Item Name]:</strong> [Location] - [How to obtain]</li>
+                    <li><strong>[Item Name]:</strong> [Location] - [How to obtain]</li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="../index.html" class="back-button">Back to All Achievements</a>
+    </div>
+
+    <footer>
+        <p>Granblue Fantasy: Relink - The world forsaken by the Gods</p>
+    </footer>
+</body>
+
+</html>
