@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rite of Kindling</title>
+    <style>
+        :root {
+            --background: #121212;
+            --surface: #1e1e1e;
+            --primary: #e2c292;
+            --text: #e0e0e0;
+            --secondary-text: #aaaaaa;
+            --accent: #f39040;
+            --completed: #4caf50;
+        }
+
+        body {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+            color: var(--text);
+            z-index: 1;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../../bg_img.jpg");
+            background-size: contain;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: var(--primary);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Trajan Pro', 'Times New Roman', serif;
+            letter-spacing: 1px;
+        }
+
+        header a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 1rem;
+            color: var(--secondary-text);
+        }
+
+        .breadcrumbs a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .achievement-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border: 1px solid #333;
+        }
+
+        .achievement-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .achievement-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .achievement-title {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+        }
+
+        .achievement-description {
+            font-style: italic;
+            color: var(--secondary-text);
+            margin: 0;
+        }
+
+        .difficulty-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: #f39040;
+            color: black;
+        }
+
+        .guide-section {
+            margin-bottom: 30px;
+        }
+
+        .guide-section h3 {
+            color: var(--primary);
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .weapon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .weapon-card {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            border: 1px solid #333;
+        }
+
+        .weapon-card h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .weapon-card .location {
+            color: var(--secondary-text);
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-text);
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            .weapon-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dark Souls: Remastered Achievements</h1>
+    </header>
+
+    <div class="breadcrumbs">
+        <a href="../../../index.html">Home</a> >
+        <a href="../../landing-page.html">Dark Souls: Remastered</a> >
+        <a href="../index.html">All Achievement Guides</a> >
+        Four Kings
+    </div>
+
+    <div class="achievement-container">
+        <div class="achievement-header">
+            <div class="achievement-info">
+                <h2 class="achievement-title">Four Kings</h2>
+                <p class="achievement-description">Defeat the Four Kings.</p>
+            </div>
+            <span class="difficulty-tag">Medium</span>
+        </div>
+
+        <div class="guide-section">
+            <h3>Overview</h3>
+            <p>This fight takes place in the Abyss and is one of the more punishing boss encounters in the game,
+                especially if your damage output is low. It's also critical for Darkwraith covenant access, depending on
+                the order of events in your playthrough.</p>
+            <p><strong>WARNING: SPOILERS!</strong> For more information on lore and their connection to the Darkwraiths,
+                <strong><a href="../covenant-darkwraith/index.html">see here</a></strong>.
+            </p>
+        </div>
+
+        <div class="guide-section">
+            <h3>Preparation</h3>
+            <ul>
+                <li><strong>You must have the Covenant of Artorias ring</strong> (from defeating Sif) to survive the
+                    Abyss.</li>
+                <li>High DPS is recommended — the longer the fight goes, the more Kings spawn.</li>
+                <li>Bring fast weapons, a strong shield or armor, and high poise if possible.</li>
+            </ul>
+        </div>
+
+        <div class="guide-section">
+            <h3>Strategy</h3>
+            <ol>
+                <li>Equip the <strong>Covenant of Artorias</strong> before dropping into the Abyss — you will die
+                    instantly without it.<ul>
+                        <li>Full guide on getting
+                            the ring can be found <a href="../abysswalking/index.html">here</a></li>
+                    </ul>
+                </li>
+                <li>Once in the Abyss, the first King spawns after a few seconds. Stay aggressive.</li>
+                <li>
+                    Deal as much damage as possible:
+                    <ul>
+                        <li>The Four Kings share one health bar, but new ones spawn on a timer (and I'm fairly certain
+                            the total that you fight can exceed four if you're not quick enough).</li>
+                        <li>Too slow = multiple Kings at once = difficult fight.</li>
+                        <li>Strong melee builds usually fare better than ranged builds here.</li>
+                    </ul>
+                </li>
+                <li>Be cautious of their grab attack and magic AoE — it can deal massive damage if unblocked or dodged
+                    poorly.</li>
+                <li>Once the last King is dead, a bonfire will reveal itself (and you might meet Kaathe, if requirements
+                    are met. Be wary of spoilers when looking into this).</li>
+            </ol>
+        </div>
+
+        <div class="guide-section">
+            <h3>Tips</h3>
+            <ul>
+                <li>Fast roll builds can dodge most melee attacks if timed well.</li>
+                <li>Two-handed weapons or buffs like Power Within/Resin can help burst down each King quickly.</li>
+                <li>Summons are allowed, but be warned: multiple players means Kings have more health.</li>
+            </ul>
+        </div>
+
+        <a href="../../index.html" class="back-button">Back to All Achievements</a>
+    </div>
+
+    <footer>
+        <p>Dark Souls: Remastered Achievement Guide - Praise the Sun!</p>
+    </footer>
+</body>
+
+
+</html>
