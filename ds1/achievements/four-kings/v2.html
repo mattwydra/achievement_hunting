@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Kings</title>
+    <style>
+        :root {
+            --background: #121212;
+            --surface: #1e1e1e;
+            --primary: #e2c292;
+            --text: #e0e0e0;
+            --secondary-text: #aaaaaa;
+            --accent: #f39040;
+            --completed: #4caf50;
+        }
+
+        body {
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background);
+            color: var(--text);
+            z-index: 1;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("../../bg_img.jpg");
+            background-size: contain;
+            background-position: center;
+            filter: blur(10px);
+            z-index: -1;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: var(--primary);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--primary);
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Trajan Pro', 'Times New Roman', serif;
+            letter-spacing: 1px;
+        }
+
+        header a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 1rem;
+            color: var(--secondary-text);
+        }
+
+        .breadcrumbs a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .achievement-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            border: 1px solid #333;
+        }
+
+        .achievement-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .achievement-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .achievement-title {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+        }
+
+        .achievement-description {
+            font-style: italic;
+            color: var(--secondary-text);
+            margin: 0;
+        }
+
+        .difficulty-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            background-color: #f39040;
+            color: black;
+        }
+
+        .guide-section {
+            margin-bottom: 30px;
+        }
+
+        .guide-section h3 {
+            color: var(--primary);
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .weapon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .weapon-card {
+            background-color: var(--surface);
+            border-radius: 5px;
+            padding: 15px;
+            border: 1px solid #333;
+        }
+
+        .weapon-card h4 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .weapon-card .location {
+            color: var(--secondary-text);
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .back-button:hover {
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            color: var(--secondary-text);
+            padding: 1rem 0;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 768px) {
+            .weapon-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dark Souls: Remastered Achievements</h1>
+    </header>
+
+    <div class="breadcrumbs">
+        <a href="../../../index.html">Home</a> >
+        <a href="../../landing-page.html">Dark Souls: Remastered</a> >
+        <a href="../index.html">All Achievement Guides</a> >
+        Defeat the Four Kings
+    </div>
+
+    <div class="achievement-container">
+        <div class="achievement-header">
+            <div class="achievement-info">
+                <h2 class="achievement-title">Defeat the Four Kings</h2>
+                <p class="achievement-description">Defeat the Four Kings, inheritors of New Londo</p>
+            </div>
+            <span class="difficulty-tag">Hard</span>
+        </div>
+
+        <div class="guide-section">
+            <h3>Overview</h3>
+            <p>The Four Kings are one of the four required Lord Soul bosses that must be defeated after placing the
+                Lordvessel. They reside in the Abyss beneath <em>New Londo Ruins</em>, and the fight can only be
+                accessed after specific requirements are met.</p>
+        </div>
+
+        <div class="guide-section">
+            <h3>How to Access the Fight</h3>
+            <ul>
+                <li>Acquire the <strong>Lordvessel</strong> from Gwynevere in Anor Londo.</li>
+                <li><strong>Important:</strong> Do <em>not</em> place the Lordvessel with Kingseeker Frampt if you want
+                    to join the Darkwraith covenant later. Instead, go to <strong>New Londo Ruins</strong> and speak to
+                    <strong>Ingward</strong> on the rooftop after defeating the Capra Demon if you haven’t already.
+                </li>
+                <li>Ingward will drain the water once you have the Lordvessel.</li>
+                <li>Head down to the sealed door that leads to the Abyss.</li>
+                <li>You must have the <strong>Covenant of Artorias</strong> ring (obtained from Sif) equipped to survive
+                    in the Abyss.</li>
+            </ul>
+        </div>
+
+        <div class="guide-section">
+            <h3>Boss Strategy: The Four Kings</h3>
+            <ol>
+                <li>The Four Kings fight is deceptive — it starts with one, but more spawn over time regardless of your
+                    progress. Fast DPS is key to surviving this encounter.</li>
+                <li>Stay close to the boss to avoid wide sweeping attacks and use powerful melee or magic.</li>
+                <li>Bring armor or rings that increase magic resistance, such as the <em>Havel’s Ring</em> or <em>Magic
+                        Stoneplate Ring</em>.</li>
+                <li>The fight takes place in total darkness with no solid ground, so movement can be disorienting.</li>
+                <li>If you defeat them without speaking to Frampt after acquiring the Lordvessel, you will meet
+                    <strong>Darkstalker Kaathe</strong> and unlock the path to the <em>Darkwraith Covenant</em>.
+                </li>
+            </ol>
+        </div>
+
+        <div class="guide-section">
+            <h3>Lore: The Fall of New Londo</h3>
+            <p>The Four Kings were once noble rulers of New Londo, entrusted with fragments of a Lord Soul by Gwyn.
+                However, they succumbed to the temptation of the Abyss, seduced by the serpent <strong>Darkstalker
+                    Kaathe</strong>.</p>
+            <p>Their corruption doomed the city. In a desperate act to contain the spread of the Abyss, New Londo was
+                flooded, sacrificing countless lives in the process.</p>
+            <p>Their existence continues in the darkness of the Abyss, twisted and fragmented, feeding on the souls of
+                the dead.</p>
+            <p><strong>For more detailed lore, including the connection to the Darkwraith Covenant, see the <a
+                        href="darkwraith-covenant.html">Darkwraith Covenant page</a>.</strong></p>
+        </div>
+
+        <a href="../index.html" class="back-button">Back to All Achievements</a>
+    </div>
+
+    <footer>
+        <p>Dark Souls: Remastered Achievement Guide - Praise the Sun!</p>
+    </footer>
+</body>
+
+
+</html>
